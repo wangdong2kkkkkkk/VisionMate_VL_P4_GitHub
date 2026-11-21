@@ -1,0 +1,11 @@
+data/
+models/*.onnx
+models/*.onnx.data
+models/.cache/
+backup_crops/
+dev_probes/
+manifests/contact_sheets/
+manifests/contact_sheets_cats/
+__pycache__/
+*.pyc
+.pytest_cache/

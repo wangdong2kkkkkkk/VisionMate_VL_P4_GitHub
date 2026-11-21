@@ -1,0 +1,662 @@
+{
+  "cal_object_01_01": {
+    "endpoints_xyxy": [
+      792.0,
+      134.4,
+      537.6,
+      854.4
+    ],
+    "thickness_px": 12.0,
+    "occluded": false
+  },
+  "cal_object_01_04": {
+    "endpoints_xyxy": [
+      504.0,
+      307.2,
+      643.2,
+      537.6
+    ],
+    "thickness_px": 12.0,
+    "occluded": true
+  },
+  "cal1c_object_01_07": {
+    "endpoints_xyxy": [
+      403.2,
+      288.0,
+      480.0,
+      633.6
+    ],
+    "thickness_px": 10.0,
+    "occluded": true
+  },
+  "cal1c_object_01_08": {
+    "endpoints_xyxy": [
+      244.8,
+      326.4,
+      326.4,
+      633.6
+    ],
+    "thickness_px": 10.0,
+    "occluded": true
+  },
+  "cal1c_object_01_10": {
+    "endpoints_xyxy": [
+      408.0,
+      424.7,
+      417.6,
+      678.1
+    ],
+    "thickness_px": 10.0,
+    "occluded": true
+  },
+  "fhold_object_01_04": {
+    "endpoints_xyxy": [
+      312.0,
+      325.4,
+      235.2,
+      561.4
+    ],
+    "thickness_px": 9.0,
+    "occluded": true
+  },
+  "fhold_object_01_07": {
+    "endpoints_xyxy": [
+      412.8,
+      262.4,
+      432.0,
+      518.4
+    ],
+    "thickness_px": 10.0,
+    "occluded": true
+  },
+  "fhold_object_01_09": {
+    "endpoints_xyxy": [
+      398.4,
+      358.4,
+      412.8,
+      627.2
+    ],
+    "thickness_px": 10.0,
+    "occluded": true
+  },
+  "fhold_object_01_13": {
+    "endpoints_xyxy": [
+      609.6,
+      806.4,
+      609.6,
+      1238.4
+    ],
+    "thickness_px": 10.0,
+    "occluded": true
+  },
+  "hold_object_01_02": {
+    "endpoints_xyxy": [
+      568.3,
+      288.0,
+      571.2,
+      633.6
+    ],
+    "thickness_px": 10.0,
+    "occluded": true
+  },
+  "hold_object_01_04": {
+    "endpoints_xyxy": [
+      614.4,
+      576.0,
+      614.4,
+      1324.8
+    ],
+    "thickness_px": 10.0,
+    "occluded": true
+  },
+  "hold_object_01_10": {
+    "endpoints_xyxy": [
+      204.3,
+      67.2,
+      237.4,
+      307.2
+    ],
+    "thickness_px": 10.0,
+    "occluded": true
+  },
+  "hold_object_01_19": {
+    "endpoints_xyxy": [
+      148.8,
+      512.0,
+      201.6,
+      1254.4
+    ],
+    "thickness_px": 14.0,
+    "occluded": true
+  },
+  "test_object_01_07": {
+    "endpoints_xyxy": [
+      393.6,
+      143.6,
+      470.4,
+      653.4
+    ],
+    "thickness_px": 16.0,
+    "occluded": false
+  },
+  "test_object_01_08": {
+    "endpoints_xyxy": [
+      556.8,
+      256.0,
+      537.6,
+      1267.2
+    ],
+    "thickness_px": 16.0,
+    "occluded": true
+  },
+  "v2_ecane_001": {
+    "endpoints_xyxy": [
+      120.0,
+      86.4,
+      142.1,
+      691.2
+    ],
+    "thickness_px": 10.0,
+    "occluded": false
+  },
+  "v2_ecane_015": {
+    "endpoints_xyxy": [
+      383.0,
+      393.6,
+      392.3,
+      854.4
+    ],
+    "thickness_px": 10.0,
+    "occluded": true
+  },
+  "v2_ecane_023": {
+    "endpoints_xyxy": [
+      174.7,
+      358.4,
+      206.4,
+      633.6
+    ],
+    "thickness_px": 10.0,
+    "occluded": true
+  },
+  "v2_fcane_002": {
+    "endpoints_xyxy": [
+      326.4,
+      485.6,
+      460.8,
+      444.6
+    ],
+    "thickness_px": 10.0,
+    "occluded": true
+  },
+  "v2_fcane_003": {
+    "endpoints_xyxy": [
+      103.8,
+      864.0,
+      199.2,
+      710.4
+    ],
+    "thickness_px": 10.0,
+    "occluded": true
+  },
+  "v2_pos_cane_003": {
+    "endpoints_xyxy": [
+      614.4,
+      502.4,
+      835.2,
+      633.6
+    ],
+    "thickness_px": 16.0,
+    "occluded": true
+  },
+  "v2_pos_cane_066": {
+    "endpoints_xyxy": [
+      389.4,
+      336.0,
+      406.2,
+      892.8
+    ],
+    "thickness_px": 10.0,
+    "occluded": true
+  },
+  "v2_scane_015": {
+    "endpoints_xyxy": [
+      247.7,
+      57.6,
+      251.5,
+      626.4
+    ],
+    "thickness_px": 10.0,
+    "occluded": false
+  },
+  "v2_scane_016": {
+    "endpoints_xyxy": [
+      183.6,
+      192.0,
+      198.0,
+      729.6
+    ],
+    "thickness_px": 12.0,
+    "occluded": false
+  },
+  "v2_scane_018": {
+    "endpoints_xyxy": [
+      513.6,
+      396.0,
+      667.2,
+      475.2
+    ],
+    "thickness_px": 8.0,
+    "occluded": true
+  },
+  "v2_scane_021": {
+    "endpoints_xyxy": [
+      528.0,
+      377.6,
+      393.6,
+      454.4
+    ],
+    "thickness_px": 8.0,
+    "occluded": true
+  },
+  "v2_scane_095": {
+    "endpoints_xyxy": [
+      275.4,
+      460.8,
+      248.4,
+      854.4
+    ],
+    "thickness_px": 10.0,
+    "occluded": true
+  },
+  "v2_dcane_010": {
+    "endpoints_xyxy": [
+      772.8,
+      396.0,
+      835.2,
+      525.6
+    ],
+    "thickness_px": 9.0,
+    "occluded": false
+  },
+  "v2_dcane_011": {
+    "endpoints_xyxy": [
+      638.4,
+      358.4,
+      691.2,
+      576.0
+    ],
+    "thickness_px": 10.0,
+    "occluded": true
+  },
+  "v2_mcane_018": {
+    "endpoints_xyxy": [
+      355.2,
+      240.3,
+      624.0,
+      210.6
+    ],
+    "thickness_px": 8.0,
+    "occluded": true
+  },
+  "v2_mcane_019": {
+    "endpoints_xyxy": [
+      422.4,
+      253.8,
+      504.0,
+      534.6
+    ],
+    "thickness_px": 12.0,
+    "occluded": true
+  },
+  "v2_glc_008": {
+    "endpoints_xyxy": [
+      105.6,
+      139.2,
+      103.5,
+      902.4
+    ],
+    "thickness_px": 12.0,
+    "occluded": false
+  },
+  "v2_ovc_001": {
+    "endpoints_xyxy": [
+      108.9,
+      275.2,
+      115.3,
+      633.6
+    ],
+    "thickness_px": 8.0,
+    "occluded": true
+  },
+  "v2_ovc_002": {
+    "endpoints_xyxy": [
+      358.4,
+      345.6,
+      192.0,
+      777.6
+    ],
+    "thickness_px": 8.0,
+    "occluded": true
+  },
+  "v2_ovc_003": {
+    "endpoints_xyxy": [
+      416.0,
+      364.8,
+      556.8,
+      806.4
+    ],
+    "thickness_px": 9.0,
+    "occluded": false
+  },
+  "v2_ovc_005": {
+    "endpoints_xyxy": [
+      432.0,
+      391.0,
+      753.6,
+      560.9
+    ],
+    "thickness_px": 9.0,
+    "occluded": false
+  },
+  "v2_ovc_006": {
+    "endpoints_xyxy": [
+      340.8,
+      277.0,
+      408.0,
+      612.2
+    ],
+    "thickness_px": 8.0,
+    "occluded": true
+  },
+  "v2_ovc_013": {
+    "endpoints_xyxy": [
+      270.0,
+      115.8,
+      495.0,
+      40.7
+    ],
+    "thickness_px": 18.0,
+    "occluded": true
+  },
+  "v2_ovc_020": {
+    "endpoints_xyxy": [
+      158.4,
+      310.4,
+      206.4,
+      528.0
+    ],
+    "thickness_px": 8.0,
+    "occluded": true
+  },
+  "v2_ovc_021": {
+    "endpoints_xyxy": [
+      628.8,
+      300.8,
+      571.2,
+      496.0
+    ],
+    "thickness_px": 8.0,
+    "occluded": false
+  },
+  "v2_ovc_062": {
+    "endpoints_xyxy": [
+      230.4,
+      25.6,
+      542.4,
+      400.0
+    ],
+    "thickness_px": 12.0,
+    "occluded": false
+  },
+  "v2_ovc_066": {
+    "endpoints_xyxy": [
+      715.2,
+      377.6,
+      518.4,
+      473.6
+    ],
+    "thickness_px": 8.0,
+    "occluded": false
+  },
+  "v2_ovc_067": {
+    "endpoints_xyxy": [
+      686.4,
+      326.1,
+      110.4,
+      738.4
+    ],
+    "thickness_px": 14.0,
+    "occluded": false
+  },
+  "v2_ovc_068": {
+    "endpoints_xyxy": [
+      345.6,
+      330.9,
+      830.4,
+      652.1
+    ],
+    "thickness_px": 14.0,
+    "occluded": false
+  },
+  "v2_ov3_001": {
+    "endpoints_xyxy": [
+      168.0,
+      403.2,
+      168.0,
+      676.8
+    ],
+    "thickness_px": 9.0,
+    "occluded": true
+  },
+  "v2_ov3_008": {
+    "endpoints_xyxy": [
+      683.1,
+      456.0,
+      262.2,
+      859.2
+    ],
+    "thickness_px": 12.0,
+    "occluded": false
+  },
+  "v2_ov3_009": {
+    "endpoints_xyxy": [
+      316.8,
+      412.8,
+      307.2,
+      950.4
+    ],
+    "thickness_px": 10.0,
+    "occluded": true
+  },
+  "v2_ov3_010": {
+    "endpoints_xyxy": [
+      237.6,
+      460.8,
+      248.4,
+      950.4
+    ],
+    "thickness_px": 12.0,
+    "occluded": true
+  },
+  "v2_ov3_012": {
+    "endpoints_xyxy": [
+      381.6,
+      691.2,
+      298.8,
+      921.6
+    ],
+    "thickness_px": 10.0,
+    "occluded": false
+  },
+  "v2_ov3_013": {
+    "endpoints_xyxy": [
+      403.2,
+      470.4,
+      298.8,
+      820.8
+    ],
+    "thickness_px": 10.0,
+    "occluded": false
+  },
+  "v2_ov3_035": {
+    "endpoints_xyxy": [
+      411.2,
+      518.4,
+      397.3,
+      844.8
+    ],
+    "thickness_px": 10.0,
+    "occluded": true
+  },
+  "v2_ov3_039": {
+    "endpoints_xyxy": [
+      432.0,
+      268.8,
+      336.0,
+      544.0
+    ],
+    "thickness_px": 9.0,
+    "occluded": true
+  },
+  "v2_ov3_041": {
+    "endpoints_xyxy": [
+      475.2,
+      453.6,
+      417.6,
+      712.8
+    ],
+    "thickness_px": 10.0,
+    "occluded": false
+  },
+  "v2_ov3_046": {
+    "endpoints_xyxy": [
+      355.2,
+      371.2,
+      244.8,
+      582.4
+    ],
+    "thickness_px": 9.0,
+    "occluded": false
+  },
+  "v2_ov3_047": {
+    "endpoints_xyxy": [
+      609.6,
+      281.6,
+      624.0,
+      582.4
+    ],
+    "thickness_px": 10.0,
+    "occluded": true
+  },
+  "v2_ov3_048": {
+    "endpoints_xyxy": [
+      187.2,
+      313.6,
+      244.8,
+      595.2
+    ],
+    "thickness_px": 10.0,
+    "occluded": false
+  },
+  "v2_ov3_050": {
+    "endpoints_xyxy": [
+      436.8,
+      428.8,
+      230.4,
+      531.2
+    ],
+    "thickness_px": 8.0,
+    "occluded": true
+  },
+  "v2_ov3_051": {
+    "endpoints_xyxy": [
+      320.4,
+      484.8,
+      640.8,
+      835.2
+    ],
+    "thickness_px": 11.0,
+    "occluded": false
+  },
+  "v2_ov3_052": {
+    "endpoints_xyxy": [
+      105.6,
+      561.6,
+      73.6,
+      950.4
+    ],
+    "thickness_px": 11.0,
+    "occluded": false
+  },
+  "v2_ov3_059": {
+    "endpoints_xyxy": [
+      364.8,
+      288.4,
+      417.6,
+      384.6
+    ],
+    "thickness_px": 8.0,
+    "occluded": true
+  },
+  "v2_ov3_061": {
+    "endpoints_xyxy": [
+      614.4,
+      403.2,
+      446.4,
+      486.0
+    ],
+    "thickness_px": 9.0,
+    "occluded": false
+  },
+  "v2_ov3_067": {
+    "endpoints_xyxy": [
+      439.2,
+      480.0,
+      525.6,
+      681.6
+    ],
+    "thickness_px": 9.0,
+    "occluded": true
+  },
+  "v2_ov3_070": {
+    "endpoints_xyxy": [
+      194.4,
+      595.2,
+      309.6,
+      739.2
+    ],
+    "thickness_px": 9.0,
+    "occluded": true
+  },
+  "v2_ov3_074": {
+    "endpoints_xyxy": [
+      249.6,
+      453.6,
+      57.6,
+      651.6
+    ],
+    "thickness_px": 10.0,
+    "occluded": false
+  },
+  "v2_ov3_084": {
+    "endpoints_xyxy": [
+      441.6,
+      502.4,
+      681.6,
+      576.0
+    ],
+    "thickness_px": 9.0,
+    "occluded": false
+  },
+  "v2_ov3_085": {
+    "endpoints_xyxy": [
+      396.0,
+      547.2,
+      392.4,
+      729.6
+    ],
+    "thickness_px": 9.0,
+    "occluded": true
+  }
+}

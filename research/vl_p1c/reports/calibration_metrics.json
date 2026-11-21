@@ -1,0 +1,1653 @@
+{
+  "final_holdout_touched_during_calibration": false,
+  "enrollment": {
+    "enroll_pos_ms": 1201.02,
+    "neg_gallery_count": 50,
+    "enroll_neg_ms": 1986.11,
+    "db_sizes": {
+      "pos_db_bytes": 94802,
+      "neg_db_bytes": 179174,
+      "verifier_bytes": 85558,
+      "total_db_bytes": 359534
+    }
+  },
+  "cv_report": {
+    "n_calibration": 200,
+    "n_folds": 5,
+    "delta_floor_cv_grid": {
+      "0.04": {
+        "mean_recall_pct": 54.67,
+        "std_recall_pct": 8.84,
+        "mean_far_pct": 7.2,
+        "std_far_pct": 2.99,
+        "tau_std_by_class": {
+          "object_01": 0.0349,
+          "object_02": 0.0295,
+          "object_03": 0.0229,
+          "object_04": 0.0255,
+          "object_05": 0.0277
+        }
+      },
+      "0.06": {
+        "mean_recall_pct": 58.67,
+        "std_recall_pct": 4.99,
+        "mean_far_pct": 7.2,
+        "std_far_pct": 2.99,
+        "tau_std_by_class": {
+          "object_01": 0.0258,
+          "object_02": 0.022,
+          "object_03": 0.0211,
+          "object_04": 0.0242,
+          "object_05": 0.0252
+        }
+      },
+      "0.08": {
+        "mean_recall_pct": 60.0,
+        "std_recall_pct": 5.96,
+        "mean_far_pct": 7.2,
+        "std_far_pct": 2.99,
+        "tau_std_by_class": {
+          "object_01": 0.0122,
+          "object_02": 0.0183,
+          "object_03": 0.0103,
+          "object_04": 0.0133,
+          "object_05": 0.0236
+        }
+      }
+    },
+    "selected_delta_floor": 0.08,
+    "modes_5fold_cv": {
+      "R0_vl_p1_baseline": {
+        "per_fold": [
+          {
+            "fold": 0,
+            "n_val": 40,
+            "recall": 0.4667,
+            "far": 0.12,
+            "wrong_class": 0.0,
+            "ambiguous_rate": 0.0
+          },
+          {
+            "fold": 1,
+            "n_val": 40,
+            "recall": 0.6667,
+            "far": 0.12,
+            "wrong_class": 0.0,
+            "ambiguous_rate": 0.0
+          },
+          {
+            "fold": 2,
+            "n_val": 40,
+            "recall": 0.5333,
+            "far": 0.12,
+            "wrong_class": 0.0,
+            "ambiguous_rate": 0.0
+          },
+          {
+            "fold": 3,
+            "n_val": 40,
+            "recall": 0.6,
+            "far": 0.04,
+            "wrong_class": 0.0,
+            "ambiguous_rate": 0.0
+          },
+          {
+            "fold": 4,
+            "n_val": 40,
+            "recall": 0.6667,
+            "far": 0.24,
+            "wrong_class": 0.0,
+            "ambiguous_rate": 0.0
+          }
+        ],
+        "mean_recall_pct": 58.67,
+        "std_recall_pct": 7.78,
+        "mean_far_pct": 12.8,
+        "std_far_pct": 6.4,
+        "mean_ambiguous_pct": 0.0,
+        "tau_stability": {
+          "object_01": {
+            "mean": 0.4758,
+            "std": 0.0,
+            "min": 0.4758,
+            "max": 0.4758
+          },
+          "object_02": {
+            "mean": 0.4758,
+            "std": 0.0,
+            "min": 0.4758,
+            "max": 0.4758
+          },
+          "object_03": {
+            "mean": 0.4758,
+            "std": 0.0,
+            "min": 0.4758,
+            "max": 0.4758
+          },
+          "object_04": {
+            "mean": 0.4758,
+            "std": 0.0,
+            "min": 0.4758,
+            "max": 0.4758
+          },
+          "object_05": {
+            "mean": 0.4758,
+            "std": 0.0,
+            "min": 0.4758,
+            "max": 0.4758
+          }
+        },
+        "oof_risk_coverage": [
+          {
+            "threshold_shift": -0.06,
+            "accepted_k": 60,
+            "total_n": 200,
+            "coverage_pct": 30.0,
+            "rejection_pct": 70.0,
+            "selective_risk_pct": 26.67,
+            "far_pct": 12.8
+          },
+          {
+            "threshold_shift": -0.03,
+            "accepted_k": 60,
+            "total_n": 200,
+            "coverage_pct": 30.0,
+            "rejection_pct": 70.0,
+            "selective_risk_pct": 26.67,
+            "far_pct": 12.8
+          },
+          {
+            "threshold_shift": 0.0,
+            "accepted_k": 60,
+            "total_n": 200,
+            "coverage_pct": 30.0,
+            "rejection_pct": 70.0,
+            "selective_risk_pct": 26.67,
+            "far_pct": 12.8
+          },
+          {
+            "threshold_shift": 0.02,
+            "accepted_k": 60,
+            "total_n": 200,
+            "coverage_pct": 30.0,
+            "rejection_pct": 70.0,
+            "selective_risk_pct": 26.67,
+            "far_pct": 12.8
+          },
+          {
+            "threshold_shift": 0.04,
+            "accepted_k": 57,
+            "total_n": 200,
+            "coverage_pct": 28.5,
+            "rejection_pct": 71.5,
+            "selective_risk_pct": 22.81,
+            "far_pct": 10.4
+          },
+          {
+            "threshold_shift": 0.06,
+            "accepted_k": 50,
+            "total_n": 200,
+            "coverage_pct": 25.0,
+            "rejection_pct": 75.0,
+            "selective_risk_pct": 24.0,
+            "far_pct": 9.6
+          },
+          {
+            "threshold_shift": 0.08,
+            "accepted_k": 44,
+            "total_n": 200,
+            "coverage_pct": 22.0,
+            "rejection_pct": 78.0,
+            "selective_risk_pct": 22.73,
+            "far_pct": 8.0
+          }
+        ]
+      },
+      "R1_global_conservative": {
+        "per_fold": [
+          {
+            "fold": 0,
+            "n_val": 40,
+            "recall": 0.4667,
+            "far": 0.12,
+            "wrong_class": 0.0,
+            "ambiguous_rate": 0.0
+          },
+          {
+            "fold": 1,
+            "n_val": 40,
+            "recall": 0.7333,
+            "far": 0.16,
+            "wrong_class": 0.0,
+            "ambiguous_rate": 0.0
+          },
+          {
+            "fold": 2,
+            "n_val": 40,
+            "recall": 0.4667,
+            "far": 0.08,
+            "wrong_class": 0.0,
+            "ambiguous_rate": 0.0
+          },
+          {
+            "fold": 3,
+            "n_val": 40,
+            "recall": 0.5333,
+            "far": 0.04,
+            "wrong_class": 0.0,
+            "ambiguous_rate": 0.0
+          },
+          {
+            "fold": 4,
+            "n_val": 40,
+            "recall": 0.5333,
+            "far": 0.12,
+            "wrong_class": 0.0,
+            "ambiguous_rate": 0.0
+          }
+        ],
+        "mean_recall_pct": 54.67,
+        "std_recall_pct": 9.8,
+        "mean_far_pct": 10.4,
+        "std_far_pct": 4.08,
+        "mean_ambiguous_pct": 0.0,
+        "tau_stability": {
+          "object_01": {
+            "mean": 0.4802,
+            "std": 0.0355,
+            "min": 0.4358,
+            "max": 0.53
+          },
+          "object_02": {
+            "mean": 0.4802,
+            "std": 0.0355,
+            "min": 0.4358,
+            "max": 0.53
+          },
+          "object_03": {
+            "mean": 0.4802,
+            "std": 0.0355,
+            "min": 0.4358,
+            "max": 0.53
+          },
+          "object_04": {
+            "mean": 0.4802,
+            "std": 0.0355,
+            "min": 0.4358,
+            "max": 0.53
+          },
+          "object_05": {
+            "mean": 0.4802,
+            "std": 0.0355,
+            "min": 0.4358,
+            "max": 0.53
+          }
+        },
+        "oof_risk_coverage": [
+          {
+            "threshold_shift": -0.06,
+            "accepted_k": 54,
+            "total_n": 200,
+            "coverage_pct": 27.0,
+            "rejection_pct": 73.0,
+            "selective_risk_pct": 24.07,
+            "far_pct": 10.4
+          },
+          {
+            "threshold_shift": -0.03,
+            "accepted_k": 54,
+            "total_n": 200,
+            "coverage_pct": 27.0,
+            "rejection_pct": 73.0,
+            "selective_risk_pct": 24.07,
+            "far_pct": 10.4
+          },
+          {
+            "threshold_shift": 0.0,
+            "accepted_k": 53,
+            "total_n": 200,
+            "coverage_pct": 26.5,
+            "rejection_pct": 73.5,
+            "selective_risk_pct": 22.64,
+            "far_pct": 9.6
+          },
+          {
+            "threshold_shift": 0.02,
+            "accepted_k": 51,
+            "total_n": 200,
+            "coverage_pct": 25.5,
+            "rejection_pct": 74.5,
+            "selective_risk_pct": 23.53,
+            "far_pct": 9.6
+          },
+          {
+            "threshold_shift": 0.04,
+            "accepted_k": 48,
+            "total_n": 200,
+            "coverage_pct": 24.0,
+            "rejection_pct": 76.0,
+            "selective_risk_pct": 20.83,
+            "far_pct": 8.0
+          },
+          {
+            "threshold_shift": 0.06,
+            "accepted_k": 43,
+            "total_n": 200,
+            "coverage_pct": 21.5,
+            "rejection_pct": 78.5,
+            "selective_risk_pct": 20.93,
+            "far_pct": 7.2
+          },
+          {
+            "threshold_shift": 0.08,
+            "accepted_k": 38,
+            "total_n": 200,
+            "coverage_pct": 19.0,
+            "rejection_pct": 81.0,
+            "selective_risk_pct": 18.42,
+            "far_pct": 5.6
+          }
+        ]
+      },
+      "R2_per_class_floored": {
+        "per_fold": [
+          {
+            "fold": 0,
+            "n_val": 40,
+            "recall": 0.5333,
+            "far": 0.08,
+            "wrong_class": 0.0,
+            "ambiguous_rate": 0.0
+          },
+          {
+            "fold": 1,
+            "n_val": 40,
+            "recall": 0.7333,
+            "far": 0.12,
+            "wrong_class": 0.0,
+            "ambiguous_rate": 0.0
+          },
+          {
+            "fold": 2,
+            "n_val": 40,
+            "recall": 0.5333,
+            "far": 0.08,
+            "wrong_class": 0.0,
+            "ambiguous_rate": 0.0
+          },
+          {
+            "fold": 3,
+            "n_val": 40,
+            "recall": 0.6667,
+            "far": 0.04,
+            "wrong_class": 0.0,
+            "ambiguous_rate": 0.0
+          },
+          {
+            "fold": 4,
+            "n_val": 40,
+            "recall": 0.6,
+            "far": 0.16,
+            "wrong_class": 0.0,
+            "ambiguous_rate": 0.025
+          }
+        ],
+        "mean_recall_pct": 61.33,
+        "std_recall_pct": 7.78,
+        "mean_far_pct": 9.6,
+        "std_far_pct": 4.08,
+        "mean_ambiguous_pct": 0.5,
+        "tau_stability": {
+          "object_01": {
+            "mean": 0.4781,
+            "std": 0.0369,
+            "min": 0.4318,
+            "max": 0.517
+          },
+          "object_02": {
+            "mean": 0.444,
+            "std": 0.0183,
+            "min": 0.4286,
+            "max": 0.4784
+          },
+          "object_03": {
+            "mean": 0.4522,
+            "std": 0.0103,
+            "min": 0.4394,
+            "max": 0.4672
+          },
+          "object_04": {
+            "mean": 0.4478,
+            "std": 0.0133,
+            "min": 0.4325,
+            "max": 0.466
+          },
+          "object_05": {
+            "mean": 0.4582,
+            "std": 0.0236,
+            "min": 0.4345,
+            "max": 0.488
+          }
+        },
+        "oof_risk_coverage": [
+          {
+            "threshold_shift": -0.06,
+            "accepted_k": 58,
+            "total_n": 200,
+            "coverage_pct": 29.0,
+            "rejection_pct": 71.0,
+            "selective_risk_pct": 20.69,
+            "far_pct": 9.6
+          },
+          {
+            "threshold_shift": -0.03,
+            "accepted_k": 58,
+            "total_n": 200,
+            "coverage_pct": 29.0,
+            "rejection_pct": 71.0,
+            "selective_risk_pct": 20.69,
+            "far_pct": 9.6
+          },
+          {
+            "threshold_shift": 0.0,
+            "accepted_k": 57,
+            "total_n": 200,
+            "coverage_pct": 28.5,
+            "rejection_pct": 71.5,
+            "selective_risk_pct": 19.3,
+            "far_pct": 8.8
+          },
+          {
+            "threshold_shift": 0.02,
+            "accepted_k": 54,
+            "total_n": 200,
+            "coverage_pct": 27.0,
+            "rejection_pct": 73.0,
+            "selective_risk_pct": 20.37,
+            "far_pct": 8.8
+          },
+          {
+            "threshold_shift": 0.04,
+            "accepted_k": 50,
+            "total_n": 200,
+            "coverage_pct": 25.0,
+            "rejection_pct": 75.0,
+            "selective_risk_pct": 18.0,
+            "far_pct": 7.2
+          },
+          {
+            "threshold_shift": 0.06,
+            "accepted_k": 43,
+            "total_n": 200,
+            "coverage_pct": 21.5,
+            "rejection_pct": 78.5,
+            "selective_risk_pct": 18.6,
+            "far_pct": 6.4
+          },
+          {
+            "threshold_shift": 0.08,
+            "accepted_k": 37,
+            "total_n": 200,
+            "coverage_pct": 18.5,
+            "rejection_pct": 81.5,
+            "selective_risk_pct": 16.22,
+            "far_pct": 4.8
+          }
+        ]
+      },
+      "R3_distributional_quantile": {
+        "per_fold": [
+          {
+            "fold": 0,
+            "n_val": 40,
+            "recall": 0.6,
+            "far": 0.12,
+            "wrong_class": 0.0,
+            "ambiguous_rate": 0.0
+          },
+          {
+            "fold": 1,
+            "n_val": 40,
+            "recall": 0.7333,
+            "far": 0.2,
+            "wrong_class": 0.0,
+            "ambiguous_rate": 0.0
+          },
+          {
+            "fold": 2,
+            "n_val": 40,
+            "recall": 0.7333,
+            "far": 0.08,
+            "wrong_class": 0.0,
+            "ambiguous_rate": 0.0
+          },
+          {
+            "fold": 3,
+            "n_val": 40,
+            "recall": 0.5333,
+            "far": 0.04,
+            "wrong_class": 0.0,
+            "ambiguous_rate": 0.0
+          },
+          {
+            "fold": 4,
+            "n_val": 40,
+            "recall": 0.5333,
+            "far": 0.16,
+            "wrong_class": 0.0,
+            "ambiguous_rate": 0.025
+          }
+        ],
+        "mean_recall_pct": 62.66,
+        "std_recall_pct": 9.04,
+        "mean_far_pct": 12.0,
+        "std_far_pct": 5.66,
+        "mean_ambiguous_pct": 0.5,
+        "tau_stability": {
+          "object_01": {
+            "mean": 0.4162,
+            "std": 0.0186,
+            "min": 0.4,
+            "max": 0.45
+          },
+          "object_02": {
+            "mean": 0.4162,
+            "std": 0.0186,
+            "min": 0.4,
+            "max": 0.45
+          },
+          "object_03": {
+            "mean": 0.4484,
+            "std": 0.0063,
+            "min": 0.4419,
+            "max": 0.4598
+          },
+          "object_04": {
+            "mean": 0.4162,
+            "std": 0.0186,
+            "min": 0.4,
+            "max": 0.45
+          },
+          "object_05": {
+            "mean": 0.4162,
+            "std": 0.0186,
+            "min": 0.4,
+            "max": 0.45
+          }
+        },
+        "oof_risk_coverage": [
+          {
+            "threshold_shift": -0.06,
+            "accepted_k": 62,
+            "total_n": 200,
+            "coverage_pct": 31.0,
+            "rejection_pct": 69.0,
+            "selective_risk_pct": 24.19,
+            "far_pct": 12.0
+          },
+          {
+            "threshold_shift": -0.03,
+            "accepted_k": 62,
+            "total_n": 200,
+            "coverage_pct": 31.0,
+            "rejection_pct": 69.0,
+            "selective_risk_pct": 24.19,
+            "far_pct": 12.0
+          },
+          {
+            "threshold_shift": 0.0,
+            "accepted_k": 56,
+            "total_n": 200,
+            "coverage_pct": 28.0,
+            "rejection_pct": 72.0,
+            "selective_risk_pct": 21.43,
+            "far_pct": 9.6
+          },
+          {
+            "threshold_shift": 0.02,
+            "accepted_k": 52,
+            "total_n": 200,
+            "coverage_pct": 26.0,
+            "rejection_pct": 74.0,
+            "selective_risk_pct": 23.08,
+            "far_pct": 9.6
+          },
+          {
+            "threshold_shift": 0.04,
+            "accepted_k": 49,
+            "total_n": 200,
+            "coverage_pct": 24.5,
+            "rejection_pct": 75.5,
+            "selective_risk_pct": 20.41,
+            "far_pct": 8.0
+          },
+          {
+            "threshold_shift": 0.06,
+            "accepted_k": 43,
+            "total_n": 200,
+            "coverage_pct": 21.5,
+            "rejection_pct": 78.5,
+            "selective_risk_pct": 20.93,
+            "far_pct": 7.2
+          },
+          {
+            "threshold_shift": 0.08,
+            "accepted_k": 38,
+            "total_n": 200,
+            "coverage_pct": 19.0,
+            "rejection_pct": 81.0,
+            "selective_risk_pct": 18.42,
+            "far_pct": 5.6
+          }
+        ]
+      },
+      "R4_out_of_fold_verifier": {
+        "per_fold": [
+          {
+            "fold": 0,
+            "n_val": 40,
+            "recall": 0.5333,
+            "far": 0.12,
+            "wrong_class": 0.0,
+            "ambiguous_rate": 0.0
+          },
+          {
+            "fold": 1,
+            "n_val": 40,
+            "recall": 0.6667,
+            "far": 0.04,
+            "wrong_class": 0.0,
+            "ambiguous_rate": 0.0
+          },
+          {
+            "fold": 2,
+            "n_val": 40,
+            "recall": 0.5333,
+            "far": 0.08,
+            "wrong_class": 0.0,
+            "ambiguous_rate": 0.0
+          },
+          {
+            "fold": 3,
+            "n_val": 40,
+            "recall": 0.6667,
+            "far": 0.04,
+            "wrong_class": 0.0,
+            "ambiguous_rate": 0.0
+          },
+          {
+            "fold": 4,
+            "n_val": 40,
+            "recall": 0.6,
+            "far": 0.08,
+            "wrong_class": 0.0,
+            "ambiguous_rate": 0.025
+          }
+        ],
+        "mean_recall_pct": 60.0,
+        "std_recall_pct": 5.97,
+        "mean_far_pct": 7.2,
+        "std_far_pct": 2.99,
+        "mean_ambiguous_pct": 0.5,
+        "tau_stability": {
+          "object_01": {
+            "mean": 0.4462,
+            "std": 0.0122,
+            "min": 0.4318,
+            "max": 0.466
+          },
+          "object_02": {
+            "mean": 0.444,
+            "std": 0.0183,
+            "min": 0.4286,
+            "max": 0.4784
+          },
+          "object_03": {
+            "mean": 0.4522,
+            "std": 0.0103,
+            "min": 0.4394,
+            "max": 0.4672
+          },
+          "object_04": {
+            "mean": 0.4478,
+            "std": 0.0133,
+            "min": 0.4325,
+            "max": 0.466
+          },
+          "object_05": {
+            "mean": 0.4582,
+            "std": 0.0236,
+            "min": 0.4345,
+            "max": 0.488
+          }
+        },
+        "oof_risk_coverage": [
+          {
+            "threshold_shift": -0.06,
+            "accepted_k": 54,
+            "total_n": 200,
+            "coverage_pct": 27.0,
+            "rejection_pct": 73.0,
+            "selective_risk_pct": 16.67,
+            "far_pct": 7.2
+          },
+          {
+            "threshold_shift": -0.03,
+            "accepted_k": 54,
+            "total_n": 200,
+            "coverage_pct": 27.0,
+            "rejection_pct": 73.0,
+            "selective_risk_pct": 16.67,
+            "far_pct": 7.2
+          },
+          {
+            "threshold_shift": 0.0,
+            "accepted_k": 54,
+            "total_n": 200,
+            "coverage_pct": 27.0,
+            "rejection_pct": 73.0,
+            "selective_risk_pct": 16.67,
+            "far_pct": 7.2
+          },
+          {
+            "threshold_shift": 0.02,
+            "accepted_k": 52,
+            "total_n": 200,
+            "coverage_pct": 26.0,
+            "rejection_pct": 74.0,
+            "selective_risk_pct": 17.31,
+            "far_pct": 7.2
+          },
+          {
+            "threshold_shift": 0.04,
+            "accepted_k": 50,
+            "total_n": 200,
+            "coverage_pct": 25.0,
+            "rejection_pct": 75.0,
+            "selective_risk_pct": 18.0,
+            "far_pct": 7.2
+          },
+          {
+            "threshold_shift": 0.06,
+            "accepted_k": 43,
+            "total_n": 200,
+            "coverage_pct": 21.5,
+            "rejection_pct": 78.5,
+            "selective_risk_pct": 18.6,
+            "far_pct": 6.4
+          },
+          {
+            "threshold_shift": 0.08,
+            "accepted_k": 38,
+            "total_n": 200,
+            "coverage_pct": 19.0,
+            "rejection_pct": 81.0,
+            "selective_risk_pct": 18.42,
+            "far_pct": 5.6
+          }
+        ]
+      },
+      "R5_selective_3state_v1c": {
+        "per_fold": [
+          {
+            "fold": 0,
+            "n_val": 40,
+            "recall": 0.5333,
+            "far": 0.12,
+            "wrong_class": 0.0,
+            "ambiguous_rate": 0.025
+          },
+          {
+            "fold": 1,
+            "n_val": 40,
+            "recall": 0.6667,
+            "far": 0.04,
+            "wrong_class": 0.0,
+            "ambiguous_rate": 0.1
+          },
+          {
+            "fold": 2,
+            "n_val": 40,
+            "recall": 0.5333,
+            "far": 0.08,
+            "wrong_class": 0.0,
+            "ambiguous_rate": 0.15
+          },
+          {
+            "fold": 3,
+            "n_val": 40,
+            "recall": 0.6667,
+            "far": 0.04,
+            "wrong_class": 0.0,
+            "ambiguous_rate": 0.025
+          },
+          {
+            "fold": 4,
+            "n_val": 40,
+            "recall": 0.6,
+            "far": 0.08,
+            "wrong_class": 0.0,
+            "ambiguous_rate": 0.075
+          }
+        ],
+        "mean_recall_pct": 60.0,
+        "std_recall_pct": 5.97,
+        "mean_far_pct": 7.2,
+        "std_far_pct": 2.99,
+        "mean_ambiguous_pct": 7.5,
+        "tau_stability": {
+          "object_01": {
+            "mean": 0.4462,
+            "std": 0.0122,
+            "min": 0.4318,
+            "max": 0.466
+          },
+          "object_02": {
+            "mean": 0.444,
+            "std": 0.0183,
+            "min": 0.4286,
+            "max": 0.4784
+          },
+          "object_03": {
+            "mean": 0.4522,
+            "std": 0.0103,
+            "min": 0.4394,
+            "max": 0.4672
+          },
+          "object_04": {
+            "mean": 0.4478,
+            "std": 0.0133,
+            "min": 0.4325,
+            "max": 0.466
+          },
+          "object_05": {
+            "mean": 0.4582,
+            "std": 0.0236,
+            "min": 0.4345,
+            "max": 0.488
+          }
+        },
+        "oof_risk_coverage": [
+          {
+            "threshold_shift": -0.06,
+            "accepted_k": 54,
+            "total_n": 200,
+            "coverage_pct": 27.0,
+            "rejection_pct": 73.0,
+            "selective_risk_pct": 16.67,
+            "far_pct": 7.2
+          },
+          {
+            "threshold_shift": -0.03,
+            "accepted_k": 54,
+            "total_n": 200,
+            "coverage_pct": 27.0,
+            "rejection_pct": 73.0,
+            "selective_risk_pct": 16.67,
+            "far_pct": 7.2
+          },
+          {
+            "threshold_shift": 0.0,
+            "accepted_k": 54,
+            "total_n": 200,
+            "coverage_pct": 27.0,
+            "rejection_pct": 73.0,
+            "selective_risk_pct": 16.67,
+            "far_pct": 7.2
+          },
+          {
+            "threshold_shift": 0.02,
+            "accepted_k": 52,
+            "total_n": 200,
+            "coverage_pct": 26.0,
+            "rejection_pct": 74.0,
+            "selective_risk_pct": 17.31,
+            "far_pct": 7.2
+          },
+          {
+            "threshold_shift": 0.04,
+            "accepted_k": 50,
+            "total_n": 200,
+            "coverage_pct": 25.0,
+            "rejection_pct": 75.0,
+            "selective_risk_pct": 18.0,
+            "far_pct": 7.2
+          },
+          {
+            "threshold_shift": 0.06,
+            "accepted_k": 43,
+            "total_n": 200,
+            "coverage_pct": 21.5,
+            "rejection_pct": 78.5,
+            "selective_risk_pct": 18.6,
+            "far_pct": 6.4
+          },
+          {
+            "threshold_shift": 0.08,
+            "accepted_k": 38,
+            "total_n": 200,
+            "coverage_pct": 19.0,
+            "rejection_pct": 81.0,
+            "selective_risk_pct": 18.42,
+            "far_pct": 5.6
+          }
+        ]
+      }
+    },
+    "sample_size_scaling": [
+      {
+        "n_cal": 50,
+        "mean_tau_std_across_classes": 0.0303,
+        "min_tau_observed": 0.4289,
+        "out_of_sample_recall_pct": 58.48,
+        "out_of_sample_far_pct": 9.84
+      },
+      {
+        "n_cal": 100,
+        "mean_tau_std_across_classes": 0.0172,
+        "min_tau_observed": 0.4467,
+        "out_of_sample_recall_pct": 50.0,
+        "out_of_sample_far_pct": 5.16
+      },
+      {
+        "n_cal": 150,
+        "mean_tau_std_across_classes": 0.0156,
+        "min_tau_observed": 0.4283,
+        "out_of_sample_recall_pct": 55.26,
+        "out_of_sample_far_pct": 9.68
+      },
+      {
+        "n_cal": 200,
+        "mean_tau_std_across_classes": 0.0,
+        "min_tau_observed": 0.4639,
+        "out_of_sample_recall_pct": 56.0,
+        "out_of_sample_far_pct": 4.8
+      }
+    ],
+    "unfloored_diagnostic_tau_stability": {
+      "object_01": {
+        "mean": 0.4635,
+        "std": 0.0305,
+        "min": 0.4318,
+        "max": 0.5012
+      },
+      "object_02": {
+        "mean": 0.4408,
+        "std": 0.0146,
+        "min": 0.4286,
+        "max": 0.4684
+      },
+      "object_03": {
+        "mean": 0.4504,
+        "std": 0.008,
+        "min": 0.4394,
+        "max": 0.4607
+      },
+      "object_04": {
+        "mean": 0.4436,
+        "std": 0.009,
+        "min": 0.4325,
+        "max": 0.4558
+      },
+      "object_05": {
+        "mean": 0.45,
+        "std": 0.0169,
+        "min": 0.4345,
+        "max": 0.481
+      }
+    }
+  },
+  "cv_gate_passed": true,
+  "roi_modes_cal_fit": {
+    "R0_vl_p1_baseline": {
+      "mode": "R0_vl_p1_baseline",
+      "tau_global": 0.4758,
+      "delta_floor": 0.08,
+      "tau_floor_abs": 0.4,
+      "tau_per_class": {
+        "object_01": 0.4758,
+        "object_02": 0.4758,
+        "object_03": 0.4758,
+        "object_04": 0.4758,
+        "object_05": 0.4758
+      },
+      "delta_neg_min": {
+        "object_01": 0.02,
+        "object_02": 0.02,
+        "object_03": 0.02,
+        "object_04": 0.02,
+        "object_05": 0.02
+      },
+      "verifier_min_score": {
+        "object_01": 0.0,
+        "object_02": 0.0,
+        "object_03": 0.0,
+        "object_04": 0.0,
+        "object_05": 0.0
+      },
+      "delta_pos_ambig": 0.0,
+      "tau_ambig_band": 0.045,
+      "neg_ambig_band": 0.025,
+      "ver_ambig_band": 0.14,
+      "ridge_alpha": 24.0,
+      "neg_blend_top2_weight": 0.55,
+      "num_threads": 4
+    },
+    "R1_global_conservative": {
+      "mode": "R1_global_conservative",
+      "tau_global": 0.53,
+      "delta_floor": 0.08,
+      "tau_floor_abs": 0.4,
+      "tau_per_class": {
+        "object_01": 0.53,
+        "object_02": 0.53,
+        "object_03": 0.53,
+        "object_04": 0.53,
+        "object_05": 0.53
+      },
+      "delta_neg_min": {
+        "object_01": 0.03,
+        "object_02": 0.03,
+        "object_03": 0.03,
+        "object_04": 0.03,
+        "object_05": 0.03
+      },
+      "verifier_min_score": {
+        "object_01": 0.0,
+        "object_02": 0.0,
+        "object_03": 0.0,
+        "object_04": 0.0,
+        "object_05": 0.0
+      },
+      "delta_pos_ambig": 0.01,
+      "tau_ambig_band": 0.045,
+      "neg_ambig_band": 0.025,
+      "ver_ambig_band": 0.14,
+      "ridge_alpha": 24.0,
+      "neg_blend_top2_weight": 0.55,
+      "num_threads": 4
+    },
+    "R2_per_class_floored": {
+      "mode": "R2_per_class_floored",
+      "tau_global": 0.53,
+      "delta_floor": 0.08,
+      "tau_floor_abs": 0.4,
+      "tau_per_class": {
+        "object_01": 0.5193,
+        "object_02": 0.4774,
+        "object_03": 0.4652,
+        "object_04": 0.4639,
+        "object_05": 0.4878
+      },
+      "delta_neg_min": {
+        "object_01": 0.0,
+        "object_02": 0.0,
+        "object_03": 0.0,
+        "object_04": 0.03,
+        "object_05": 0.0
+      },
+      "verifier_min_score": {
+        "object_01": 0.0,
+        "object_02": 0.0,
+        "object_03": 0.0,
+        "object_04": 0.0,
+        "object_05": 0.0
+      },
+      "delta_pos_ambig": 0.01,
+      "tau_ambig_band": 0.045,
+      "neg_ambig_band": 0.025,
+      "ver_ambig_band": 0.14,
+      "ridge_alpha": 24.0,
+      "neg_blend_top2_weight": 0.55,
+      "num_threads": 4
+    },
+    "R3_distributional_quantile": {
+      "mode": "R3_distributional_quantile",
+      "tau_global": 0.53,
+      "delta_floor": 0.08,
+      "tau_floor_abs": 0.4,
+      "tau_per_class": {
+        "object_01": 0.45,
+        "object_02": 0.45,
+        "object_03": 0.45,
+        "object_04": 0.45,
+        "object_05": 0.45
+      },
+      "delta_neg_min": {
+        "object_01": 0.03,
+        "object_02": 0.03,
+        "object_03": 0.03,
+        "object_04": 0.03,
+        "object_05": 0.03
+      },
+      "verifier_min_score": {
+        "object_01": 0.0,
+        "object_02": 0.0,
+        "object_03": 0.0,
+        "object_04": 0.0,
+        "object_05": 0.0
+      },
+      "delta_pos_ambig": 0.01,
+      "tau_ambig_band": 0.045,
+      "neg_ambig_band": 0.025,
+      "ver_ambig_band": 0.14,
+      "ridge_alpha": 24.0,
+      "neg_blend_top2_weight": 0.55,
+      "num_threads": 4
+    },
+    "R4_out_of_fold_verifier": {
+      "mode": "R4_out_of_fold_verifier",
+      "tau_global": 0.53,
+      "delta_floor": 0.08,
+      "tau_floor_abs": 0.4,
+      "tau_per_class": {
+        "object_01": 0.5006,
+        "object_02": 0.4774,
+        "object_03": 0.4652,
+        "object_04": 0.4639,
+        "object_05": 0.4878
+      },
+      "delta_neg_min": {
+        "object_01": 0.0,
+        "object_02": 0.0,
+        "object_03": 0.0,
+        "object_04": 0.03,
+        "object_05": 0.0
+      },
+      "verifier_min_score": {
+        "object_01": 0.15,
+        "object_02": -0.15,
+        "object_03": -0.15,
+        "object_04": -0.15,
+        "object_05": -0.15
+      },
+      "delta_pos_ambig": 0.01,
+      "tau_ambig_band": 0.045,
+      "neg_ambig_band": 0.025,
+      "ver_ambig_band": 0.14,
+      "ridge_alpha": 24.0,
+      "neg_blend_top2_weight": 0.55,
+      "num_threads": 4
+    },
+    "R5_selective_3state_v1c": {
+      "mode": "R5_selective_3state_v1c",
+      "tau_global": 0.53,
+      "delta_floor": 0.08,
+      "tau_floor_abs": 0.4,
+      "tau_per_class": {
+        "object_01": 0.5006,
+        "object_02": 0.4774,
+        "object_03": 0.4652,
+        "object_04": 0.4639,
+        "object_05": 0.4878
+      },
+      "delta_neg_min": {
+        "object_01": 0.0,
+        "object_02": 0.0,
+        "object_03": 0.0,
+        "object_04": 0.03,
+        "object_05": 0.0
+      },
+      "verifier_min_score": {
+        "object_01": 0.15,
+        "object_02": -0.15,
+        "object_03": -0.15,
+        "object_04": -0.15,
+        "object_05": -0.15
+      },
+      "delta_pos_ambig": 0.01,
+      "tau_ambig_band": 0.045,
+      "neg_ambig_band": 0.025,
+      "ver_ambig_band": 0.14,
+      "ridge_alpha": 24.0,
+      "neg_blend_top2_weight": 0.55,
+      "num_threads": 4
+    }
+  },
+  "roi_cal_eval": {
+    "R0_vl_p1_baseline": {
+      "overall_accuracy": {
+        "k": 153,
+        "n": 200,
+        "ratio": "153/200",
+        "pct": 76.5,
+        "ci95_low_pct": 70.16,
+        "ci95_high_pct": 81.84,
+        "formatted": "153/200 (76.5%, 95% CI [70.16, 81.84])"
+      },
+      "known_recall": {
+        "k": 44,
+        "n": 75,
+        "ratio": "44/75",
+        "pct": 58.67,
+        "ci95_low_pct": 47.37,
+        "ci95_high_pct": 69.12,
+        "formatted": "44/75 (58.7%, 95% CI [47.37, 69.12])"
+      },
+      "far": {
+        "k": 16,
+        "n": 125,
+        "ratio": "16/125",
+        "pct": 12.8,
+        "ci95_low_pct": 8.03,
+        "ci95_high_pct": 19.78,
+        "formatted": "16/125 (12.8%, 95% CI [8.03, 19.78])"
+      },
+      "ambiguous_counts": {
+        "pos_ambig": 0,
+        "neg_ambig": 0,
+        "ambiguous_rate_pct": 0.0
+      }
+    },
+    "R1_global_conservative": {
+      "overall_accuracy": {
+        "k": 150,
+        "n": 200,
+        "ratio": "150/200",
+        "pct": 75.0,
+        "ci95_low_pct": 68.57,
+        "ci95_high_pct": 80.49,
+        "formatted": "150/200 (75.0%, 95% CI [68.57, 80.49])"
+      },
+      "known_recall": {
+        "k": 31,
+        "n": 75,
+        "ratio": "31/75",
+        "pct": 41.33,
+        "ci95_low_pct": 30.88,
+        "ci95_high_pct": 52.63,
+        "formatted": "31/75 (41.3%, 95% CI [30.88, 52.63])"
+      },
+      "far": {
+        "k": 6,
+        "n": 125,
+        "ratio": "6/125",
+        "pct": 4.8,
+        "ci95_low_pct": 2.22,
+        "ci95_high_pct": 10.08,
+        "formatted": "6/125 (4.8%, 95% CI [2.22, 10.08])"
+      },
+      "ambiguous_counts": {
+        "pos_ambig": 0,
+        "neg_ambig": 0,
+        "ambiguous_rate_pct": 0.0
+      }
+    },
+    "R2_per_class_floored": {
+      "overall_accuracy": {
+        "k": 157,
+        "n": 200,
+        "ratio": "157/200",
+        "pct": 78.5,
+        "ci95_low_pct": 72.3,
+        "ci95_high_pct": 83.63,
+        "formatted": "157/200 (78.5%, 95% CI [72.30, 83.63])"
+      },
+      "known_recall": {
+        "k": 41,
+        "n": 75,
+        "ratio": "41/75",
+        "pct": 54.67,
+        "ci95_low_pct": 43.45,
+        "ci95_high_pct": 65.43,
+        "formatted": "41/75 (54.7%, 95% CI [43.45, 65.43])"
+      },
+      "far": {
+        "k": 9,
+        "n": 125,
+        "ratio": "9/125",
+        "pct": 7.2,
+        "ci95_low_pct": 3.83,
+        "ci95_high_pct": 13.12,
+        "formatted": "9/125 (7.2%, 95% CI [3.83, 13.12])"
+      },
+      "ambiguous_counts": {
+        "pos_ambig": 0,
+        "neg_ambig": 0,
+        "ambiguous_rate_pct": 0.0
+      }
+    },
+    "R3_distributional_quantile": {
+      "overall_accuracy": {
+        "k": 156,
+        "n": 200,
+        "ratio": "156/200",
+        "pct": 78.0,
+        "ci95_low_pct": 71.76,
+        "ci95_high_pct": 83.18,
+        "formatted": "156/200 (78.0%, 95% CI [71.76, 83.18])"
+      },
+      "known_recall": {
+        "k": 42,
+        "n": 75,
+        "ratio": "42/75",
+        "pct": 56.0,
+        "ci95_low_pct": 44.75,
+        "ci95_high_pct": 66.67,
+        "formatted": "42/75 (56.0%, 95% CI [44.75, 66.67])"
+      },
+      "far": {
+        "k": 11,
+        "n": 125,
+        "ratio": "11/125",
+        "pct": 8.8,
+        "ci95_low_pct": 4.98,
+        "ci95_high_pct": 15.07,
+        "formatted": "11/125 (8.8%, 95% CI [4.98, 15.07])"
+      },
+      "ambiguous_counts": {
+        "pos_ambig": 0,
+        "neg_ambig": 0,
+        "ambiguous_rate_pct": 0.0
+      }
+    },
+    "R4_out_of_fold_verifier": {
+      "overall_accuracy": {
+        "k": 161,
+        "n": 200,
+        "ratio": "161/200",
+        "pct": 80.5,
+        "ci95_low_pct": 74.46,
+        "ci95_high_pct": 85.39,
+        "formatted": "161/200 (80.5%, 95% CI [74.46, 85.39])"
+      },
+      "known_recall": {
+        "k": 42,
+        "n": 75,
+        "ratio": "42/75",
+        "pct": 56.0,
+        "ci95_low_pct": 44.75,
+        "ci95_high_pct": 66.67,
+        "formatted": "42/75 (56.0%, 95% CI [44.75, 66.67])"
+      },
+      "far": {
+        "k": 6,
+        "n": 125,
+        "ratio": "6/125",
+        "pct": 4.8,
+        "ci95_low_pct": 2.22,
+        "ci95_high_pct": 10.08,
+        "formatted": "6/125 (4.8%, 95% CI [2.22, 10.08])"
+      },
+      "ambiguous_counts": {
+        "pos_ambig": 0,
+        "neg_ambig": 0,
+        "ambiguous_rate_pct": 0.0
+      }
+    },
+    "R5_selective_3state_v1c": {
+      "overall_accuracy": {
+        "k": 161,
+        "n": 200,
+        "ratio": "161/200",
+        "pct": 80.5,
+        "ci95_low_pct": 74.46,
+        "ci95_high_pct": 85.39,
+        "formatted": "161/200 (80.5%, 95% CI [74.46, 85.39])"
+      },
+      "known_recall": {
+        "k": 42,
+        "n": 75,
+        "ratio": "42/75",
+        "pct": 56.0,
+        "ci95_low_pct": 44.75,
+        "ci95_high_pct": 66.67,
+        "formatted": "42/75 (56.0%, 95% CI [44.75, 66.67])"
+      },
+      "far": {
+        "k": 6,
+        "n": 125,
+        "ratio": "6/125",
+        "pct": 4.8,
+        "ci95_low_pct": 2.22,
+        "ci95_high_pct": 10.08,
+        "formatted": "6/125 (4.8%, 95% CI [2.22, 10.08])"
+      },
+      "ambiguous_counts": {
+        "pos_ambig": 11,
+        "neg_ambig": 4,
+        "ambiguous_rate_pct": 7.5
+      }
+    }
+  },
+  "e2e_calibration_by_k": {
+    "4": {
+      "alpha_k": 0.02,
+      "singleton_penalty_heuristic": 0.03,
+      "e2e_tau_offset": 0.03,
+      "cal_full_recall_pct": 48.0,
+      "cal_full_far_pct": 7.2,
+      "proposal_source_reliability_cal": {
+        "yolox_non_person": {
+          "total": 213,
+          "raw_known_on_pos_correct": 33,
+          "raw_known_on_neg_fp": 6,
+          "raw_known_wrong_cls": 3
+        },
+        "context": {
+          "total": 218,
+          "raw_known_on_pos_correct": 39,
+          "raw_known_on_neg_fp": 10,
+          "raw_known_wrong_cls": 0
+        },
+        "thin_cane": {
+          "total": 196,
+          "raw_known_on_pos_correct": 16,
+          "raw_known_on_neg_fp": 4,
+          "raw_known_wrong_cls": 0
+        },
+        "ms_sal": {
+          "total": 86,
+          "raw_known_on_pos_correct": 4,
+          "raw_known_on_neg_fp": 0,
+          "raw_known_wrong_cls": 0
+        },
+        "fg_contour": {
+          "total": 60,
+          "raw_known_on_pos_correct": 13,
+          "raw_known_on_neg_fp": 3,
+          "raw_known_wrong_cls": 0
+        },
+        "small_detail": {
+          "total": 26,
+          "raw_known_on_pos_correct": 1,
+          "raw_known_on_neg_fp": 1,
+          "raw_known_wrong_cls": 0
+        }
+      },
+      "cal_overall_accuracy": {
+        "k": 152,
+        "n": 200,
+        "ratio": "152/200",
+        "pct": 76.0,
+        "ci95_low_pct": 69.63,
+        "ci95_high_pct": 81.39,
+        "formatted": "152/200 (76.0%, 95% CI [69.63, 81.39])"
+      },
+      "cal_known_recall": {
+        "k": 36,
+        "n": 75,
+        "ratio": "36/75",
+        "pct": 48.0,
+        "ci95_low_pct": 37.07,
+        "ci95_high_pct": 59.13,
+        "formatted": "36/75 (48.0%, 95% CI [37.07, 59.13])"
+      },
+      "cal_far": {
+        "k": 9,
+        "n": 125,
+        "ratio": "9/125",
+        "pct": 7.2,
+        "ci95_low_pct": 3.83,
+        "ci95_high_pct": 13.12,
+        "formatted": "9/125 (7.2%, 95% CI [3.83, 13.12])"
+      },
+      "cal_mean_ms": 237.17,
+      "cal_p50_ms": 231.8,
+      "cal_p95_ms": 305.24
+    },
+    "6": {
+      "alpha_k": 0.035,
+      "singleton_penalty_heuristic": 0.03,
+      "e2e_tau_offset": 0.045,
+      "cal_full_recall_pct": 41.33,
+      "cal_full_far_pct": 6.4,
+      "proposal_source_reliability_cal": {
+        "yolox_non_person": {
+          "total": 230,
+          "raw_known_on_pos_correct": 34,
+          "raw_known_on_neg_fp": 6,
+          "raw_known_wrong_cls": 3
+        },
+        "context": {
+          "total": 282,
+          "raw_known_on_pos_correct": 53,
+          "raw_known_on_neg_fp": 15,
+          "raw_known_wrong_cls": 0
+        },
+        "thin_cane": {
+          "total": 380,
+          "raw_known_on_pos_correct": 28,
+          "raw_known_on_neg_fp": 13,
+          "raw_known_wrong_cls": 1
+        },
+        "ms_sal": {
+          "total": 108,
+          "raw_known_on_pos_correct": 4,
+          "raw_known_on_neg_fp": 0,
+          "raw_known_wrong_cls": 0
+        },
+        "small_detail": {
+          "total": 129,
+          "raw_known_on_pos_correct": 3,
+          "raw_known_on_neg_fp": 2,
+          "raw_known_wrong_cls": 0
+        },
+        "fg_contour": {
+          "total": 64,
+          "raw_known_on_pos_correct": 15,
+          "raw_known_on_neg_fp": 3,
+          "raw_known_wrong_cls": 0
+        },
+        "yolox_person": {
+          "total": 1,
+          "raw_known_on_pos_correct": 0,
+          "raw_known_on_neg_fp": 0,
+          "raw_known_wrong_cls": 0
+        }
+      },
+      "cal_overall_accuracy": {
+        "k": 148,
+        "n": 200,
+        "ratio": "148/200",
+        "pct": 74.0,
+        "ci95_low_pct": 67.51,
+        "ci95_high_pct": 79.59,
+        "formatted": "148/200 (74.0%, 95% CI [67.51, 79.59])"
+      },
+      "cal_known_recall": {
+        "k": 31,
+        "n": 75,
+        "ratio": "31/75",
+        "pct": 41.33,
+        "ci95_low_pct": 30.88,
+        "ci95_high_pct": 52.63,
+        "formatted": "31/75 (41.3%, 95% CI [30.88, 52.63])"
+      },
+      "cal_far": {
+        "k": 8,
+        "n": 125,
+        "ratio": "8/125",
+        "pct": 6.4,
+        "ci95_low_pct": 3.28,
+        "ci95_high_pct": 12.12,
+        "formatted": "8/125 (6.4%, 95% CI [3.28, 12.12])"
+      },
+      "cal_mean_ms": 319.8,
+      "cal_p50_ms": 311.3,
+      "cal_p95_ms": 400.06
+    },
+    "8": {
+      "alpha_k": 0.035,
+      "singleton_penalty_heuristic": 0.03,
+      "e2e_tau_offset": 0.045,
+      "cal_full_recall_pct": 40.0,
+      "cal_full_far_pct": 7.2,
+      "proposal_source_reliability_cal": {
+        "yolox_non_person": {
+          "total": 242,
+          "raw_known_on_pos_correct": 34,
+          "raw_known_on_neg_fp": 7,
+          "raw_known_wrong_cls": 3
+        },
+        "context": {
+          "total": 466,
+          "raw_known_on_pos_correct": 86,
+          "raw_known_on_neg_fp": 19,
+          "raw_known_wrong_cls": 0
+        },
+        "thin_cane": {
+          "total": 385,
+          "raw_known_on_pos_correct": 28,
+          "raw_known_on_neg_fp": 13,
+          "raw_known_wrong_cls": 1
+        },
+        "ms_sal": {
+          "total": 165,
+          "raw_known_on_pos_correct": 6,
+          "raw_known_on_neg_fp": 0,
+          "raw_known_wrong_cls": 0
+        },
+        "small_detail": {
+          "total": 195,
+          "raw_known_on_pos_correct": 6,
+          "raw_known_on_neg_fp": 2,
+          "raw_known_wrong_cls": 0
+        },
+        "fg_contour": {
+          "total": 67,
+          "raw_known_on_pos_correct": 15,
+          "raw_known_on_neg_fp": 3,
+          "raw_known_wrong_cls": 0
+        },
+        "yolox_person": {
+          "total": 8,
+          "raw_known_on_pos_correct": 0,
+          "raw_known_on_neg_fp": 0,
+          "raw_known_wrong_cls": 0
+        }
+      },
+      "cal_overall_accuracy": {
+        "k": 146,
+        "n": 200,
+        "ratio": "146/200",
+        "pct": 73.0,
+        "ci95_low_pct": 66.46,
+        "ci95_high_pct": 78.68,
+        "formatted": "146/200 (73.0%, 95% CI [66.46, 78.68])"
+      },
+      "cal_known_recall": {
+        "k": 30,
+        "n": 75,
+        "ratio": "30/75",
+        "pct": 40.0,
+        "ci95_low_pct": 29.66,
+        "ci95_high_pct": 51.31,
+        "formatted": "30/75 (40.0%, 95% CI [29.66, 51.31])"
+      },
+      "cal_far": {
+        "k": 9,
+        "n": 125,
+        "ratio": "9/125",
+        "pct": 7.2,
+        "ci95_low_pct": 3.83,
+        "ci95_high_pct": 13.12,
+        "formatted": "9/125 (7.2%, 95% CI [3.83, 13.12])"
+      },
+      "cal_mean_ms": 380.32,
+      "cal_p50_ms": 379.96,
+      "cal_p95_ms": 467.94
+    }
+  },
+  "selected_frozen_e2e_k": 4
+}

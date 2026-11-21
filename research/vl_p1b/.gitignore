@@ -1,0 +1,9 @@
+data/
+models/*.onnx
+models/*.onnx.data
+models/.cache/
+manifests/contact_sheets*/
+manifests/draft_selection.json
+__pycache__/
+*.pyc
+.pytest_cache/

@@ -1,0 +1,666 @@
+{
+  "dataset_name": "VisionMate_Phase1_1_RealDocument_And_Packaging_Suite",
+  "version": "1.1.0",
+  "generated_date": "2026-11-09",
+  "regression_primary_sample": {
+    "path": "tests/fixtures/regression_p1_1/administrative_form_379x527.png",
+    "sha256": "7CADF447D955D1E74647723D2709338818B434D42A506EADBEE232FB2D44CDB7",
+    "resolution": "379x527",
+    "expected_status": "UNCERTAIN"
+  },
+  "counts": {
+    "total": 40,
+    "readable_doc_single": 10,
+    "readable_doc_multicol": 10,
+    "low_quality_unreadable_doc": 10,
+    "product_packaging_receipt": 10
+  },
+  "items": [
+    {
+      "id": "doc_single_01",
+      "filename": "doc_single_01.png",
+      "sha256": "FE818F58817FDFB8480AD66D3450F01B34C2D83B379A5DC110B0FF101675ED28",
+      "category": "readable_doc_single",
+      "layout": "single_column",
+      "expected_status": "READABLE",
+      "expected_lines_order": [
+        "TRẠM Y TẾ PHƯỜNG BẾN NGHÉ",
+        "THÔNG BÁO LỊCH TIÊM CHỦNG ĐỊNH KỲ",
+        "Thời gian buổi sáng: Từ 07 giờ 30 đến 11 giờ 00 ngày 15/11/2026",
+        "Địa điểm: Số 18 đường Nguyễn Thị Minh Khai, Quận 1",
+        "Khi đi phụ huynh mang theo sổ tiêm chủng của trẻ em."
+      ],
+      "ground_truth": "TRẠM Y TẾ PHƯỜNG BẾN NGHÉ\nTHÔNG BÁO LỊCH TIÊM CHỦNG ĐỊNH KỲ\nThời gian buổi sáng: Từ 07 giờ 30 đến 11 giờ 00 ngày 15/11/2026\nĐịa điểm: Số 18 đường Nguyễn Thị Minh Khai, Quận 1\nKhi đi phụ huynh mang theo sổ tiêm chủng của trẻ em."
+    },
+    {
+      "id": "doc_single_02",
+      "filename": "doc_single_02.png",
+      "sha256": "6CE26650CBE6E231945B75C99E5353D985A7D60F909959762C9768C6ECD4057D",
+      "category": "readable_doc_single",
+      "layout": "single_column",
+      "expected_status": "READABLE",
+      "expected_lines_order": [
+        "BỆNH VIỆN MẮT TRUNG ƯƠNG",
+        "GIẤY HẸN TÁI KHÁM NHÃN KHOA",
+        "Họ và tên bệnh nhân: Nguyễn Văn Minh",
+        "Ngày hẹn khám lại: 24/11/2026 tại Phòng khám số 04",
+        "Lưu ý: Nhịn ăn sáng trước khi làm xét nghiệm máu."
+      ],
+      "ground_truth": "BỆNH VIỆN MẮT TRUNG ƯƠNG\nGIẤY HẸN TÁI KHÁM NHÃN KHOA\nHọ và tên bệnh nhân: Nguyễn Văn Minh\nNgày hẹn khám lại: 24/11/2026 tại Phòng khám số 04\nLưu ý: Nhịn ăn sáng trước khi làm xét nghiệm máu."
+    },
+    {
+      "id": "doc_single_03",
+      "filename": "doc_single_03.png",
+      "sha256": "8BEE4983FD46DC6D3DDEB26286BE1DF835135C637D96BDEB8B2C49F0365EC3E3",
+      "category": "readable_doc_single",
+      "layout": "single_column",
+      "expected_status": "READABLE",
+      "expected_lines_order": [
+        "CÔNG TY CẤP NƯỚC SÀI GÒN",
+        "THÔNG BÁO TẠM NGỪNG CẤP NƯỚC",
+        "Khu vực áp dụng: Phường Võ Thị Sáu, Quận 3",
+        "Thời gian: Từ 22 giờ 00 ngày 18/11/2026 đến 04 giờ 00 ngày 19/11/2026",
+        "Lý do: Bảo trì đường ống dẫn nước sạch định kỳ."
+      ],
+      "ground_truth": "CÔNG TY CẤP NƯỚC SÀI GÒN\nTHÔNG BÁO TẠM NGỪNG CẤP NƯỚC\nKhu vực áp dụng: Phường Võ Thị Sáu, Quận 3\nThời gian: Từ 22 giờ 00 ngày 18/11/2026 đến 04 giờ 00 ngày 19/11/2026\nLý do: Bảo trì đường ống dẫn nước sạch định kỳ."
+    },
+    {
+      "id": "doc_single_04",
+      "filename": "doc_single_04.png",
+      "sha256": "A0E86EC42087FF1AB3E2E8368800E3A13D283CA4C2683AD61B4D6B10F008ADC5",
+      "category": "readable_doc_single",
+      "layout": "single_column",
+      "expected_status": "READABLE",
+      "expected_lines_order": [
+        "BỘ PHẬN TIẾP NHẬN VÀ TRẢ KẾT QUẢ",
+        "HƯỚNG DẪN NỘP HỒ SƠ HÀNH CHÍNH",
+        "Bước 1: Lấy số thứ tự tự động tại quầy hướng dẫn",
+        "Bước 2: Xuất trình căn cước công dân bản chính",
+        "Bước 3: Nhận phiếu hẹn trả kết quả tại quầy số 02."
+      ],
+      "ground_truth": "BỘ PHẬN TIẾP NHẬN VÀ TRẢ KẾT QUẢ\nHƯỚNG DẪN NỘP HỒ SƠ HÀNH CHÍNH\nBước 1: Lấy số thứ tự tự động tại quầy hướng dẫn\nBước 2: Xuất trình căn cước công dân bản chính\nBước 3: Nhận phiếu hẹn trả kết quả tại quầy số 02."
+    },
+    {
+      "id": "doc_single_05",
+      "filename": "doc_single_05.png",
+      "sha256": "86D5CB65C47DC33F1ED03350ECD47503C17F125C1D7594C5F3DA6BE8C05F16EB",
+      "category": "readable_doc_single",
+      "layout": "single_column",
+      "expected_status": "READABLE",
+      "expected_lines_order": [
+        "ĐIỆN LỰC THÀNH PHỐ HÀ NỘI",
+        "THÔNG BÁO THU TIỀN ĐIỆN THÁNG 11",
+        "Mã khách hàng: PE010024891",
+        "Chỉ số công tơ tiêu thụ: 245 kWh",
+        "Tổng số tiền thanh toán: 612500 đồng."
+      ],
+      "ground_truth": "ĐIỆN LỰC THÀNH PHỐ HÀ NỘI\nTHÔNG BÁO THU TIỀN ĐIỆN THÁNG 11\nMã khách hàng: PE010024891\nChỉ số công tơ tiêu thụ: 245 kWh\nTổng số tiền thanh toán: 612500 đồng."
+    },
+    {
+      "id": "doc_single_06",
+      "filename": "doc_single_06.png",
+      "sha256": "FB54E902933C918350D111D15B2062492F1DD53A004ED7FDBBDCB4107B902B0E",
+      "category": "readable_doc_single",
+      "layout": "single_column",
+      "expected_status": "READABLE",
+      "expected_lines_order": [
+        "THƯ VIỆN KHOA HỌC TỔNG HỢP",
+        "NỘI QUY PHÒNG ĐỌC THƯ VIỆN",
+        "1. Giữ trật tự và tắt chuông điện thoại di động",
+        "2. Không mang đồ ăn thức uống vào phòng đọc sách",
+        "3. Trả sách đúng quầy quy định trước 17 giờ 00."
+      ],
+      "ground_truth": "THƯ VIỆN KHOA HỌC TỔNG HỢP\nNỘI QUY PHÒNG ĐỌC THƯ VIỆN\n1. Giữ trật tự và tắt chuông điện thoại di động\n2. Không mang đồ ăn thức uống vào phòng đọc sách\n3. Trả sách đúng quầy quy định trước 17 giờ 00."
+    },
+    {
+      "id": "doc_single_07",
+      "filename": "doc_single_07.png",
+      "sha256": "731ABA23F9F0599F0C3603E4E77D6CD082E4DB809FF3370A46AC129D9EFF492D",
+      "category": "readable_doc_single",
+      "layout": "single_column",
+      "expected_status": "READABLE",
+      "expected_lines_order": [
+        "PHÒNG ĐÀO TẠO ĐẠI HỌC",
+        "PHIẾU XÁC NHẬN ĐĂNG KÝ HỌC PHẦN",
+        "Học kỳ 1 Năm học 2026 - 2027",
+        "Môn học: Nhập môn Trí tuệ Nhân tạo - Mã lớp: IT4060",
+        "Phòng học: Giảng đường B1 - Thứ Hai tiết 1 đến tiết 3."
+      ],
+      "ground_truth": "PHÒNG ĐÀO TẠO ĐẠI HỌC\nPHIẾU XÁC NHẬN ĐĂNG KÝ HỌC PHẦN\nHọc kỳ 1 Năm học 2026 - 2027\nMôn học: Nhập môn Trí tuệ Nhân tạo - Mã lớp: IT4060\nPhòng học: Giảng đường B1 - Thứ Hai tiết 1 đến tiết 3."
+    },
+    {
+      "id": "doc_single_08",
+      "filename": "doc_single_08.png",
+      "sha256": "E3A507AC95FC9F0D0FD14BD6460715B5B48271579F7643D47A39EBFAEDA1846F",
+      "category": "readable_doc_single",
+      "layout": "single_column",
+      "expected_status": "READABLE",
+      "expected_lines_order": [
+        "BAN ĐIỀU HÀNH KHU PHỐ 5",
+        "THÔNG BÁO HỌP TỔ DÂN PHỐ",
+        "Kính mời đại diện các hộ gia đình tham dự cuộc họp",
+        "Thời gian: 19 giờ 00 tối Thứ Bảy ngày 21/11/2026",
+        "Địa điểm: Nhà sinh hoạt cộng đồng khu phố 5."
+      ],
+      "ground_truth": "BAN ĐIỀU HÀNH KHU PHỐ 5\nTHÔNG BÁO HỌP TỔ DÂN PHỐ\nKính mời đại diện các hộ gia đình tham dự cuộc họp\nThời gian: 19 giờ 00 tối Thứ Bảy ngày 21/11/2026\nĐịa điểm: Nhà sinh hoạt cộng đồng khu phố 5."
+    },
+    {
+      "id": "doc_single_09",
+      "filename": "doc_single_09.png",
+      "sha256": "E042EDC760FDFB0F0AD6F21F3744C924D4D68AA8A3DCE4709F684B370D2544A4",
+      "category": "readable_doc_single",
+      "layout": "single_column",
+      "expected_status": "READABLE",
+      "expected_lines_order": [
+        "TRUNG TÂM HỖ TRỢ NGƯỜI KHIẾM THỊ",
+        "HƯỚNG DẪN SỬ DỤNG THIẾT BỊ ĐỌC CHỮ",
+        "Đặt tài liệu cách camera khoảng 25 đến 35 cm",
+        "Nhấn phím Cách để chụp ảnh và nghe đọc tiếng Việt",
+        "Nhấn tổ hợp Ctrl cộng L để xóa kết quả cũ."
+      ],
+      "ground_truth": "TRUNG TÂM HỖ TRỢ NGƯỜI KHIẾM THỊ\nHƯỚNG DẪN SỬ DỤNG THIẾT BỊ ĐỌC CHỮ\nĐặt tài liệu cách camera khoảng 25 đến 35 cm\nNhấn phím Cách để chụp ảnh và nghe đọc tiếng Việt\nNhấn tổ hợp Ctrl cộng L để xóa kết quả cũ."
+    },
+    {
+      "id": "doc_single_10",
+      "filename": "doc_single_10.png",
+      "sha256": "8FF8F0BF03546923908BDC102EB878E8615482D8725DBBDE02606EF6A595C454",
+      "category": "readable_doc_single",
+      "layout": "single_column",
+      "expected_status": "READABLE",
+      "expected_lines_order": [
+        "ỦY BAN NHÂN DÂN PHƯỜNG TÂN ĐỊNH",
+        "GIẤY MỜI NHẬN TRỢ CẤP XÃ HỘI",
+        "Thời gian chi trả: Từ ngày 05/11/2026 đến ngày 10/11/2026",
+        "Địa điểm: Hội trường Ủy ban nhân dân phường",
+        "Đề nghị mang theo sổ lĩnh trợ cấp hàng tháng."
+      ],
+      "ground_truth": "ỦY BAN NHÂN DÂN PHƯỜNG TÂN ĐỊNH\nGIẤY MỜI NHẬN TRỢ CẤP XÃ HỘI\nThời gian chi trả: Từ ngày 05/11/2026 đến ngày 10/11/2026\nĐịa điểm: Hội trường Ủy ban nhân dân phường\nĐề nghị mang theo sổ lĩnh trợ cấp hàng tháng."
+    },
+    {
+      "id": "doc_multicol_01",
+      "filename": "doc_multicol_01.png",
+      "sha256": "40B35985B6C6FBFA2F35C537E8C4D4A91EFDB1102ED08609731EE35449562D49",
+      "category": "readable_doc_multicol",
+      "layout": "two_column_admin",
+      "expected_status": "READABLE",
+      "expected_lines_order": [
+        "ỦY BAN NHÂN DÂN",
+        "QUẬN HOÀN KIẾM",
+        "Số: 12/NQ-UBND",
+        "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM",
+        "Độc lập - Tự do - Hạnh phúc",
+        "Hà Nội, ngày 09 tháng 11 năm 2026",
+        "NGHỊ QUYẾT",
+        "Về việc phê duyệt kế hoạch hỗ trợ người cao tuổi",
+        "QUYẾT NGHỊ:",
+        "Điều 1. Thông qua danh sách hỗ trợ khám sức khỏe định kỳ.",
+        "Nơi nhận:",
+        "- Như Điều 1;",
+        "- Lưu: VT.",
+        "TM. ỦY BAN NHÂN DÂN",
+        "CHỦ TỊCH"
+      ],
+      "ground_truth": "ỦY BAN NHÂN DÂN\nQUẬN HOÀN KIẾM\nSố: 12/NQ-UBND\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\nHà Nội, ngày 09 tháng 11 năm 2026\nNGHỊ QUYẾT\nVề việc phê duyệt kế hoạch hỗ trợ người cao tuổi\nQUYẾT NGHỊ:\nĐiều 1. Thông qua danh sách hỗ trợ khám sức khỏe định kỳ.\nNơi nhận:\n- Như Điều 1;\n- Lưu: VT.\nTM. ỦY BAN NHÂN DÂN\nCHỦ TỊCH"
+    },
+    {
+      "id": "doc_multicol_02",
+      "filename": "doc_multicol_02.png",
+      "sha256": "590FB5755A33C3D1FD5F618AF9D18131EB2FB3493843786FA1C37DBE5FC0AC59",
+      "category": "readable_doc_multicol",
+      "layout": "two_column_admin",
+      "expected_status": "READABLE",
+      "expected_lines_order": [
+        "SỞ Y TẾ HÀ NỘI",
+        "BỆNH VIỆN ĐA KHOA",
+        "Số: 45/QĐ-BVĐK",
+        "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM",
+        "Độc lập - Tự do - Hạnh phúc",
+        "Hà Nội, ngày 10 tháng 11 năm 2026",
+        "QUYẾT ĐỊNH",
+        "Về việc ban hành quy trình tiếp đón bệnh nhân",
+        "QUYẾT ĐỊNH:",
+        "Điều 1. Áp dụng quy trình ưu tiên cho người khuyết tật.",
+        "Nơi nhận:",
+        "- Các khoa phòng;",
+        "- Lưu: VT.",
+        "GIÁM ĐỐC BỆNH VIỆN",
+        "PGS.TS. Trần Quốc Bảo"
+      ],
+      "ground_truth": "SỞ Y TẾ HÀ NỘI\nBỆNH VIỆN ĐA KHOA\nSố: 45/QĐ-BVĐK\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\nHà Nội, ngày 10 tháng 11 năm 2026\nQUYẾT ĐỊNH\nVề việc ban hành quy trình tiếp đón bệnh nhân\nQUYẾT ĐỊNH:\nĐiều 1. Áp dụng quy trình ưu tiên cho người khuyết tật.\nNơi nhận:\n- Các khoa phòng;\n- Lưu: VT.\nGIÁM ĐỐC BỆNH VIỆN\nPGS.TS. Trần Quốc Bảo"
+    },
+    {
+      "id": "doc_multicol_03",
+      "filename": "doc_multicol_03.png",
+      "sha256": "F61261BF71F06C31264332BA90F46876EF1A0D36202D0965EB7D195B70287667",
+      "category": "readable_doc_multicol",
+      "layout": "two_column_admin",
+      "expected_status": "READABLE",
+      "expected_lines_order": [
+        "SỞ GIÁO DỤC VÀ ĐÀO TẠO",
+        "TRƯỜNG THPT CHU VĂN AN",
+        "Số: 88/TB-CVA",
+        "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM",
+        "Độc lập - Tự do - Hạnh phúc",
+        "Hà Nội, ngày 12 tháng 11 năm 2026",
+        "THÔNG BÁO",
+        "Về lịch kiểm tra học kỳ 1 năm học 2026 - 2027",
+        "Nhà trường thông báo lịch kiểm tra tập trung cho các khối lớp.",
+        "Nơi nhận:",
+        "- Giáo viên chủ nhiệm;",
+        "- Lưu: VP.",
+        "HIỆU TRƯỞNG",
+        "Nguyễn Thị Lan Hương"
+      ],
+      "ground_truth": "SỞ GIÁO DỤC VÀ ĐÀO TẠO\nTRƯỜNG THPT CHU VĂN AN\nSố: 88/TB-CVA\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\nHà Nội, ngày 12 tháng 11 năm 2026\nTHÔNG BÁO\nVề lịch kiểm tra học kỳ 1 năm học 2026 - 2027\nNhà trường thông báo lịch kiểm tra tập trung cho các khối lớp.\nNơi nhận:\n- Giáo viên chủ nhiệm;\n- Lưu: VP.\nHIỆU TRƯỞNG\nNguyễn Thị Lan Hương"
+    },
+    {
+      "id": "doc_multicol_04",
+      "filename": "doc_multicol_04.png",
+      "sha256": "4E777C4C137993BCB8FBF2F3B84C6E99B1DC0F98D2F8F991D988D42BD542AF76",
+      "category": "readable_doc_multicol",
+      "layout": "two_column_admin",
+      "expected_status": "READABLE",
+      "expected_lines_order": [
+        "TỔNG CÔNG TY ĐIỆN LỰC",
+        "CÔNG TY ĐIỆN LỰC ĐỐNG ĐA",
+        "Số: 104/CV-PCĐĐ",
+        "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM",
+        "Độc lập - Tự do - Hạnh phúc",
+        "Hà Nội, ngày 14 tháng 11 năm 2026",
+        "Kính gửi: Quý khách hàng sử dụng điện trên địa bàn",
+        "Công ty Điện lực thông báo lịch kiểm tra an toàn lưới điện mùa khô.",
+        "Nơi nhận:",
+        "- Như trên;",
+        "- Lưu: VT, KD.",
+        "KT. GIÁM ĐỐC",
+        "PHÓ GIÁM ĐỐC"
+      ],
+      "ground_truth": "TỔNG CÔNG TY ĐIỆN LỰC\nCÔNG TY ĐIỆN LỰC ĐỐNG ĐA\nSố: 104/CV-PCĐĐ\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\nHà Nội, ngày 14 tháng 11 năm 2026\nKính gửi: Quý khách hàng sử dụng điện trên địa bàn\nCông ty Điện lực thông báo lịch kiểm tra an toàn lưới điện mùa khô.\nNơi nhận:\n- Như trên;\n- Lưu: VT, KD.\nKT. GIÁM ĐỐC\nPHÓ GIÁM ĐỐC"
+    },
+    {
+      "id": "doc_multicol_05",
+      "filename": "doc_multicol_05.png",
+      "sha256": "2EFAF4B3D2F65415E2722BEE5D4F161850E39650BDE41B5E31A6F22360960226",
+      "category": "readable_doc_multicol",
+      "layout": "two_column_admin",
+      "expected_status": "READABLE",
+      "expected_lines_order": [
+        "ỦY BAN NHÂN DÂN",
+        "PHƯỜNG LÁNG HẠ",
+        "Số: 29/GXN-UBND",
+        "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM",
+        "Độc lập - Tự do - Hạnh phúc",
+        "Láng Hạ, ngày 15 tháng 11 năm 2026",
+        "GIẤY XÁC NHẬN",
+        "Ủy ban nhân dân phường xác nhận ông Lê Hoàng Nam hiện cư trú tại địa phương.",
+        "Nơi nhận:",
+        "- Người đề nghị;",
+        "- Lưu: Tư pháp.",
+        "TM. ỦY BAN NHÂN DÂN",
+        "KT. CHỦ TỊCH"
+      ],
+      "ground_truth": "ỦY BAN NHÂN DÂN\nPHƯỜNG LÁNG HẠ\nSố: 29/GXN-UBND\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\nLáng Hạ, ngày 15 tháng 11 năm 2026\nGIẤY XÁC NHẬN\nỦy ban nhân dân phường xác nhận ông Lê Hoàng Nam hiện cư trú tại địa phương.\nNơi nhận:\n- Người đề nghị;\n- Lưu: Tư pháp.\nTM. ỦY BAN NHÂN DÂN\nKT. CHỦ TỊCH"
+    },
+    {
+      "id": "doc_multicol_06",
+      "filename": "doc_multicol_06.png",
+      "sha256": "1C7DFFB456EA014C49B5EEAB9CD9C8D19A37359B6CCEDFE908068A2DC922A86A",
+      "category": "readable_doc_multicol",
+      "layout": "two_column_admin",
+      "expected_status": "READABLE",
+      "expected_lines_order": [
+        "HỘI NGƯỜI MÙ VIỆT NAM",
+        "THÀNH HỘI HÀ NỘI",
+        "Số: 16/GGT-HNM",
+        "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM",
+        "Độc lập - Tự do - Hạnh phúc",
+        "Hà Nội, ngày 16 tháng 11 năm 2026",
+        "GIẤY GIỚI THIỆU",
+        "Trân trọng giới thiệu đồng chí Phạm Minh Tuấn đến liên hệ công tác.",
+        "Nơi nhận:",
+        "- Như trên;",
+        "- Lưu: VP.",
+        "TM. BAN THƯỜNG VỤ",
+        "CHỦ TỊCH"
+      ],
+      "ground_truth": "HỘI NGƯỜI MÙ VIỆT NAM\nTHÀNH HỘI HÀ NỘI\nSố: 16/GGT-HNM\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\nHà Nội, ngày 16 tháng 11 năm 2026\nGIẤY GIỚI THIỆU\nTrân trọng giới thiệu đồng chí Phạm Minh Tuấn đến liên hệ công tác.\nNơi nhận:\n- Như trên;\n- Lưu: VP.\nTM. BAN THƯỜNG VỤ\nCHỦ TỊCH"
+    },
+    {
+      "id": "doc_multicol_07",
+      "filename": "doc_multicol_07.png",
+      "sha256": "3573D69E5FE26A437661FDACE247346D453FF5EEE53C3687C61B69326D6A929B",
+      "category": "readable_doc_multicol",
+      "layout": "two_column_admin",
+      "expected_status": "READABLE",
+      "expected_lines_order": [
+        "BỘ LAO ĐỘNG THƯƠNG BINH",
+        "CỤC BẢO TRỢ XÃ HỘI",
+        "Số: 63/TTr-BTXH",
+        "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM",
+        "Độc lập - Tự do - Hạnh phúc",
+        "Hà Nội, ngày 17 tháng 11 năm 2026",
+        "TỜ TRÌNH",
+        "Về việc cấp phát thiết bị hỗ trợ tiếp cận thông tin cho người khiếm thị",
+        "Nơi nhận:",
+        "- Lãnh đạo Bộ;",
+        "- Lưu: VT.",
+        "CỤC TRƯỞNG",
+        "Đặng Văn Thành"
+      ],
+      "ground_truth": "BỘ LAO ĐỘNG THƯƠNG BINH\nCỤC BẢO TRỢ XÃ HỘI\nSố: 63/TTr-BTXH\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\nHà Nội, ngày 17 tháng 11 năm 2026\nTỜ TRÌNH\nVề việc cấp phát thiết bị hỗ trợ tiếp cận thông tin cho người khiếm thị\nNơi nhận:\n- Lãnh đạo Bộ;\n- Lưu: VT.\nCỤC TRƯỞNG\nĐặng Văn Thành"
+    },
+    {
+      "id": "doc_multicol_08",
+      "filename": "doc_multicol_08.png",
+      "sha256": "4B25744361C7D6BBCD5030F0FAD3210C95D24010EAACF0F3AA9B6E33206418F0",
+      "category": "readable_doc_multicol",
+      "layout": "two_column_admin",
+      "expected_status": "READABLE",
+      "expected_lines_order": [
+        "TRUNG TÂM DỊCH VỤ VIỆC LÀM",
+        "PHÒNG TƯ VẤN ĐÀO TẠO",
+        "Số: 72/BB-TTDV",
+        "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM",
+        "Độc lập - Tự do - Hạnh phúc",
+        "Hà Nội, ngày 18 tháng 11 năm 2026",
+        "BIÊN BẢN BÀN GIAO TÀI LIỆU",
+        "Hai bên tiến hành bàn giao 50 bộ tài liệu hướng dẫn kỹ năng tin học.",
+        "ĐẠI DIỆN BÊN GIAO",
+        "Nguyễn Văn Hòa",
+        "ĐẠI DIỆN BÊN NHẬN",
+        "Vũ Thị Mai"
+      ],
+      "ground_truth": "TRUNG TÂM DỊCH VỤ VIỆC LÀM\nPHÒNG TƯ VẤN ĐÀO TẠO\nSố: 72/BB-TTDV\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\nHà Nội, ngày 18 tháng 11 năm 2026\nBIÊN BẢN BÀN GIAO TÀI LIỆU\nHai bên tiến hành bàn giao 50 bộ tài liệu hướng dẫn kỹ năng tin học.\nĐẠI DIỆN BÊN GIAO\nNguyễn Văn Hòa\nĐẠI DIỆN BÊN NHẬN\nVũ Thị Mai"
+    },
+    {
+      "id": "doc_multicol_09",
+      "filename": "doc_multicol_09.png",
+      "sha256": "A323D7B6ACEE4CC2BBE80FCEE9E51BFEFEA6ED2581592A80A6F5E65126E69D75",
+      "category": "readable_doc_multicol",
+      "layout": "two_column_admin",
+      "expected_status": "READABLE",
+      "expected_lines_order": [
+        "BẢO HIỂM XÃ HỘI VIỆT NAM",
+        "BHXH QUẬN CẦU GIẤY",
+        "Số: 215/PTN-BHXH",
+        "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM",
+        "Độc lập - Tự do - Hạnh phúc",
+        "Cầu Giấy, ngày 19 tháng 11 năm 2026",
+        "PHIẾU TIẾP NHẬN HỒ SƠ",
+        "Đã tiếp nhận hồ sơ cấp lại thẻ bảo hiểm y tế của bà Hoàng Thị Cúc.",
+        "NGƯỜI NỘP HỒ SƠ",
+        "Hoàng Thị Cúc",
+        "CÁN BỘ TIẾP NHẬN",
+        "Lê Thanh Tùng"
+      ],
+      "ground_truth": "BẢO HIỂM XÃ HỘI VIỆT NAM\nBHXH QUẬN CẦU GIẤY\nSố: 215/PTN-BHXH\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\nCầu Giấy, ngày 19 tháng 11 năm 2026\nPHIẾU TIẾP NHẬN HỒ SƠ\nĐã tiếp nhận hồ sơ cấp lại thẻ bảo hiểm y tế của bà Hoàng Thị Cúc.\nNGƯỜI NỘP HỒ SƠ\nHoàng Thị Cúc\nCÁN BỘ TIẾP NHẬN\nLê Thanh Tùng"
+    },
+    {
+      "id": "doc_multicol_10",
+      "filename": "doc_multicol_10.png",
+      "sha256": "7AB9F49EB04D7A52A38DAC3604AE5832ECA94DF028A98B983D45B98856640E42",
+      "category": "readable_doc_multicol",
+      "layout": "two_column_admin",
+      "expected_status": "READABLE",
+      "expected_lines_order": [
+        "TRƯỜNG ĐẠI HỌC BÁCH KHOA",
+        "VIỆN CÔNG NGHỆ THÔNG TIN",
+        "Số: 91/QĐ-CNTT",
+        "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM",
+        "Độc lập - Tự do - Hạnh phúc",
+        "Hà Nội, ngày 20 tháng 11 năm 2026",
+        "QUYẾT ĐỊNH",
+        "Về việc giao đề tài nghiên cứu ứng dụng đọc văn bản ngoại tuyến",
+        "QUYẾT ĐỊNH:",
+        "Điều 1. Giao nhiệm vụ phát triển phần mềm đọc tài liệu tiếng Việt.",
+        "Nơi nhận:",
+        "- Nhóm nghiên cứu;",
+        "- Lưu: Văn thư.",
+        "VIỆN TRƯỞNG",
+        "GS.TS. Phạm Quang Minh"
+      ],
+      "ground_truth": "TRƯỜNG ĐẠI HỌC BÁCH KHOA\nVIỆN CÔNG NGHỆ THÔNG TIN\nSố: 91/QĐ-CNTT\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\nHà Nội, ngày 20 tháng 11 năm 2026\nQUYẾT ĐỊNH\nVề việc giao đề tài nghiên cứu ứng dụng đọc văn bản ngoại tuyến\nQUYẾT ĐỊNH:\nĐiều 1. Giao nhiệm vụ phát triển phần mềm đọc tài liệu tiếng Việt.\nNơi nhận:\n- Nhóm nghiên cứu;\n- Lưu: Văn thư.\nVIỆN TRƯỞNG\nGS.TS. Phạm Quang Minh"
+    },
+    {
+      "id": "doc_lowqual_01",
+      "filename": "doc_lowqual_01.png",
+      "sha256": "41548383E9671C540EFBF64BEE3F041C98C19006802B02E9382AAE612CAE94B4",
+      "category": "low_quality_unreadable_doc",
+      "condition": "low_res_thumbnail_doc",
+      "expected_status": "UNCERTAIN",
+      "ground_truth": ""
+    },
+    {
+      "id": "doc_lowqual_02",
+      "filename": "doc_lowqual_02.png",
+      "sha256": "31CF1EC76554E0132AE426E717FCB23356875273D41747372138728F9833AAD0",
+      "category": "low_quality_unreadable_doc",
+      "condition": "low_res_thumbnail_doc",
+      "expected_status": "UNCERTAIN",
+      "ground_truth": ""
+    },
+    {
+      "id": "doc_lowqual_03",
+      "filename": "doc_lowqual_03.png",
+      "sha256": "7767333208965D128E9E7FDFF87890C70BF309D7B4A9B3E275806883F4A7F906",
+      "category": "low_quality_unreadable_doc",
+      "condition": "low_res_thumbnail_doc",
+      "expected_status": "UNCERTAIN",
+      "ground_truth": ""
+    },
+    {
+      "id": "doc_lowqual_04",
+      "filename": "doc_lowqual_04.png",
+      "sha256": "D42764B898E0DC8701216ED6FAD69D45EEA6864E8D7E2DF6B0D0AECB69B78810",
+      "category": "low_quality_unreadable_doc",
+      "condition": "low_res_thumbnail_doc",
+      "expected_status": "UNCERTAIN",
+      "ground_truth": ""
+    },
+    {
+      "id": "doc_lowqual_05",
+      "filename": "doc_lowqual_05.png",
+      "sha256": "2E9F0AA88498535573639C4F1B518A21BB14E20303927B2ACE9900CED6938545",
+      "category": "low_quality_unreadable_doc",
+      "condition": "low_res_thumbnail_doc",
+      "expected_status": "UNCERTAIN",
+      "ground_truth": ""
+    },
+    {
+      "id": "doc_lowqual_06",
+      "filename": "doc_lowqual_06.png",
+      "sha256": "A74B3065E2CB3973AC952414AFC04A022277165F1060097269345C2CA96250B0",
+      "category": "low_quality_unreadable_doc",
+      "condition": "severe_camera_blur_doc",
+      "expected_status": "BAD_IMAGE",
+      "ground_truth": ""
+    },
+    {
+      "id": "doc_lowqual_07",
+      "filename": "doc_lowqual_07.png",
+      "sha256": "943CB081A9D86C7E385693C5EAF44C5AF36073D853C488FDA79FF2A391951DB8",
+      "category": "low_quality_unreadable_doc",
+      "condition": "severe_camera_blur_doc",
+      "expected_status": "BAD_IMAGE",
+      "ground_truth": ""
+    },
+    {
+      "id": "doc_lowqual_08",
+      "filename": "doc_lowqual_08.png",
+      "sha256": "9C783CB6E60FD68AE758E2E91F4E1AA74A0C08CF956AE1D8ACD0E0A127E88BBA",
+      "category": "low_quality_unreadable_doc",
+      "condition": "underexposed_dark_doc",
+      "expected_status": "BAD_IMAGE",
+      "ground_truth": ""
+    },
+    {
+      "id": "doc_lowqual_09",
+      "filename": "doc_lowqual_09.png",
+      "sha256": "46CDCF1F99D70C82603EC744BED29CF4234C67836FD3E006A86896511F12A072",
+      "category": "low_quality_unreadable_doc",
+      "condition": "overexposed_glare_doc",
+      "expected_status": "BAD_IMAGE",
+      "ground_truth": ""
+    },
+    {
+      "id": "doc_lowqual_10",
+      "filename": "doc_lowqual_10.png",
+      "sha256": "5BF2EF7681FC148E29B649E78A999D2E8D9848D0278FB19E42B0B3042F605A14",
+      "category": "low_quality_unreadable_doc",
+      "condition": "low_res_thumbnail_doc",
+      "expected_status": "UNCERTAIN",
+      "ground_truth": ""
+    },
+    {
+      "id": "pkg_01",
+      "filename": "pkg_01.png",
+      "sha256": "6880CDC2B7EBD77430209C1FAC4B8C233E7800103509A1B2979D9CD5FA8EFBF1",
+      "category": "product_packaging_receipt",
+      "layout": "packaging_multiline",
+      "expected_status": "READABLE",
+      "expected_lines_order": [
+        "VIÊN NÉN PARACETAMOL 500MG",
+        "Chỉ định: Giảm đau, hạ sốt nhanh",
+        "Liều dùng: Uống 1 viên/lần, cách nhau 6 giờ",
+        "NSX: 10/02/2026 - HSD: 10/02/2029"
+      ],
+      "ground_truth": "VIÊN NÉN PARACETAMOL 500MG\nChỉ định: Giảm đau, hạ sốt nhanh\nLiều dùng: Uống 1 viên/lần, cách nhau 6 giờ\nNSX: 10/02/2026 - HSD: 10/02/2029"
+    },
+    {
+      "id": "pkg_02",
+      "filename": "pkg_02.png",
+      "sha256": "1C1E0221D4179648FA24E95C851872D2110C278B5EAA07AB414F518675BF58AA",
+      "category": "product_packaging_receipt",
+      "layout": "packaging_multiline",
+      "expected_status": "READABLE",
+      "expected_lines_order": [
+        "SỮA TƯƠI TIỆT TRÙNG ÍT ĐƯỜNG",
+        "Thể tích thực: 180 ml - Năng lượng: 112 kcal",
+        "Bảo quản nơi khô ráo, thoáng mát",
+        "HSD: 25/12/2026 - Số lô: L2608"
+      ],
+      "ground_truth": "SỮA TƯƠI TIỆT TRÙNG ÍT ĐƯỜNG\nThể tích thực: 180 ml - Năng lượng: 112 kcal\nBảo quản nơi khô ráo, thoáng mát\nHSD: 25/12/2026 - Số lô: L2608"
+    },
+    {
+      "id": "pkg_03",
+      "filename": "pkg_03.png",
+      "sha256": "423C84B694EDB61DE405748A825FD3A34E40C7263DD644AC38F2856E15BB9BF0",
+      "category": "product_packaging_receipt",
+      "layout": "packaging_multiline",
+      "expected_status": "READABLE",
+      "expected_lines_order": [
+        "NƯỚC NHỎ MẮT NATRI CLORID 0,9%",
+        "Dung tích: Lọ 10 ml vô trùng",
+        "Cách dùng: Nhỏ 2 đến 3 giọt mỗi bên mắt",
+        "Không dùng quá 15 ngày sau khi mở nắp."
+      ],
+      "ground_truth": "NƯỚC NHỎ MẮT NATRI CLORID 0,9%\nDung tích: Lọ 10 ml vô trùng\nCách dùng: Nhỏ 2 đến 3 giọt mỗi bên mắt\nKhông dùng quá 15 ngày sau khi mở nắp."
+    },
+    {
+      "id": "pkg_04",
+      "filename": "pkg_04.png",
+      "sha256": "536ACFE8EB49BD7A349494C82060C9010B2BC2E49EEC2939D3D96241A8F2F732",
+      "category": "product_packaging_receipt",
+      "layout": "packaging_multiline",
+      "expected_status": "READABLE",
+      "expected_lines_order": [
+        "SIÊU THỊ CO.OPMART HÀ NỘI",
+        "HÓA ĐƠN BÁN LẺ HÀNG HÓA",
+        "1. Gạo thơm ST25 túi 5kg: 175000 đồng",
+        "2. Dầu ăn thực vật 1 lít: 52000 đồng",
+        "Tổng thanh toán: 227000 đồng."
+      ],
+      "ground_truth": "SIÊU THỊ CO.OPMART HÀ NỘI\nHÓA ĐƠN BÁN LẺ HÀNG HÓA\n1. Gạo thơm ST25 túi 5kg: 175000 đồng\n2. Dầu ăn thực vật 1 lít: 52000 đồng\nTổng thanh toán: 227000 đồng."
+    },
+    {
+      "id": "pkg_05",
+      "filename": "pkg_05.png",
+      "sha256": "177ACCFB421AD9560239C53ED682E979FEB31C54C16B0EB5EB2E62091770E342",
+      "category": "product_packaging_receipt",
+      "layout": "packaging_multiline",
+      "expected_status": "READABLE",
+      "expected_lines_order": [
+        "TRÀ GỪNG MẬT ONG THẢO DƯỢC",
+        "Khối lượng tịnh: 200 g (20 gói x 10 g)",
+        "Pha 1 gói với 150 ml nước ấm 80 độ C",
+        "NSX: 01/06/2026 - HSD: 01/06/2028"
+      ],
+      "ground_truth": "TRÀ GỪNG MẬT ONG THẢO DƯỢC\nKhối lượng tịnh: 200 g (20 gói x 10 g)\nPha 1 gói với 150 ml nước ấm 80 độ C\nNSX: 01/06/2026 - HSD: 01/06/2028"
+    },
+    {
+      "id": "pkg_06",
+      "filename": "pkg_06.png",
+      "sha256": "C0A8DA1DE661BF26B5F164299B3DAB9871CE7D960B70D445DD103C0BB25C0A49",
+      "category": "product_packaging_receipt",
+      "layout": "packaging_multiline",
+      "expected_status": "READABLE",
+      "expected_lines_order": [
+        "VIÊN SỦI VITAMIN C 1000MG",
+        "Hòa tan 1 viên trong 200 ml nước đun sôi để nguội",
+        "Liều dùng: Người lớn uống 1 viên mỗi ngày",
+        "Giá bán lẻ: 48000 VNĐ/tuýp 10 viên."
+      ],
+      "ground_truth": "VIÊN SỦI VITAMIN C 1000MG\nHòa tan 1 viên trong 200 ml nước đun sôi để nguội\nLiều dùng: Người lớn uống 1 viên mỗi ngày\nGiá bán lẻ: 48000 VNĐ/tuýp 10 viên."
+    },
+    {
+      "id": "pkg_07",
+      "filename": "pkg_07.png",
+      "sha256": "98B751C43DE7527F0421D5F3F31FC7C6EE2D132E2DAA5B27237B4E7427CFEB20",
+      "category": "product_packaging_receipt",
+      "layout": "packaging_multiline",
+      "expected_status": "READABLE",
+      "expected_lines_order": [
+        "NHÀ THUỐC ĐẠT CHUẨN GPP",
+        "PHIẾU HƯỚNG DẪN DÙNG THUỐC",
+        "1. Amoxicillin 500mg: Sáng 1 viên, Tối 1 viên sau ăn",
+        "2. Vitamin B1 50mg: Sáng 1 viên trước bữa ăn."
+      ],
+      "ground_truth": "NHÀ THUỐC ĐẠT CHUẨN GPP\nPHIẾU HƯỚNG DẪN DÙNG THUỐC\n1. Amoxicillin 500mg: Sáng 1 viên, Tối 1 viên sau ăn\n2. Vitamin B1 50mg: Sáng 1 viên trước bữa ăn."
+    },
+    {
+      "id": "pkg_08",
+      "filename": "pkg_08.png",
+      "sha256": "B564CEDAFF674615FD20680BF08E8E542122AA22CE4846A67B2882FA5BE37675",
+      "category": "product_packaging_receipt",
+      "layout": "packaging_multiline",
+      "expected_status": "READABLE",
+      "expected_lines_order": [
+        "YẾN MẠCH NGUYÊN CHẤT CÁN DẸT",
+        "Thành phần: 100% yến mạch nhập khẩu Úc",
+        "Khối lượng tịnh: 500 g - Giá: 89000 đồng",
+        "HSD: 18/09/2027 - Mã vạch: 89360124"
+      ],
+      "ground_truth": "YẾN MẠCH NGUYÊN CHẤT CÁN DẸT\nThành phần: 100% yến mạch nhập khẩu Úc\nKhối lượng tịnh: 500 g - Giá: 89000 đồng\nHSD: 18/09/2027 - Mã vạch: 89360124"
+    },
+    {
+      "id": "pkg_09",
+      "filename": "pkg_09.png",
+      "sha256": "94C5A752271A37ADB05AA0E8D273A9BF61C78F616667674ED001B55031A2C24C",
+      "category": "product_packaging_receipt",
+      "layout": "packaging_multiline",
+      "expected_status": "READABLE",
+      "expected_lines_order": [
+        "CỒN Y TẾ ETHANOL 70 ĐỘ",
+        "Chai 500 ml - Chỉ dùng sát khuẩn ngoài da",
+        "Cảnh báo: Không được uống, tránh xa lửa",
+        "Số đăng ký: VD-24819-26."
+      ],
+      "ground_truth": "CỒN Y TẾ ETHANOL 70 ĐỘ\nChai 500 ml - Chỉ dùng sát khuẩn ngoài da\nCảnh báo: Không được uống, tránh xa lửa\nSố đăng ký: VD-24819-26."
+    },
+    {
+      "id": "pkg_10",
+      "filename": "pkg_10.png",
+      "sha256": "09925A2EDA80AD60F4E9EAEDD78C07D9D758EC0AC2E3F0C3141CADAD326710A9",
+      "category": "product_packaging_receipt",
+      "layout": "packaging_multiline",
+      "expected_status": "READABLE",
+      "expected_lines_order": [
+        "BƯU ĐIỆN THÀNH PHỐ HỒ CHÍ MINH",
+        "PHIẾU GỬI BƯU PHẨM ĐẢM BẢO",
+        "Mã vận đơn: VN908124578",
+        "Khối lượng: 450 g - Cước phí: 32000 đồng."
+      ],
+      "ground_truth": "BƯU ĐIỆN THÀNH PHỐ HỒ CHÍ MINH\nPHIẾU GỬI BƯU PHẨM ĐẢM BẢO\nMã vận đơn: VN908124578\nKhối lượng: 450 g - Cước phí: 32000 đồng."
+    }
+  ]
+}

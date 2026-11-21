@@ -1,0 +1,7 @@
+# Keep private source datasets and derived visual caches out of public Git
+data/
+cache/
+__pycache__/
+*.pyc
+.pytest_cache/
+# VL-P4 model artifacts are intentionally included in this prepared copy.

@@ -1,0 +1,728 @@
+{
+  "frozen": true,
+  "frozen_at": "2026-11-15T23:10:18",
+  "calibration_split": "val_cal_v3",
+  "verifier_oof": {
+    "n_samples": 183,
+    "n_pos": 34,
+    "n_neg": 149,
+    "oof_pos_mean": 0.9311,
+    "oof_neg_mean": 0.018
+  },
+  "config": {
+    "preset": "C2_full_vl_p3_pipeline",
+    "verifier_t_known": 0.41,
+    "verifier_t_uncertain": 0.23,
+    "c1_t_known": 0.73,
+    "c1_t_uncertain": 0.55,
+    "a_t_known": 0.61,
+    "a_t_uncertain": 0.43,
+    "b1_t_known": 0.56,
+    "b1_t_uncertain": 0.38,
+    "b2_t_known": 0.64,
+    "b2_t_uncertain": 0.46,
+    "apply_structural_vetoes": true,
+    "use_masked_crop_eval": true
+  },
+  "model_sha256": {
+    "dinov2_small_quantized": "3afdc8bc63b50558d6e5770f5b799bb82455c2311183a2de43803f343a29d917",
+    "yolox_nano": "c789161ed43c8269fcd4e67c67eeeb4e80c622da2eb296a20bc6007bd18a0b7d",
+    "patch_semantic_head": "f3f39c2008aa66fc893aa4a3b0bef1561913bcd57ea9828aba9cb9462c19539a",
+    "keypoint_detector_v3": "f19d2ad6d674c3235a6103ec34978c478b39c2678d6ff914bd2dee3846fe4834",
+    "shaft_segmenter_b1_standalone": "31a849acda618d5d5152b473bb1f2da8cde552d29761a0f27b78f8bd205e3e45",
+    "shaft_segmenter_b2_kp_guided": "55b5051e041dea304ba902abfa9b2165dd47ac5bf75bb49af02c4b39b0304396",
+    "cane_verifier_v3": "520bb7d1633f2d2acd68ffa4c51aaf049652ca4fe1ac748395cf3327c7651253"
+  },
+  "val_cal_v3_metrics": {
+    "A0_v2_lsd_hough_baseline": {
+      "classification": {
+        "n_total": 98,
+        "n_pos": 16,
+        "n_neg": 82,
+        "tp": 6,
+        "pos_uncertain": 9,
+        "fn": 1,
+        "fp": 12,
+        "neg_uncertain": 39,
+        "tn": 31,
+        "known_recall": 0.375,
+        "known_recall_ci95": [
+          0.1848,
+          0.6136
+        ],
+        "far": 0.1463,
+        "far_ci95": [
+          0.0857,
+          0.2386
+        ],
+        "known_precision": 0.3333,
+        "f1_score": 0.3529,
+        "accuracy": 0.3776,
+        "uncertain_rate": 0.4898,
+        "roc_auc": 0.7081,
+        "pr_auc": 0.3549,
+        "risk_coverage_curve": [
+          {
+            "coverage": 1.0,
+            "n": 98,
+            "risk_error_rate": 0.3367
+          },
+          {
+            "coverage": 0.9,
+            "n": 88,
+            "risk_error_rate": 0.2955
+          },
+          {
+            "coverage": 0.8,
+            "n": 78,
+            "risk_error_rate": 0.2564
+          },
+          {
+            "coverage": 0.7,
+            "n": 69,
+            "risk_error_rate": 0.2319
+          },
+          {
+            "coverage": 0.6,
+            "n": 59,
+            "risk_error_rate": 0.2542
+          }
+        ],
+        "latency_ms": {
+          "mean": 179.02,
+          "p50": 177.98,
+          "p95": 233.93,
+          "min": 59.2,
+          "max": 263.45,
+          "n_measured": 98
+        }
+      },
+      "localization": {
+        "mean_endpoint_err_px": 300.8831,
+        "mean_endpoint_max_err_px": 413.2625,
+        "mean_endpoint_err_norm_diag": 0.2429,
+        "mean_endpoint_err_norm_len": 0.9233,
+        "mean_keypoint_pdj_05": 0.125,
+        "mean_keypoint_pdj_10": 0.25,
+        "mean_keypoint_both_pdj_10": 0.125,
+        "mean_centerline_chamfer_px": 173.8069,
+        "mean_centerline_chamfer_norm": 0.1369,
+        "mean_shaft_coverage_frac": 0.255,
+        "mean_full_shaft_detected": 0.1875,
+        "mean_endpoint_inclusion": 0.0625,
+        "mean_rot_obb_iou": 0.0246,
+        "mean_angle_error_deg": 33.9025
+      },
+      "segmentation": {},
+      "occluded_subset_loc": {
+        "n": 5,
+        "mean_endpoint_err_px": 386.262,
+        "mean_endpoint_max_err_px": 492.966,
+        "mean_endpoint_err_norm_diag": 0.3092,
+        "mean_endpoint_err_norm_len": 1.3984,
+        "mean_keypoint_pdj_05": 0.0,
+        "mean_keypoint_pdj_10": 0.1,
+        "mean_keypoint_both_pdj_10": 0.0,
+        "mean_centerline_chamfer_px": 219.23,
+        "mean_centerline_chamfer_norm": 0.1756,
+        "mean_shaft_coverage_frac": 0.112,
+        "mean_full_shaft_detected": 0.0,
+        "mean_endpoint_inclusion": 0.0,
+        "mean_rot_obb_iou": 0.0021,
+        "mean_angle_error_deg": 46.076
+      },
+      "clear_subset_loc": {
+        "n": 11,
+        "mean_endpoint_err_px": 262.0745,
+        "mean_endpoint_max_err_px": 377.0336,
+        "mean_endpoint_err_norm_diag": 0.2128,
+        "mean_endpoint_err_norm_len": 0.7073,
+        "mean_keypoint_pdj_05": 0.1818,
+        "mean_keypoint_pdj_10": 0.3182,
+        "mean_keypoint_both_pdj_10": 0.1818,
+        "mean_centerline_chamfer_px": 153.16,
+        "mean_centerline_chamfer_norm": 0.1193,
+        "mean_shaft_coverage_frac": 0.32,
+        "mean_full_shaft_detected": 0.2727,
+        "mean_endpoint_inclusion": 0.0909,
+        "mean_rot_obb_iou": 0.0348,
+        "mean_angle_error_deg": 28.3691
+      }
+    },
+    "A1_supervised_kp_centerline": {
+      "classification": {
+        "n_total": 98,
+        "n_pos": 16,
+        "n_neg": 82,
+        "tp": 6,
+        "pos_uncertain": 10,
+        "fn": 0,
+        "fp": 4,
+        "neg_uncertain": 22,
+        "tn": 56,
+        "known_recall": 0.375,
+        "known_recall_ci95": [
+          0.1848,
+          0.6136
+        ],
+        "far": 0.0488,
+        "far_ci95": [
+          0.0191,
+          0.1188
+        ],
+        "known_precision": 0.6,
+        "f1_score": 0.4615,
+        "accuracy": 0.6327,
+        "uncertain_rate": 0.3265,
+        "roc_auc": 0.9024,
+        "pr_auc": 0.5587,
+        "risk_coverage_curve": [
+          {
+            "coverage": 1.0,
+            "n": 98,
+            "risk_error_rate": 0.1735
+          },
+          {
+            "coverage": 0.9,
+            "n": 88,
+            "risk_error_rate": 0.1477
+          },
+          {
+            "coverage": 0.8,
+            "n": 78,
+            "risk_error_rate": 0.1154
+          },
+          {
+            "coverage": 0.7,
+            "n": 69,
+            "risk_error_rate": 0.087
+          },
+          {
+            "coverage": 0.6,
+            "n": 59,
+            "risk_error_rate": 0.0339
+          }
+        ],
+        "latency_ms": {
+          "mean": 50.51,
+          "p50": 47.14,
+          "p95": 67.1,
+          "min": 28.02,
+          "max": 185.42,
+          "n_measured": 98
+        }
+      },
+      "localization": {
+        "mean_endpoint_err_px": 206.2906,
+        "mean_endpoint_max_err_px": 283.1063,
+        "mean_endpoint_err_norm_diag": 0.1477,
+        "mean_endpoint_err_norm_len": 0.482,
+        "mean_keypoint_pdj_05": 0.2812,
+        "mean_keypoint_pdj_10": 0.5312,
+        "mean_keypoint_both_pdj_10": 0.375,
+        "mean_centerline_chamfer_px": 142.9569,
+        "mean_centerline_chamfer_norm": 0.1011,
+        "mean_shaft_coverage_frac": 0.4675,
+        "mean_full_shaft_detected": 0.375,
+        "mean_endpoint_inclusion": 0.3125,
+        "mean_rot_obb_iou": 0.0412,
+        "mean_angle_error_deg": 23.6569
+      },
+      "segmentation": {},
+      "occluded_subset_loc": {
+        "n": 5,
+        "mean_endpoint_err_px": 229.356,
+        "mean_endpoint_max_err_px": 298.006,
+        "mean_endpoint_err_norm_diag": 0.1548,
+        "mean_endpoint_err_norm_len": 0.4585,
+        "mean_keypoint_pdj_05": 0.3,
+        "mean_keypoint_pdj_10": 0.7,
+        "mean_keypoint_both_pdj_10": 0.6,
+        "mean_centerline_chamfer_px": 176.978,
+        "mean_centerline_chamfer_norm": 0.1171,
+        "mean_shaft_coverage_frac": 0.608,
+        "mean_full_shaft_detected": 0.6,
+        "mean_endpoint_inclusion": 0.4,
+        "mean_rot_obb_iou": 0.009,
+        "mean_angle_error_deg": 8.952
+      },
+      "clear_subset_loc": {
+        "n": 11,
+        "mean_endpoint_err_px": 195.8064,
+        "mean_endpoint_max_err_px": 276.3336,
+        "mean_endpoint_err_norm_diag": 0.1445,
+        "mean_endpoint_err_norm_len": 0.4926,
+        "mean_keypoint_pdj_05": 0.2727,
+        "mean_keypoint_pdj_10": 0.4545,
+        "mean_keypoint_both_pdj_10": 0.2727,
+        "mean_centerline_chamfer_px": 127.4927,
+        "mean_centerline_chamfer_norm": 0.0938,
+        "mean_shaft_coverage_frac": 0.4036,
+        "mean_full_shaft_detected": 0.2727,
+        "mean_endpoint_inclusion": 0.2727,
+        "mean_rot_obb_iou": 0.0559,
+        "mean_angle_error_deg": 30.3409
+      }
+    },
+    "B1_supervised_seg_only": {
+      "classification": {
+        "n_total": 98,
+        "n_pos": 16,
+        "n_neg": 82,
+        "tp": 8,
+        "pos_uncertain": 8,
+        "fn": 0,
+        "fp": 4,
+        "neg_uncertain": 20,
+        "tn": 58,
+        "known_recall": 0.5,
+        "known_recall_ci95": [
+          0.28,
+          0.72
+        ],
+        "far": 0.0488,
+        "far_ci95": [
+          0.0191,
+          0.1188
+        ],
+        "known_precision": 0.6667,
+        "f1_score": 0.5714,
+        "accuracy": 0.6735,
+        "uncertain_rate": 0.2857,
+        "roc_auc": 0.9104,
+        "pr_auc": 0.5732,
+        "risk_coverage_curve": [
+          {
+            "coverage": 1.0,
+            "n": 98,
+            "risk_error_rate": 0.1429
+          },
+          {
+            "coverage": 0.9,
+            "n": 88,
+            "risk_error_rate": 0.1023
+          },
+          {
+            "coverage": 0.8,
+            "n": 78,
+            "risk_error_rate": 0.0769
+          },
+          {
+            "coverage": 0.7,
+            "n": 69,
+            "risk_error_rate": 0.058
+          },
+          {
+            "coverage": 0.6,
+            "n": 59,
+            "risk_error_rate": 0.0339
+          }
+        ],
+        "latency_ms": {
+          "mean": 41.04,
+          "p50": 39.1,
+          "p95": 62.66,
+          "min": 21.27,
+          "max": 83.59,
+          "n_measured": 98
+        }
+      },
+      "localization": {
+        "mean_endpoint_err_px": 173.7181,
+        "mean_endpoint_max_err_px": 267.6106,
+        "mean_endpoint_err_norm_diag": 0.1324,
+        "mean_endpoint_err_norm_len": 0.4659,
+        "mean_keypoint_pdj_05": 0.3125,
+        "mean_keypoint_pdj_10": 0.5625,
+        "mean_keypoint_both_pdj_10": 0.3125,
+        "mean_centerline_chamfer_px": 92.7088,
+        "mean_centerline_chamfer_norm": 0.0703,
+        "mean_shaft_coverage_frac": 0.4975,
+        "mean_full_shaft_detected": 0.3125,
+        "mean_endpoint_inclusion": 0.125,
+        "mean_rot_obb_iou": 0.0379,
+        "mean_angle_error_deg": 23.0625
+      },
+      "segmentation": {},
+      "occluded_subset_loc": {
+        "n": 5,
+        "mean_endpoint_err_px": 133.454,
+        "mean_endpoint_max_err_px": 206.48,
+        "mean_endpoint_err_norm_diag": 0.0987,
+        "mean_endpoint_err_norm_len": 0.4078,
+        "mean_keypoint_pdj_05": 0.5,
+        "mean_keypoint_pdj_10": 0.7,
+        "mean_keypoint_both_pdj_10": 0.6,
+        "mean_centerline_chamfer_px": 59.624,
+        "mean_centerline_chamfer_norm": 0.0434,
+        "mean_shaft_coverage_frac": 0.672,
+        "mean_full_shaft_detected": 0.4,
+        "mean_endpoint_inclusion": 0.2,
+        "mean_rot_obb_iou": 0.0714,
+        "mean_angle_error_deg": 14.976
+      },
+      "clear_subset_loc": {
+        "n": 11,
+        "mean_endpoint_err_px": 192.02,
+        "mean_endpoint_max_err_px": 295.3973,
+        "mean_endpoint_err_norm_diag": 0.1477,
+        "mean_endpoint_err_norm_len": 0.4924,
+        "mean_keypoint_pdj_05": 0.2273,
+        "mean_keypoint_pdj_10": 0.5,
+        "mean_keypoint_both_pdj_10": 0.1818,
+        "mean_centerline_chamfer_px": 107.7473,
+        "mean_centerline_chamfer_norm": 0.0825,
+        "mean_shaft_coverage_frac": 0.4182,
+        "mean_full_shaft_detected": 0.2727,
+        "mean_endpoint_inclusion": 0.0909,
+        "mean_rot_obb_iou": 0.0227,
+        "mean_angle_error_deg": 26.7382
+      }
+    },
+    "B2_kp_guided_supervised_seg": {
+      "classification": {
+        "n_total": 98,
+        "n_pos": 16,
+        "n_neg": 82,
+        "tp": 7,
+        "pos_uncertain": 8,
+        "fn": 1,
+        "fp": 4,
+        "neg_uncertain": 23,
+        "tn": 55,
+        "known_recall": 0.4375,
+        "known_recall_ci95": [
+          0.231,
+          0.6682
+        ],
+        "far": 0.0488,
+        "far_ci95": [
+          0.0191,
+          0.1188
+        ],
+        "known_precision": 0.6364,
+        "f1_score": 0.5185,
+        "accuracy": 0.6327,
+        "uncertain_rate": 0.3163,
+        "roc_auc": 0.8834,
+        "pr_auc": 0.547,
+        "risk_coverage_curve": [
+          {
+            "coverage": 1.0,
+            "n": 98,
+            "risk_error_rate": 0.2245
+          },
+          {
+            "coverage": 0.9,
+            "n": 88,
+            "risk_error_rate": 0.2159
+          },
+          {
+            "coverage": 0.8,
+            "n": 78,
+            "risk_error_rate": 0.1923
+          },
+          {
+            "coverage": 0.7,
+            "n": 69,
+            "risk_error_rate": 0.1449
+          },
+          {
+            "coverage": 0.6,
+            "n": 59,
+            "risk_error_rate": 0.0678
+          }
+        ],
+        "latency_ms": {
+          "mean": 116.21,
+          "p50": 110.27,
+          "p95": 170.36,
+          "min": 61.86,
+          "max": 361.52,
+          "n_measured": 98
+        }
+      },
+      "localization": {
+        "mean_endpoint_err_px": 206.2906,
+        "mean_endpoint_max_err_px": 283.1063,
+        "mean_endpoint_err_norm_diag": 0.1477,
+        "mean_endpoint_err_norm_len": 0.482,
+        "mean_keypoint_pdj_05": 0.2812,
+        "mean_keypoint_pdj_10": 0.5312,
+        "mean_keypoint_both_pdj_10": 0.375,
+        "mean_centerline_chamfer_px": 142.9569,
+        "mean_centerline_chamfer_norm": 0.1011,
+        "mean_shaft_coverage_frac": 0.4675,
+        "mean_full_shaft_detected": 0.375,
+        "mean_endpoint_inclusion": 0.3125,
+        "mean_rot_obb_iou": 0.0412,
+        "mean_angle_error_deg": 23.6569
+      },
+      "segmentation": {},
+      "occluded_subset_loc": {
+        "n": 5,
+        "mean_endpoint_err_px": 229.356,
+        "mean_endpoint_max_err_px": 298.006,
+        "mean_endpoint_err_norm_diag": 0.1548,
+        "mean_endpoint_err_norm_len": 0.4585,
+        "mean_keypoint_pdj_05": 0.3,
+        "mean_keypoint_pdj_10": 0.7,
+        "mean_keypoint_both_pdj_10": 0.6,
+        "mean_centerline_chamfer_px": 176.978,
+        "mean_centerline_chamfer_norm": 0.1171,
+        "mean_shaft_coverage_frac": 0.608,
+        "mean_full_shaft_detected": 0.6,
+        "mean_endpoint_inclusion": 0.4,
+        "mean_rot_obb_iou": 0.009,
+        "mean_angle_error_deg": 8.952
+      },
+      "clear_subset_loc": {
+        "n": 11,
+        "mean_endpoint_err_px": 195.8064,
+        "mean_endpoint_max_err_px": 276.3336,
+        "mean_endpoint_err_norm_diag": 0.1445,
+        "mean_endpoint_err_norm_len": 0.4926,
+        "mean_keypoint_pdj_05": 0.2727,
+        "mean_keypoint_pdj_10": 0.4545,
+        "mean_keypoint_both_pdj_10": 0.2727,
+        "mean_centerline_chamfer_px": 127.4927,
+        "mean_centerline_chamfer_norm": 0.0938,
+        "mean_shaft_coverage_frac": 0.4036,
+        "mean_full_shaft_detected": 0.2727,
+        "mean_endpoint_inclusion": 0.2727,
+        "mean_rot_obb_iou": 0.0559,
+        "mean_angle_error_deg": 30.3409
+      }
+    },
+    "C1_b2_plus_masked_dinov2": {
+      "classification": {
+        "n_total": 98,
+        "n_pos": 16,
+        "n_neg": 82,
+        "tp": 6,
+        "pos_uncertain": 7,
+        "fn": 3,
+        "fp": 1,
+        "neg_uncertain": 10,
+        "tn": 71,
+        "known_recall": 0.375,
+        "known_recall_ci95": [
+          0.1848,
+          0.6136
+        ],
+        "far": 0.0122,
+        "far_ci95": [
+          0.0022,
+          0.0659
+        ],
+        "known_precision": 0.8571,
+        "f1_score": 0.5217,
+        "accuracy": 0.7857,
+        "uncertain_rate": 0.1735,
+        "roc_auc": 0.8971,
+        "pr_auc": 0.6706,
+        "risk_coverage_curve": [
+          {
+            "coverage": 1.0,
+            "n": 98,
+            "risk_error_rate": 0.1735
+          },
+          {
+            "coverage": 0.9,
+            "n": 88,
+            "risk_error_rate": 0.125
+          },
+          {
+            "coverage": 0.8,
+            "n": 78,
+            "risk_error_rate": 0.1026
+          },
+          {
+            "coverage": 0.7,
+            "n": 69,
+            "risk_error_rate": 0.1159
+          },
+          {
+            "coverage": 0.6,
+            "n": 59,
+            "risk_error_rate": 0.1017
+          }
+        ],
+        "latency_ms": {
+          "mean": 177.16,
+          "p50": 170.94,
+          "p95": 246.98,
+          "min": 70.12,
+          "max": 457.22,
+          "n_measured": 98
+        }
+      },
+      "localization": {
+        "mean_endpoint_err_px": 206.2906,
+        "mean_endpoint_max_err_px": 283.1063,
+        "mean_endpoint_err_norm_diag": 0.1477,
+        "mean_endpoint_err_norm_len": 0.482,
+        "mean_keypoint_pdj_05": 0.2812,
+        "mean_keypoint_pdj_10": 0.5312,
+        "mean_keypoint_both_pdj_10": 0.375,
+        "mean_centerline_chamfer_px": 142.9569,
+        "mean_centerline_chamfer_norm": 0.1011,
+        "mean_shaft_coverage_frac": 0.4675,
+        "mean_full_shaft_detected": 0.375,
+        "mean_endpoint_inclusion": 0.3125,
+        "mean_rot_obb_iou": 0.0412,
+        "mean_angle_error_deg": 23.6569
+      },
+      "segmentation": {},
+      "occluded_subset_loc": {
+        "n": 5,
+        "mean_endpoint_err_px": 229.356,
+        "mean_endpoint_max_err_px": 298.006,
+        "mean_endpoint_err_norm_diag": 0.1548,
+        "mean_endpoint_err_norm_len": 0.4585,
+        "mean_keypoint_pdj_05": 0.3,
+        "mean_keypoint_pdj_10": 0.7,
+        "mean_keypoint_both_pdj_10": 0.6,
+        "mean_centerline_chamfer_px": 176.978,
+        "mean_centerline_chamfer_norm": 0.1171,
+        "mean_shaft_coverage_frac": 0.608,
+        "mean_full_shaft_detected": 0.6,
+        "mean_endpoint_inclusion": 0.4,
+        "mean_rot_obb_iou": 0.009,
+        "mean_angle_error_deg": 8.952
+      },
+      "clear_subset_loc": {
+        "n": 11,
+        "mean_endpoint_err_px": 195.8064,
+        "mean_endpoint_max_err_px": 276.3336,
+        "mean_endpoint_err_norm_diag": 0.1445,
+        "mean_endpoint_err_norm_len": 0.4926,
+        "mean_keypoint_pdj_05": 0.2727,
+        "mean_keypoint_pdj_10": 0.4545,
+        "mean_keypoint_both_pdj_10": 0.2727,
+        "mean_centerline_chamfer_px": 127.4927,
+        "mean_centerline_chamfer_norm": 0.0938,
+        "mean_shaft_coverage_frac": 0.4036,
+        "mean_full_shaft_detected": 0.2727,
+        "mean_endpoint_inclusion": 0.2727,
+        "mean_rot_obb_iou": 0.0559,
+        "mean_angle_error_deg": 30.3409
+      }
+    },
+    "C2_full_vl_p3_pipeline": {
+      "classification": {
+        "n_total": 98,
+        "n_pos": 16,
+        "n_neg": 82,
+        "tp": 5,
+        "pos_uncertain": 5,
+        "fn": 6,
+        "fp": 2,
+        "neg_uncertain": 7,
+        "tn": 73,
+        "known_recall": 0.3125,
+        "known_recall_ci95": [
+          0.1416,
+          0.556
+        ],
+        "far": 0.0244,
+        "far_ci95": [
+          0.0067,
+          0.0846
+        ],
+        "known_precision": 0.7143,
+        "f1_score": 0.4348,
+        "accuracy": 0.7959,
+        "uncertain_rate": 0.1224,
+        "roc_auc": 0.896,
+        "pr_auc": 0.6051,
+        "risk_coverage_curve": [
+          {
+            "coverage": 1.0,
+            "n": 98,
+            "risk_error_rate": 0.1429
+          },
+          {
+            "coverage": 0.9,
+            "n": 88,
+            "risk_error_rate": 0.125
+          },
+          {
+            "coverage": 0.8,
+            "n": 78,
+            "risk_error_rate": 0.0641
+          },
+          {
+            "coverage": 0.7,
+            "n": 69,
+            "risk_error_rate": 0.029
+          },
+          {
+            "coverage": 0.6,
+            "n": 59,
+            "risk_error_rate": 0.0169
+          }
+        ],
+        "latency_ms": {
+          "mean": 186.55,
+          "p50": 187.95,
+          "p95": 259.37,
+          "min": 64.36,
+          "max": 655.82,
+          "n_measured": 98
+        }
+      },
+      "localization": {
+        "mean_endpoint_err_px": 206.2906,
+        "mean_endpoint_max_err_px": 283.1063,
+        "mean_endpoint_err_norm_diag": 0.1477,
+        "mean_endpoint_err_norm_len": 0.482,
+        "mean_keypoint_pdj_05": 0.2812,
+        "mean_keypoint_pdj_10": 0.5312,
+        "mean_keypoint_both_pdj_10": 0.375,
+        "mean_centerline_chamfer_px": 142.9569,
+        "mean_centerline_chamfer_norm": 0.1011,
+        "mean_shaft_coverage_frac": 0.4675,
+        "mean_full_shaft_detected": 0.375,
+        "mean_endpoint_inclusion": 0.3125,
+        "mean_rot_obb_iou": 0.0412,
+        "mean_angle_error_deg": 23.6569
+      },
+      "segmentation": {},
+      "occluded_subset_loc": {
+        "n": 5,
+        "mean_endpoint_err_px": 229.356,
+        "mean_endpoint_max_err_px": 298.006,
+        "mean_endpoint_err_norm_diag": 0.1548,
+        "mean_endpoint_err_norm_len": 0.4585,
+        "mean_keypoint_pdj_05": 0.3,
+        "mean_keypoint_pdj_10": 0.7,
+        "mean_keypoint_both_pdj_10": 0.6,
+        "mean_centerline_chamfer_px": 176.978,
+        "mean_centerline_chamfer_norm": 0.1171,
+        "mean_shaft_coverage_frac": 0.608,
+        "mean_full_shaft_detected": 0.6,
+        "mean_endpoint_inclusion": 0.4,
+        "mean_rot_obb_iou": 0.009,
+        "mean_angle_error_deg": 8.952
+      },
+      "clear_subset_loc": {
+        "n": 11,
+        "mean_endpoint_err_px": 195.8064,
+        "mean_endpoint_max_err_px": 276.3336,
+        "mean_endpoint_err_norm_diag": 0.1445,
+        "mean_endpoint_err_norm_len": 0.4926,
+        "mean_keypoint_pdj_05": 0.2727,
+        "mean_keypoint_pdj_10": 0.4545,
+        "mean_keypoint_both_pdj_10": 0.2727,
+        "mean_centerline_chamfer_px": 127.4927,
+        "mean_centerline_chamfer_norm": 0.0938,
+        "mean_shaft_coverage_frac": 0.4036,
+        "mean_full_shaft_detected": 0.2727,
+        "mean_endpoint_inclusion": 0.2727,
+        "mean_rot_obb_iou": 0.0559,
+        "mean_angle_error_deg": 30.3409
+      }
+    }
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "source_commit": "988fdf1",
+  "backbone": "dinov2_small_int8",
+  "scoring_mode": "hybrid",
+  "calibrated_thresholds": {
+    "tau_known": 0.4758,
+    "delta_margin": 0.0,
+    "orig": [
+      0.5,
+      0.04
+    ],
+    "cal_pos_acc": 0.6,
+    "cal_far": 0.1,
+    "cal_neg_rej_rate": 0.9,
+    "cal_pos_wrong_class": 0,
+    "cal_pos_unknown": 6,
+    "cal_pos_ambiguous": 0
+  },
+  "roi_baseline_vl_p1": {
+    "pos_top1_accuracy": {
+      "k": 39,
+      "n": 50,
+      "ratio": "39/50",
+      "pct": 78.0,
+      "ci95_low_pct": 64.76,
+      "ci95_high_pct": 87.25
+    },
+    "far": {
+      "k": 3,
+      "n": 25,
+      "ratio": "3/25",
+      "pct": 12.0,
+      "ci95_low_pct": 4.17,
+      "ci95_high_pct": 29.96
+    },
+    "wrong_class_pos": "0/50",
+    "shoe_slipper_errors": "0/20",
+    "per_class_recall": {
+      "object_01": {
+        "k": 7,
+        "n": 10,
+        "ratio": "7/10",
+        "pct": 70.0,
+        "ci95_low_pct": 39.68,
+        "ci95_high_pct": 89.22
+      },
+      "object_02": {
+        "k": 7,
+        "n": 10,
+        "ratio": "7/10",
+        "pct": 70.0,
+        "ci95_low_pct": 39.68,
+        "ci95_high_pct": 89.22
+      },
+      "object_03": {
+        "k": 8,
+        "n": 10,
+        "ratio": "8/10",
+        "pct": 80.0,
+        "ci95_low_pct": 49.02,
+        "ci95_high_pct": 94.33
+      },
+      "object_04": {
+        "k": 7,
+        "n": 10,
+        "ratio": "7/10",
+        "pct": 70.0,
+        "ci95_low_pct": 39.68,
+        "ci95_high_pct": 89.22
+      },
+      "object_05": {
+        "k": 10,
+        "n": 10,
+        "ratio": "10/10",
+        "pct": 100.0,
+        "ci95_low_pct": 72.25,
+        "ci95_high_pct": 100.0
+      }
+    }
+  },
+  "e2e_baseline_vl_p1": {
+    "pos_top1_accuracy": {
+      "k": 38,
+      "n": 50,
+      "ratio": "38/50",
+      "pct": 76.0,
+      "ci95_low_pct": 62.59,
+      "ci95_high_pct": 85.7
+    },
+    "far": {
+      "k": 4,
+      "n": 25,
+      "ratio": "4/25",
+      "pct": 16.0,
+      "ci95_low_pct": 6.4,
+      "ci95_high_pct": 34.65
+    },
+    "wrong_class_pos": "0/50",
+    "shoe_slipper_errors": "0/20",
+    "proposal_recall_iou30": {
+      "k": 46,
+      "n": 50,
+      "ratio": "46/50",
+      "pct": 92.0,
+      "ci95_low_pct": 81.16,
+      "ci95_high_pct": 96.85
+    },
+    "proposal_recall_iou50": {
+      "k": 43,
+      "n": 50,
+      "ratio": "43/50",
+      "pct": 86.0,
+      "ci95_low_pct": 73.81,
+      "ci95_high_pct": 93.05
+    },
+    "no_proposal_count": "0/50",
+    "unmatched_iou30": {
+      "k": 4,
+      "n": 50,
+      "ratio": "4/50",
+      "pct": 8.0,
+      "ci95_low_pct": 3.15,
+      "ci95_high_pct": 18.84
+    },
+    "unmatched_iou50": {
+      "k": 7,
+      "n": 50,
+      "ratio": "7/50",
+      "pct": 14.0,
+      "ci95_low_pct": 6.95,
+      "ci95_high_pct": 26.19
+    },
+    "full_containment_ge_85pct": {
+      "k": 48,
+      "n": 50,
+      "ratio": "48/50",
+      "pct": 96.0,
+      "ci95_low_pct": 86.54,
+      "ci95_high_pct": 98.9
+    },
+    "mean_iou": 0.7132,
+    "mean_containment": 0.9782,
+    "mean_bg_contamination": 0.2057,
+    "avg_proposals_per_image": 3.48,
+    "per_class": {
+      "object_01": {
+        "e2e_acc": {
+          "k": 4,
+          "n": 10,
+          "ratio": "4/10",
+          "pct": 40.0,
+          "ci95_low_pct": 16.82,
+          "ci95_high_pct": 68.73
+        },
+        "recall_iou30": {
+          "k": 6,
+          "n": 10,
+          "ratio": "6/10",
+          "pct": 60.0,
+          "ci95_low_pct": 31.27,
+          "ci95_high_pct": 83.18
+        },
+        "recall_iou50": {
+          "k": 5,
+          "n": 10,
+          "ratio": "5/10",
+          "pct": 50.0,
+          "ci95_low_pct": 23.66,
+          "ci95_high_pct": 76.34
+        },
+        "mean_iou": 0.4931,
+        "mean_containment": 0.9932,
+        "mean_bg_contamination": 0.4366
+      },
+      "object_02": {
+        "e2e_acc": {
+          "k": 8,
+          "n": 10,
+          "ratio": "8/10",
+          "pct": 80.0,
+          "ci95_low_pct": 49.02,
+          "ci95_high_pct": 94.33
+        },
+        "recall_iou30": {
+          "k": 10,
+          "n": 10,
+          "ratio": "10/10",
+          "pct": 100.0,
+          "ci95_low_pct": 72.25,
+          "ci95_high_pct": 100.0
+        },
+        "recall_iou50": {
+          "k": 10,
+          "n": 10,
+          "ratio": "10/10",
+          "pct": 100.0,
+          "ci95_low_pct": 72.25,
+          "ci95_high_pct": 100.0
+        },
+        "mean_iou": 0.7726,
+        "mean_containment": 0.9837,
+        "mean_bg_contamination": 0.1232
+      },
+      "object_03": {
+        "e2e_acc": {
+          "k": 8,
+          "n": 10,
+          "ratio": "8/10",
+          "pct": 80.0,
+          "ci95_low_pct": 49.02,
+          "ci95_high_pct": 94.33
+        },
+        "recall_iou30": {
+          "k": 10,
+          "n": 10,
+          "ratio": "10/10",
+          "pct": 100.0,
+          "ci95_low_pct": 72.25,
+          "ci95_high_pct": 100.0
+        },
+        "recall_iou50": {
+          "k": 10,
+          "n": 10,
+          "ratio": "10/10",
+          "pct": 100.0,
+          "ci95_low_pct": 72.25,
+          "ci95_high_pct": 100.0
+        },
+        "mean_iou": 0.8211,
+        "mean_containment": 0.9867,
+        "mean_bg_contamination": 0.1352
+      },
+      "object_04": {
+        "e2e_acc": {
+          "k": 8,
+          "n": 10,
+          "ratio": "8/10",
+          "pct": 80.0,
+          "ci95_low_pct": 49.02,
+          "ci95_high_pct": 94.33
+        },
+        "recall_iou30": {
+          "k": 10,
+          "n": 10,
+          "ratio": "10/10",
+          "pct": 100.0,
+          "ci95_low_pct": 72.25,
+          "ci95_high_pct": 100.0
+        },
+        "recall_iou50": {
+          "k": 9,
+          "n": 10,
+          "ratio": "9/10",
+          "pct": 90.0,
+          "ci95_low_pct": 59.58,
+          "ci95_high_pct": 98.21
+        },
+        "mean_iou": 0.7628,
+        "mean_containment": 0.989,
+        "mean_bg_contamination": 0.1569
+      },
+      "object_05": {
+        "e2e_acc": {
+          "k": 10,
+          "n": 10,
+          "ratio": "10/10",
+          "pct": 100.0,
+          "ci95_low_pct": 72.25,
+          "ci95_high_pct": 100.0
+        },
+        "recall_iou30": {
+          "k": 10,
+          "n": 10,
+          "ratio": "10/10",
+          "pct": 100.0,
+          "ci95_low_pct": 72.25,
+          "ci95_high_pct": 100.0
+        },
+        "recall_iou50": {
+          "k": 9,
+          "n": 10,
+          "ratio": "9/10",
+          "pct": 90.0,
+          "ci95_low_pct": 59.58,
+          "ci95_high_pct": 98.21
+        },
+        "mean_iou": 0.7163,
+        "mean_containment": 0.9386,
+        "mean_bg_contamination": 0.1766
+      }
+    }
+  }
+}

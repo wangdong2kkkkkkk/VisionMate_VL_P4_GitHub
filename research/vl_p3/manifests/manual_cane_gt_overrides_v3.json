@@ -1,0 +1,1851 @@
+{
+  "cal_object_01_01": {
+    "endpoints_xyxy": [
+      833.0,
+      129.0,
+      544.0,
+      861.0
+    ],
+    "thickness_px": 14.0,
+    "occluded": false,
+    "repair_note": "Center on middle glowing LED white cane beam from grip base to tip",
+    "gt_quality_tier": "REPAIRED_VERIFIED_GEOMETRY"
+  },
+  "cal_object_01_04": {
+    "endpoints_xyxy": [
+      504.0,
+      307.2,
+      643.2,
+      537.6
+    ],
+    "thickness_px": 12.0,
+    "occluded": true,
+    "gt_quality_tier": "VERIFIED_MANUAL_GEOMETRY"
+  },
+  "cal1c_object_01_07": {
+    "endpoints_xyxy": [
+      403.2,
+      288.0,
+      480.0,
+      633.6
+    ],
+    "thickness_px": 10.0,
+    "occluded": true,
+    "gt_quality_tier": "VERIFIED_MANUAL_GEOMETRY"
+  },
+  "cal1c_object_01_08": {
+    "endpoints_xyxy": [
+      244.8,
+      326.4,
+      326.4,
+      633.6
+    ],
+    "thickness_px": 10.0,
+    "occluded": true,
+    "gt_quality_tier": "VERIFIED_MANUAL_GEOMETRY"
+  },
+  "cal1c_object_01_10": {
+    "endpoints_xyxy": [
+      455.0,
+      495.0,
+      462.0,
+      684.0
+    ],
+    "occluded": true
+  },
+  "fhold_object_01_04": {
+    "endpoints_xyxy": [
+      355.0,
+      345.0,
+      372.0,
+      560.0
+    ],
+    "thickness_px": 9.0,
+    "occluded": false,
+    "repair_note": "Move from empty left space onto vertical red-tipped cane in right hand",
+    "gt_quality_tier": "REPAIRED_VERIFIED_GEOMETRY"
+  },
+  "fhold_object_01_07": {
+    "endpoints_xyxy": [
+      412.8,
+      262.4,
+      432.0,
+      518.4
+    ],
+    "thickness_px": 10.0,
+    "occluded": true,
+    "gt_quality_tier": "VERIFIED_MANUAL_GEOMETRY"
+  },
+  "fhold_object_01_09": {
+    "endpoints_xyxy": [
+      398.4,
+      358.4,
+      412.8,
+      627.2
+    ],
+    "thickness_px": 10.0,
+    "occluded": true,
+    "gt_quality_tier": "VERIFIED_MANUAL_GEOMETRY"
+  },
+  "fhold_object_01_13": {
+    "endpoints_xyxy": [
+      298.0,
+      625.0,
+      570.0,
+      1320.0
+    ],
+    "thickness_px": 10.0,
+    "occluded": true,
+    "repair_note": "Critical fix: move off escalator rail (x=610) onto true long diagonal cane",
+    "gt_quality_tier": "REPAIRED_VERIFIED_GEOMETRY"
+  },
+  "hold_object_01_02": {
+    "endpoints_xyxy": [
+      568.3,
+      288.0,
+      571.2,
+      633.6
+    ],
+    "thickness_px": 10.0,
+    "occluded": true,
+    "gt_quality_tier": "VERIFIED_MANUAL_GEOMETRY"
+  },
+  "hold_object_01_04": {
+    "endpoints_xyxy": [
+      590.0,
+      568.0,
+      568.0,
+      1340.0
+    ],
+    "thickness_px": 11.0,
+    "occluded": false,
+    "repair_note": "Shift left from blue banner onto true cane in left hand",
+    "gt_quality_tier": "REPAIRED_VERIFIED_GEOMETRY"
+  },
+  "hold_object_01_10": {
+    "endpoints_xyxy": [
+      204.3,
+      67.2,
+      237.4,
+      307.2
+    ],
+    "thickness_px": 10.0,
+    "occluded": true,
+    "gt_quality_tier": "VERIFIED_MANUAL_GEOMETRY"
+  },
+  "hold_object_01_19": {
+    "endpoints_xyxy": [
+      148.8,
+      512.0,
+      201.6,
+      1254.4
+    ],
+    "thickness_px": 14.0,
+    "occluded": true,
+    "gt_quality_tier": "VERIFIED_MANUAL_GEOMETRY"
+  },
+  "test_object_01_07": {
+    "endpoints_xyxy": [
+      393.6,
+      143.6,
+      470.4,
+      653.4
+    ],
+    "thickness_px": 16.0,
+    "occluded": false,
+    "gt_quality_tier": "VERIFIED_MANUAL_GEOMETRY"
+  },
+  "test_object_01_08": {
+    "endpoints_xyxy": [
+      556.8,
+      256.0,
+      537.6,
+      1267.2
+    ],
+    "thickness_px": 16.0,
+    "occluded": true,
+    "gt_quality_tier": "VERIFIED_MANUAL_GEOMETRY"
+  },
+  "v2_ecane_001": {
+    "endpoints_xyxy": [
+      120.0,
+      86.4,
+      142.1,
+      691.2
+    ],
+    "thickness_px": 10.0,
+    "occluded": false,
+    "gt_quality_tier": "VERIFIED_MANUAL_GEOMETRY"
+  },
+  "v2_ecane_015": {
+    "endpoints_xyxy": [
+      383.0,
+      393.6,
+      392.3,
+      854.4
+    ],
+    "thickness_px": 10.0,
+    "occluded": true,
+    "gt_quality_tier": "VERIFIED_MANUAL_GEOMETRY"
+  },
+  "v2_ecane_023": {
+    "endpoints_xyxy": [
+      174.7,
+      358.4,
+      206.4,
+      633.6
+    ],
+    "thickness_px": 10.0,
+    "occluded": true,
+    "gt_quality_tier": "VERIFIED_MANUAL_GEOMETRY"
+  },
+  "v2_fcane_002": {
+    "endpoints_xyxy": [
+      326.4,
+      485.6,
+      460.8,
+      444.6
+    ],
+    "thickness_px": 10.0,
+    "occluded": true,
+    "gt_quality_tier": "VERIFIED_MANUAL_GEOMETRY"
+  },
+  "v2_fcane_003": {
+    "endpoints_xyxy": [
+      202.0,
+      718.0,
+      5.0,
+      878.0
+    ],
+    "thickness_px": 12.0,
+    "occluded": true,
+    "repair_note": "Align slope along foreground folded cane to bottom-left border",
+    "gt_quality_tier": "REPAIRED_VERIFIED_GEOMETRY"
+  },
+  "v2_pos_cane_003": {
+    "endpoints_xyxy": [
+      614.4,
+      502.4,
+      835.2,
+      633.6
+    ],
+    "thickness_px": 16.0,
+    "occluded": true,
+    "gt_quality_tier": "VERIFIED_MANUAL_GEOMETRY"
+  },
+  "v2_pos_cane_066": {
+    "endpoints_xyxy": [
+      389.4,
+      336.0,
+      406.2,
+      892.8
+    ],
+    "thickness_px": 10.0,
+    "occluded": true,
+    "gt_quality_tier": "VERIFIED_MANUAL_GEOMETRY"
+  },
+  "v2_scane_015": {
+    "endpoints_xyxy": [
+      244.0,
+      70.0,
+      237.0,
+      580.0
+    ],
+    "thickness_px": 9.0,
+    "occluded": false,
+    "repair_note": "Center on vertical white cane at x=244->237 from handle to red tip",
+    "gt_quality_tier": "REPAIRED_VERIFIED_GEOMETRY"
+  },
+  "v2_scane_016": {
+    "endpoints_xyxy": [
+      183.6,
+      192.0,
+      198.0,
+      729.6
+    ],
+    "thickness_px": 12.0,
+    "occluded": false,
+    "gt_quality_tier": "VERIFIED_MANUAL_GEOMETRY"
+  },
+  "v2_scane_018": {
+    "endpoints_xyxy": [
+      448.0,
+      452.0,
+      612.0,
+      578.0
+    ],
+    "thickness_px": 9.0,
+    "occluded": true,
+    "repair_note": "Move off airplane/rope background onto actual cane held at knee level",
+    "gt_quality_tier": "REPAIRED_VERIFIED_GEOMETRY"
+  },
+  "v2_scane_021": {
+    "endpoints_xyxy": [
+      518.0,
+      428.0,
+      405.0,
+      482.0
+    ],
+    "thickness_px": 7.0,
+    "occluded": true,
+    "repair_note": "Lower ~40px onto actual thin white cane between hand and grass",
+    "gt_quality_tier": "REPAIRED_VERIFIED_GEOMETRY"
+  },
+  "v2_scane_095": {
+    "endpoints_xyxy": [
+      275.4,
+      460.8,
+      248.4,
+      854.4
+    ],
+    "thickness_px": 10.0,
+    "occluded": true,
+    "gt_quality_tier": "VERIFIED_MANUAL_GEOMETRY"
+  },
+  "v2_dcane_010": {
+    "endpoints_xyxy": [
+      772.8,
+      396.0,
+      835.2,
+      525.6
+    ],
+    "thickness_px": 9.0,
+    "occluded": false,
+    "gt_quality_tier": "VERIFIED_MANUAL_GEOMETRY"
+  },
+  "v2_dcane_011": {
+    "endpoints_xyxy": [
+      638.4,
+      358.4,
+      691.2,
+      576.0
+    ],
+    "thickness_px": 10.0,
+    "occluded": true,
+    "gt_quality_tier": "VERIFIED_MANUAL_GEOMETRY"
+  },
+  "v2_mcane_018": {
+    "endpoints_xyxy": [
+      355.2,
+      240.3,
+      624.0,
+      210.6
+    ],
+    "thickness_px": 8.0,
+    "occluded": true,
+    "gt_quality_tier": "VERIFIED_MANUAL_GEOMETRY"
+  },
+  "v2_mcane_019": {
+    "endpoints_xyxy": [
+      422.4,
+      253.8,
+      504.0,
+      534.6
+    ],
+    "thickness_px": 12.0,
+    "occluded": true,
+    "gt_quality_tier": "VERIFIED_MANUAL_GEOMETRY"
+  },
+  "v2_glc_008": {
+    "endpoints_xyxy": [
+      105.6,
+      139.2,
+      103.5,
+      902.4
+    ],
+    "thickness_px": 12.0,
+    "occluded": false,
+    "gt_quality_tier": "VERIFIED_MANUAL_GEOMETRY"
+  },
+  "v2_ovc_001": {
+    "endpoints_xyxy": [
+      108.9,
+      275.2,
+      115.3,
+      633.6
+    ],
+    "thickness_px": 8.0,
+    "occluded": true,
+    "gt_quality_tier": "VERIFIED_MANUAL_GEOMETRY"
+  },
+  "v2_ovc_002": {
+    "endpoints_xyxy": [
+      345.0,
+      321.0,
+      206.0,
+      778.0
+    ],
+    "thickness_px": 9.0,
+    "occluded": false,
+    "repair_note": "Align along true thin white cane shaft from right hand to floor",
+    "gt_quality_tier": "REPAIRED_VERIFIED_GEOMETRY"
+  },
+  "v2_ovc_003": {
+    "endpoints_xyxy": [
+      416.0,
+      364.8,
+      556.8,
+      806.4
+    ],
+    "thickness_px": 9.0,
+    "occluded": false,
+    "gt_quality_tier": "VERIFIED_MANUAL_GEOMETRY"
+  },
+  "v2_ovc_005": {
+    "endpoints_xyxy": [
+      432.0,
+      391.0,
+      753.6,
+      560.9
+    ],
+    "thickness_px": 9.0,
+    "occluded": false,
+    "gt_quality_tier": "VERIFIED_MANUAL_GEOMETRY"
+  },
+  "v2_ovc_006": {
+    "endpoints_xyxy": [
+      336.0,
+      222.0,
+      404.0,
+      612.0
+    ],
+    "thickness_px": 8.0,
+    "occluded": true,
+    "repair_note": "Include upper handle at (336,222) and tighten width across table occlusion",
+    "gt_quality_tier": "REPAIRED_VERIFIED_GEOMETRY"
+  },
+  "v2_ovc_013": {
+    "endpoints_xyxy": [
+      270.0,
+      115.8,
+      495.0,
+      40.7
+    ],
+    "thickness_px": 18.0,
+    "occluded": true,
+    "gt_quality_tier": "VERIFIED_MANUAL_GEOMETRY"
+  },
+  "v2_ovc_020": {
+    "endpoints_xyxy": [
+      190.0,
+      199.0,
+      210.0,
+      584.0
+    ],
+    "thickness_px": 9.0,
+    "occluded": false,
+    "repair_note": "Recover full vertical cane from chest grip to ground rubber tip",
+    "gt_quality_tier": "REPAIRED_VERIFIED_GEOMETRY"
+  },
+  "v2_ovc_021": {
+    "endpoints_xyxy": [
+      628.8,
+      300.8,
+      571.2,
+      496.0
+    ],
+    "thickness_px": 8.0,
+    "occluded": false,
+    "gt_quality_tier": "VERIFIED_MANUAL_GEOMETRY"
+  },
+  "v2_ovc_062": {
+    "endpoints_xyxy": [
+      230.4,
+      25.6,
+      542.4,
+      400.0
+    ],
+    "thickness_px": 12.0,
+    "occluded": false,
+    "gt_quality_tier": "VERIFIED_MANUAL_GEOMETRY"
+  },
+  "v2_ovc_066": {
+    "endpoints_xyxy": [
+      715.2,
+      377.6,
+      518.4,
+      473.6
+    ],
+    "thickness_px": 8.0,
+    "occluded": false,
+    "gt_quality_tier": "VERIFIED_MANUAL_GEOMETRY"
+  },
+  "v2_ovc_067": {
+    "endpoints_xyxy": [
+      686.4,
+      326.1,
+      110.4,
+      738.4
+    ],
+    "thickness_px": 14.0,
+    "occluded": false,
+    "gt_quality_tier": "VERIFIED_MANUAL_GEOMETRY"
+  },
+  "v2_ovc_068": {
+    "endpoints_xyxy": [
+      345.6,
+      330.9,
+      830.4,
+      652.1
+    ],
+    "thickness_px": 14.0,
+    "occluded": false,
+    "gt_quality_tier": "VERIFIED_MANUAL_GEOMETRY"
+  },
+  "v2_ov3_001": {
+    "endpoints_xyxy": [
+      152.0,
+      402.0,
+      158.0,
+      636.0
+    ],
+    "thickness_px": 8.0,
+    "occluded": false,
+    "repair_note": "Shift left 14px off dark pants onto true white cane",
+    "gt_quality_tier": "REPAIRED_VERIFIED_GEOMETRY"
+  },
+  "v2_ov3_008": {
+    "endpoints_xyxy": [
+      683.1,
+      456.0,
+      262.2,
+      859.2
+    ],
+    "thickness_px": 12.0,
+    "occluded": false,
+    "gt_quality_tier": "VERIFIED_MANUAL_GEOMETRY"
+  },
+  "v2_ov3_009": {
+    "endpoints_xyxy": [
+      316.8,
+      412.8,
+      307.2,
+      950.4
+    ],
+    "thickness_px": 10.0,
+    "occluded": true,
+    "gt_quality_tier": "VERIFIED_MANUAL_GEOMETRY"
+  },
+  "v2_ov3_010": {
+    "endpoints_xyxy": [
+      237.6,
+      460.8,
+      248.4,
+      950.4
+    ],
+    "thickness_px": 12.0,
+    "occluded": true,
+    "gt_quality_tier": "VERIFIED_MANUAL_GEOMETRY"
+  },
+  "v2_ov3_012": {
+    "endpoints_xyxy": [
+      381.6,
+      691.2,
+      298.8,
+      921.6
+    ],
+    "thickness_px": 10.0,
+    "occluded": false,
+    "gt_quality_tier": "VERIFIED_MANUAL_GEOMETRY"
+  },
+  "v2_ov3_013": {
+    "endpoints_xyxy": [
+      403.2,
+      470.4,
+      298.8,
+      820.8
+    ],
+    "thickness_px": 10.0,
+    "occluded": false,
+    "gt_quality_tier": "VERIFIED_MANUAL_GEOMETRY"
+  },
+  "v2_ov3_035": {
+    "endpoints_xyxy": [
+      411.2,
+      518.4,
+      397.3,
+      844.8
+    ],
+    "thickness_px": 10.0,
+    "occluded": true,
+    "gt_quality_tier": "VERIFIED_MANUAL_GEOMETRY"
+  },
+  "v2_ov3_039": {
+    "endpoints_xyxy": [
+      346.0,
+      288.0,
+      286.0,
+      504.0
+    ],
+    "thickness_px": 7.0,
+    "occluded": false,
+    "repair_note": "Critical fix: move off right pants onto true slim cane in right hand",
+    "gt_quality_tier": "REPAIRED_VERIFIED_GEOMETRY"
+  },
+  "v2_ov3_041": {
+    "endpoints_xyxy": [
+      442.0,
+      438.0,
+      418.0,
+      716.0
+    ],
+    "thickness_px": 11.0,
+    "occluded": false,
+    "repair_note": "Shift upper grip left 33px off white shirt onto cream/white cane",
+    "gt_quality_tier": "REPAIRED_VERIFIED_GEOMETRY"
+  },
+  "v2_ov3_046": {
+    "endpoints_xyxy": [
+      355.2,
+      371.2,
+      244.8,
+      582.4
+    ],
+    "thickness_px": 9.0,
+    "occluded": false,
+    "gt_quality_tier": "VERIFIED_MANUAL_GEOMETRY"
+  },
+  "v2_ov3_047": {
+    "endpoints_xyxy": [
+      609.6,
+      281.6,
+      624.0,
+      582.4
+    ],
+    "thickness_px": 10.0,
+    "occluded": true,
+    "gt_quality_tier": "VERIFIED_MANUAL_GEOMETRY"
+  },
+  "v2_ov3_048": {
+    "endpoints_xyxy": [
+      187.2,
+      313.6,
+      244.8,
+      595.2
+    ],
+    "thickness_px": 10.0,
+    "occluded": false,
+    "gt_quality_tier": "VERIFIED_MANUAL_GEOMETRY"
+  },
+  "v2_ov3_050": {
+    "endpoints_xyxy": [
+      440.0,
+      420.0,
+      228.0,
+      534.0
+    ],
+    "thickness_px": 6.0,
+    "occluded": true,
+    "repair_note": "Tighten corridor thickness on faint diagonal cane under bright backdrop",
+    "gt_quality_tier": "REPAIRED_VERIFIED_GEOMETRY"
+  },
+  "v2_ov3_051": {
+    "endpoints_xyxy": [
+      318.0,
+      474.0,
+      642.0,
+      838.0
+    ],
+    "thickness_px": 9.0,
+    "occluded": false,
+    "repair_note": "Include upper hand grip and tighten mask thickness",
+    "gt_quality_tier": "REPAIRED_VERIFIED_GEOMETRY"
+  },
+  "v2_ov3_052": {
+    "endpoints_xyxy": [
+      108.0,
+      516.0,
+      4.0,
+      922.0
+    ],
+    "thickness_px": 9.0,
+    "occluded": false,
+    "repair_note": "Follow true diagonal down-left to frame edge instead of vertical drop",
+    "gt_quality_tier": "REPAIRED_VERIFIED_GEOMETRY"
+  },
+  "v2_ov3_059": {
+    "endpoints_xyxy": [
+      364.8,
+      288.4,
+      417.6,
+      384.6
+    ],
+    "thickness_px": 8.0,
+    "occluded": true,
+    "gt_quality_tier": "VERIFIED_MANUAL_GEOMETRY"
+  },
+  "v2_ov3_061": {
+    "endpoints_xyxy": [
+      668.0,
+      368.0,
+      450.0,
+      504.0
+    ],
+    "thickness_px": 7.0,
+    "occluded": true,
+    "repair_note": "Extend upper endpoint to woman's grip against sun flare",
+    "gt_quality_tier": "REPAIRED_VERIFIED_GEOMETRY"
+  },
+  "v2_ov3_067": {
+    "endpoints_xyxy": [
+      400.0,
+      440.0,
+      542.0,
+      656.0
+    ],
+    "thickness_px": 8.0,
+    "occluded": false,
+    "repair_note": "Critical fix: align diagonal onto true cane from wrist to floor",
+    "gt_quality_tier": "REPAIRED_VERIFIED_GEOMETRY"
+  },
+  "v2_ov3_070": {
+    "endpoints_xyxy": [
+      56.0,
+      534.0,
+      296.0,
+      756.0
+    ],
+    "thickness_px": 8.0,
+    "occluded": false,
+    "repair_note": "Critical fix: trace full cane from left pedestrian hand to rolling ball tip",
+    "gt_quality_tier": "REPAIRED_VERIFIED_GEOMETRY"
+  },
+  "v2_ov3_074": {
+    "endpoints_xyxy": [
+      249.6,
+      453.6,
+      57.6,
+      651.6
+    ],
+    "thickness_px": 10.0,
+    "occluded": false,
+    "gt_quality_tier": "VERIFIED_MANUAL_GEOMETRY"
+  },
+  "v2_ov3_084": {
+    "endpoints_xyxy": [
+      441.6,
+      502.4,
+      681.6,
+      576.0
+    ],
+    "thickness_px": 9.0,
+    "occluded": false,
+    "gt_quality_tier": "VERIFIED_MANUAL_GEOMETRY"
+  },
+  "v2_ov3_085": {
+    "endpoints_xyxy": [
+      405.0,
+      528.0,
+      386.0,
+      730.0
+    ],
+    "thickness_px": 7.0,
+    "occluded": true,
+    "repair_note": "Align slightly diagonal path along dark/faint wet-street cane (low contrast outlier)",
+    "gt_quality_tier": "REPAIRED_VERIFIED_GEOMETRY"
+  },
+  "cal1c_object_01_03": {
+    "endpoints_xyxy": [
+      564.0,
+      358.0,
+      513.0,
+      612.0
+    ],
+    "thickness_px": 10.0,
+    "occluded": false,
+    "repair_note": "Fix reversed slope onto true white cane down-left from hand",
+    "gt_quality_tier": "REPAIRED_VERIFIED_GEOMETRY"
+  },
+  "fhold_object_01_06": {
+    "endpoints_xyxy": [
+      490.0,
+      565.0,
+      422.0,
+      1240.0
+    ],
+    "thickness_px": 12.0,
+    "occluded": false,
+    "repair_note": "Extend lower shaft to ground tip and tighten width",
+    "gt_quality_tier": "REPAIRED_VERIFIED_GEOMETRY"
+  },
+  "fhold_object_01_20": {
+    "endpoints_xyxy": [
+      358.0,
+      120.0,
+      358.0,
+      2235.0
+    ],
+    "thickness_px": 22.0,
+    "occluded": false,
+    "repair_note": "Replace 75px handle stub with crisp full-length vertical white cane at x=358",
+    "gt_quality_tier": "REPAIRED_VERIFIED_GEOMETRY"
+  },
+  "hold_object_01_11": {
+    "endpoints_xyxy": [
+      162.0,
+      502.0,
+      112.0,
+      648.0
+    ],
+    "thickness_px": 7.0,
+    "occluded": false,
+    "repair_note": "Tighten thickness on thin distant cane to eliminate asphalt bleed",
+    "gt_quality_tier": "REPAIRED_VERIFIED_GEOMETRY"
+  },
+  "test_object_01_06": {
+    "endpoints_xyxy": [
+      761.0,
+      245.0,
+      595.0,
+      628.0
+    ],
+    "thickness_px": 24.0,
+    "occluded": false,
+    "repair_note": "Replace hint_bbox_diagonal_fallback with exact lower-right white cane segment [761,245]->[595,628]",
+    "gt_quality_tier": "REPAIRED_VERIFIED_GEOMETRY"
+  },
+  "cal_object_01_03": {
+    "endpoints_xyxy": [
+      455.0,
+      720.0,
+      300.0,
+      1065.0
+    ],
+    "occluded": true
+  },
+  "hold_object_01_13": {
+    "endpoints_xyxy": [
+      532.0,
+      350.0,
+      560.0,
+      1030.0
+    ],
+    "occluded": true
+  },
+  "cal_object_01_05": {
+    "endpoints_xyxy": [
+      325.0,
+      815.0,
+      562.0,
+      1410.0
+    ],
+    "occluded": false
+  },
+  "test_object_01_01": {
+    "endpoints_xyxy": [
+      229.6,
+      581.0,
+      531.4,
+      1174.8
+    ],
+    "occluded": false
+  },
+  "hold_object_01_16": {
+    "endpoints_xyxy": [
+      448.0,
+      765.0,
+      542.0,
+      1300.0
+    ],
+    "occluded": false
+  },
+  "cal_object_01_02": {
+    "endpoints_xyxy": [
+      105.0,
+      785.0,
+      605.0,
+      588.0
+    ],
+    "occluded": true
+  },
+  "hold_object_01_06": {
+    "endpoints_xyxy": [
+      295.0,
+      365.0,
+      248.0,
+      622.0
+    ],
+    "occluded": true
+  },
+  "hold_object_01_07": {
+    "endpoints_xyxy": [
+      522.0,
+      682.0,
+      812.0,
+      912.0
+    ],
+    "occluded": false
+  },
+  "test_object_01_04": {
+    "endpoints_xyxy": [
+      450.0,
+      502.0,
+      758.0,
+      672.0
+    ],
+    "occluded": false
+  },
+  "test_object_01_09": {
+    "endpoints_xyxy": [
+      492.0,
+      82.0,
+      488.0,
+      635.0
+    ],
+    "occluded": false
+  },
+  "cal1c_object_01_04": {
+    "endpoints_xyxy": [
+      257.1,
+      351.4,
+      501.4,
+      565.7
+    ],
+    "occluded": false
+  },
+  "hold_object_01_14": {
+    "endpoints_xyxy": [
+      505.0,
+      342.0,
+      612.0,
+      452.0
+    ],
+    "occluded": false
+  },
+  "train_object_01_02": {
+    "endpoints_xyxy": [
+      122.0,
+      22.0,
+      132.0,
+      1455.0
+    ],
+    "occluded": false
+  },
+  "train_object_01_03": {
+    "endpoints_xyxy": [
+      30.0,
+      5.0,
+      25.0,
+      1115.0
+    ],
+    "occluded": false
+  },
+  "train_object_01_05": {
+    "endpoints_xyxy": [
+      965.0,
+      90.0,
+      265.0,
+      1065.0
+    ],
+    "occluded": false
+  },
+  "cal1c_object_01_05": {
+    "endpoints_xyxy": [
+      482.0,
+      312.0,
+      438.0,
+      522.0
+    ],
+    "occluded": true
+  },
+  "hold_object_01_08": {
+    "endpoints_xyxy": [
+      837.1,
+      494.3,
+      877.1,
+      1268.6
+    ],
+    "occluded": false
+  },
+  "test_object_01_03": {
+    "endpoints_xyxy": [
+      225.0,
+      320.0,
+      482.0,
+      995.0
+    ],
+    "occluded": false
+  },
+  "cal1c_object_01_01": {
+    "endpoints_xyxy": [
+      225.0,
+      435.0,
+      212.0,
+      635.0
+    ],
+    "occluded": false
+  },
+  "hold_object_01_03": {
+    "endpoints_xyxy": [
+      315.0,
+      206.4,
+      366.4,
+      637.1
+    ],
+    "occluded": false
+  },
+  "hold_object_01_15": {
+    "endpoints_xyxy": [
+      455.0,
+      665.0,
+      692.0,
+      1170.0
+    ],
+    "occluded": false
+  },
+  "hold_object_01_17": {
+    "endpoints_xyxy": [
+      326.0,
+      290.0,
+      329.0,
+      865.0
+    ],
+    "occluded": false
+  },
+  "test_object_01_05": {
+    "endpoints_xyxy": [
+      260.0,
+      425.0,
+      538.0,
+      672.0
+    ],
+    "occluded": false
+  },
+  "cal1c_object_01_02": {
+    "endpoints_xyxy": [
+      282.0,
+      548.0,
+      132.0,
+      718.0
+    ],
+    "occluded": true
+  },
+  "hold_object_01_18": {
+    "endpoints_xyxy": [
+      799.3,
+      159.3,
+      756.4,
+      637.1
+    ],
+    "occluded": false
+  },
+  "test_object_01_10": {
+    "endpoints_xyxy": [
+      475.0,
+      345.0,
+      642.0,
+      548.0
+    ],
+    "occluded": true
+  },
+  "test_object_01_02": {
+    "endpoints_xyxy": [
+      435.0,
+      760.0,
+      268.0,
+      1088.0
+    ],
+    "occluded": false
+  },
+  "hold_object_01_01": {
+    "endpoints_xyxy": [
+      322.0,
+      310.0,
+      585.0,
+      598.0
+    ],
+    "occluded": false
+  },
+  "hold_object_01_20": {
+    "endpoints_xyxy": [
+      448.0,
+      330.0,
+      458.0,
+      638.0
+    ],
+    "occluded": true
+  },
+  "hold_object_01_09": {
+    "endpoints_xyxy": [
+      435.0,
+      680.0,
+      282.0,
+      1080.0
+    ],
+    "occluded": false
+  },
+  "train_object_01_01": {
+    "endpoints_xyxy": [
+      964.8,
+      523.2,
+      535.7,
+      875.7
+    ],
+    "occluded": false
+  },
+  "train_object_01_04": {
+    "endpoints_xyxy": [
+      20.0,
+      20.0,
+      398.0,
+      396.0
+    ],
+    "occluded": false
+  },
+  "cal1c_object_01_09": {
+    "endpoints_xyxy": [
+      285.0,
+      360.0,
+      512.0,
+      652.0
+    ],
+    "occluded": false
+  },
+  "cal1c_object_01_06": {
+    "endpoints_xyxy": [
+      440.0,
+      312.0,
+      618.0,
+      395.0
+    ],
+    "occluded": false
+  },
+  "hold_object_01_05": {
+    "endpoints_xyxy": [
+      452.0,
+      432.0,
+      456.0,
+      618.0
+    ],
+    "occluded": true
+  },
+  "hold_object_01_12": {
+    "endpoints_xyxy": [
+      392.0,
+      345.0,
+      635.0,
+      515.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_v2_ov3_062": {
+    "endpoints_xyxy": [
+      415.0,
+      330.0,
+      468.0,
+      425.0
+    ],
+    "occluded": true
+  },
+  "v3_pos_cane_085": {
+    "endpoints_xyxy": [
+      355.0,
+      315.0,
+      452.0,
+      422.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_v2_mcane_001": {
+    "endpoints_xyxy": [
+      218.0,
+      200.0,
+      272.0,
+      635.0
+    ],
+    "occluded": true
+  },
+  "v3_pos_v2_ovc_059": {
+    "endpoints_xyxy": [
+      815.0,
+      295.0,
+      812.0,
+      600.0
+    ],
+    "occluded": true
+  },
+  "v3_pos_cane_082": {
+    "endpoints_xyxy": [
+      182.0,
+      650.0,
+      385.0,
+      932.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_027": {
+    "endpoints_xyxy": [
+      582.0,
+      315.0,
+      598.0,
+      610.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_062": {
+    "endpoints_xyxy": [
+      718.0,
+      415.0,
+      762.0,
+      640.0
+    ],
+    "occluded": true
+  },
+  "v3_pos_cane_011": {
+    "endpoints_xyxy": [
+      227.1,
+      220.7,
+      379.3,
+      717.9
+    ],
+    "occluded": false
+  },
+  "v3_pos_v2_fc2_002": {
+    "endpoints_xyxy": [
+      518.0,
+      455.0,
+      552.0,
+      928.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_213": {
+    "endpoints_xyxy": [
+      255.0,
+      450.0,
+      118.0,
+      902.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_214": {
+    "endpoints_xyxy": [
+      675.0,
+      315.0,
+      678.0,
+      565.0
+    ],
+    "occluded": true
+  },
+  "v3_pos_v2_pos_cane_002": {
+    "endpoints_xyxy": [
+      185.0,
+      295.0,
+      405.0,
+      705.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_163": {
+    "endpoints_xyxy": [
+      525.0,
+      535.0,
+      255.0,
+      958.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_v2_mcane_021": {
+    "endpoints_xyxy": [
+      300.0,
+      292.0,
+      610.0,
+      292.0
+    ],
+    "occluded": true
+  },
+  "v3_pos_cane_167": {
+    "endpoints_xyxy": [
+      172.0,
+      405.0,
+      134.0,
+      545.0
+    ],
+    "occluded": true
+  },
+  "v3_pos_v2_mcane_022": {
+    "endpoints_xyxy": [
+      310.0,
+      530.0,
+      475.0,
+      495.0
+    ],
+    "occluded": true
+  },
+  "v3_pos_cane_041": {
+    "endpoints_xyxy": [
+      652.0,
+      415.0,
+      668.0,
+      678.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_175": {
+    "endpoints_xyxy": [
+      165.0,
+      295.0,
+      198.0,
+      945.0
+    ],
+    "occluded": true
+  },
+  "v3_pos_v2_pos_cane_006": {
+    "endpoints_xyxy": [
+      465.0,
+      248.6,
+      445.7,
+      810.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_v2_scane_020": {
+    "endpoints_xyxy": [
+      380.0,
+      515.0,
+      378.0,
+      860.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_096": {
+    "endpoints_xyxy": [
+      442.0,
+      212.0,
+      498.0,
+      405.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_v2_dcane_024": {
+    "endpoints_xyxy": [
+      395.0,
+      255.0,
+      405.0,
+      808.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_v2_pos_cane_029": {
+    "endpoints_xyxy": [
+      535.0,
+      425.0,
+      558.0,
+      608.0
+    ],
+    "occluded": true
+  },
+  "v3_pos_v2_pos_cane_021": {
+    "endpoints_xyxy": [
+      555.0,
+      458.0,
+      560.0,
+      638.0
+    ],
+    "occluded": true
+  },
+  "v3_pos_cane_146": {
+    "endpoints_xyxy": [
+      402.0,
+      415.0,
+      412.0,
+      598.0
+    ],
+    "occluded": true
+  },
+  "v3_pos_cane_020": {
+    "endpoints_xyxy": [
+      182.0,
+      515.0,
+      222.0,
+      902.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_040": {
+    "endpoints_xyxy": [
+      368.0,
+      475.0,
+      188.0,
+      938.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_016": {
+    "endpoints_xyxy": [
+      760.0,
+      415.0,
+      885.0,
+      568.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_168": {
+    "endpoints_xyxy": [
+      188.0,
+      340.0,
+      232.0,
+      405.0
+    ],
+    "occluded": true
+  },
+  "v3_pos_cane_176": {
+    "endpoints_xyxy": [
+      718.0,
+      345.0,
+      725.0,
+      628.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_180": {
+    "endpoints_xyxy": [
+      368.0,
+      530.0,
+      315.0,
+      622.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_148": {
+    "endpoints_xyxy": [
+      502.0,
+      290.0,
+      505.0,
+      475.0
+    ],
+    "occluded": true
+  },
+  "v3_pos_cane_153": {
+    "endpoints_xyxy": [
+      385.0,
+      525.0,
+      250.0,
+      818.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_036": {
+    "endpoints_xyxy": [
+      538.0,
+      318.0,
+      625.0,
+      435.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_159": {
+    "endpoints_xyxy": [
+      150.0,
+      305.0,
+      325.0,
+      488.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_160": {
+    "endpoints_xyxy": [
+      582.0,
+      330.0,
+      588.0,
+      618.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_169": {
+    "endpoints_xyxy": [
+      438.0,
+      385.0,
+      432.0,
+      622.0
+    ],
+    "occluded": true
+  },
+  "v3_pos_cane_170": {
+    "endpoints_xyxy": [
+      315.0,
+      275.0,
+      398.0,
+      435.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_171": {
+    "endpoints_xyxy": [
+      485.0,
+      238.0,
+      558.0,
+      355.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_172": {
+    "endpoints_xyxy": [
+      485.0,
+      232.0,
+      392.0,
+      282.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_173": {
+    "endpoints_xyxy": [
+      540.0,
+      388.0,
+      545.0,
+      588.0
+    ],
+    "occluded": true
+  },
+  "v3_pos_cane_177": {
+    "endpoints_xyxy": [
+      958.0,
+      550.0,
+      815.0,
+      635.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_178": {
+    "endpoints_xyxy": [
+      268.0,
+      365.0,
+      288.0,
+      522.0
+    ],
+    "occluded": true
+  },
+  "v3_pos_cane_184": {
+    "endpoints_xyxy": [
+      488.0,
+      395.0,
+      492.0,
+      602.0
+    ],
+    "occluded": true
+  },
+  "v3_pos_cane_185": {
+    "endpoints_xyxy": [
+      550.0,
+      338.0,
+      558.0,
+      628.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_194": {
+    "endpoints_xyxy": [
+      142.0,
+      342.0,
+      192.0,
+      425.0
+    ],
+    "occluded": true
+  },
+  "v3_pos_cane_195": {
+    "endpoints_xyxy": [
+      498.0,
+      420.0,
+      520.0,
+      912.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_196": {
+    "endpoints_xyxy": [
+      375.0,
+      428.0,
+      380.0,
+      648.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_197": {
+    "endpoints_xyxy": [
+      118.0,
+      415.0,
+      162.0,
+      855.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_198": {
+    "endpoints_xyxy": [
+      780.0,
+      418.0,
+      845.0,
+      658.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_199": {
+    "endpoints_xyxy": [
+      162.0,
+      370.0,
+      52.0,
+      698.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_205": {
+    "endpoints_xyxy": [
+      192.0,
+      342.0,
+      188.0,
+      608.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_206": {
+    "endpoints_xyxy": [
+      485.0,
+      368.0,
+      535.0,
+      528.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_207": {
+    "endpoints_xyxy": [
+      452.0,
+      470.0,
+      455.0,
+      618.0
+    ],
+    "occluded": true
+  },
+  "v3_pos_cane_181": {
+    "endpoints_xyxy": [
+      368.0,
+      378.0,
+      440.0,
+      520.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_182": {
+    "endpoints_xyxy": [
+      358.0,
+      435.0,
+      362.0,
+      702.0
+    ],
+    "occluded": true
+  },
+  "v3_pos_cane_183": {
+    "endpoints_xyxy": [
+      195.0,
+      438.0,
+      322.0,
+      608.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_186": {
+    "endpoints_xyxy": [
+      488.0,
+      465.0,
+      532.0,
+      912.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_187": {
+    "endpoints_xyxy": [
+      425.0,
+      480.0,
+      268.0,
+      955.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_188": {
+    "endpoints_xyxy": [
+      250.0,
+      448.0,
+      532.0,
+      902.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_189": {
+    "endpoints_xyxy": [
+      415.0,
+      465.0,
+      585.0,
+      665.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_190": {
+    "endpoints_xyxy": [
+      248.0,
+      548.0,
+      338.0,
+      622.0
+    ],
+    "occluded": true
+  },
+  "v3_pos_cane_191": {
+    "endpoints_xyxy": [
+      275.0,
+      385.0,
+      435.0,
+      588.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_192": {
+    "endpoints_xyxy": [
+      745.0,
+      395.0,
+      868.0,
+      558.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_193": {
+    "endpoints_xyxy": [
+      368.0,
+      378.0,
+      452.0,
+      478.0
+    ],
+    "occluded": true
+  },
+  "v3_pos_cane_200": {
+    "endpoints_xyxy": [
+      678.0,
+      398.0,
+      685.0,
+      635.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_201": {
+    "endpoints_xyxy": [
+      640.0,
+      415.0,
+      622.0,
+      608.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_202": {
+    "endpoints_xyxy": [
+      588.0,
+      388.0,
+      590.0,
+      495.0
+    ],
+    "occluded": true
+  },
+  "v3_pos_cane_203": {
+    "endpoints_xyxy": [
+      472.0,
+      345.0,
+      502.0,
+      492.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_204": {
+    "endpoints_xyxy": [
+      465.0,
+      398.0,
+      515.0,
+      585.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_208": {
+    "endpoints_xyxy": [
+      278.0,
+      395.0,
+      510.0,
+      718.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_209": {
+    "endpoints_xyxy": [
+      162.0,
+      488.0,
+      12.0,
+      648.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_210": {
+    "endpoints_xyxy": [
+      250.0,
+      420.0,
+      285.0,
+      958.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_211": {
+    "endpoints_xyxy": [
+      430.0,
+      435.0,
+      328.0,
+      612.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_215": {
+    "endpoints_xyxy": [
+      72.0,
+      22.0,
+      74.0,
+      938.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_216": {
+    "endpoints_xyxy": [
+      348.0,
+      355.0,
+      348.0,
+      868.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_217": {
+    "endpoints_xyxy": [
+      122.0,
+      415.0,
+      132.0,
+      745.0
+    ],
+    "occluded": true
+  },
+  "v3_pos_cane_218": {
+    "endpoints_xyxy": [
+      82.0,
+      275.0,
+      96.0,
+      875.0
+    ],
+    "occluded": false
+  },
+  "v3_pos_cane_219": {
+    "endpoints_xyxy": [
+      275.0,
+      425.0,
+      292.0,
+      520.0
+    ],
+    "occluded": true
+  },
+  "v3_pos_cane_220": {
+    "endpoints_xyxy": [
+      450.0,
+      440.0,
+      485.0,
+      538.0
+    ],
+    "occluded": true
+  }
+}

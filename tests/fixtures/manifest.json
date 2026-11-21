@@ -1,0 +1,677 @@
+{
+  "dataset_name": "VisionMate_Phase1_Benchmark_70",
+  "version": "1.0.0",
+  "generated_date": "2026-11-09",
+  "synthetic": true,
+  "consent_safe": true,
+  "license": "CC0-1.0 (Synthetic images rendered locally via Windows system fonts)",
+  "counts": {
+    "total": 70,
+    "clear_vi": 30,
+    "challenging_vi": 20,
+    "no_text": 10,
+    "digits_dates": 10
+  },
+  "items": [
+    {
+      "id": "clear_01",
+      "filename": "clear_01.png",
+      "category": "clear_vi",
+      "ground_truth": "Sữa tươi tiệt trùng không đường",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Clear printed Vietnamese text"
+    },
+    {
+      "id": "clear_02",
+      "filename": "clear_02.png",
+      "category": "clear_vi",
+      "ground_truth": "Nước khoáng thiên nhiên đóng chai",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Clear printed Vietnamese text"
+    },
+    {
+      "id": "clear_03",
+      "filename": "clear_03.png",
+      "category": "clear_vi",
+      "ground_truth": "Bánh quy bơ sữa cao cấp",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Clear printed Vietnamese text"
+    },
+    {
+      "id": "clear_04",
+      "filename": "clear_04.png",
+      "category": "clear_vi",
+      "ground_truth": "Trà xanh túi lọc hương nhài",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Clear printed Vietnamese text"
+    },
+    {
+      "id": "clear_05",
+      "filename": "clear_05.png",
+      "category": "clear_vi",
+      "ground_truth": "Cà phê rang xay nguyên chất",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Clear printed Vietnamese text"
+    },
+    {
+      "id": "clear_06",
+      "filename": "clear_06.png",
+      "category": "clear_vi",
+      "ground_truth": "Gạo thơm đặc sản Sóc Trăng",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Clear printed Vietnamese text"
+    },
+    {
+      "id": "clear_07",
+      "filename": "clear_07.png",
+      "category": "clear_vi",
+      "ground_truth": "Nước mắm truyền thống Phú Quốc",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Clear printed Vietnamese text"
+    },
+    {
+      "id": "clear_08",
+      "filename": "clear_08.png",
+      "category": "clear_vi",
+      "ground_truth": "Dầu ăn thực vật tinh luyện",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Clear printed Vietnamese text"
+    },
+    {
+      "id": "clear_09",
+      "filename": "clear_09.png",
+      "category": "clear_vi",
+      "ground_truth": "Mì khoai tây sợi dai thơm ngon",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Clear printed Vietnamese text"
+    },
+    {
+      "id": "clear_10",
+      "filename": "clear_10.png",
+      "category": "clear_vi",
+      "ground_truth": "Bột giặt hương hoa tự nhiên",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Clear printed Vietnamese text"
+    },
+    {
+      "id": "clear_11",
+      "filename": "clear_11.png",
+      "category": "clear_vi",
+      "ground_truth": "Nước rửa chén chiết xuất chanh",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Clear printed Vietnamese text"
+    },
+    {
+      "id": "clear_12",
+      "filename": "clear_12.png",
+      "category": "clear_vi",
+      "ground_truth": "Khăn giấy lụa mềm mại hai lớp",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Clear printed Vietnamese text"
+    },
+    {
+      "id": "clear_13",
+      "filename": "clear_13.png",
+      "category": "clear_vi",
+      "ground_truth": "Kem đánh răng bảo vệ nướu",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Clear printed Vietnamese text"
+    },
+    {
+      "id": "clear_14",
+      "filename": "clear_14.png",
+      "category": "clear_vi",
+      "ground_truth": "Dầu gội thảo dược bồ kết",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Clear printed Vietnamese text"
+    },
+    {
+      "id": "clear_15",
+      "filename": "clear_15.png",
+      "category": "clear_vi",
+      "ground_truth": "Sữa chua ăn men sống tự nhiên",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Clear printed Vietnamese text"
+    },
+    {
+      "id": "clear_16",
+      "filename": "clear_16.png",
+      "category": "clear_vi",
+      "ground_truth": "Mật ong rừng nguyên chất Tây Nguyên",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Clear printed Vietnamese text"
+    },
+    {
+      "id": "clear_17",
+      "filename": "clear_17.png",
+      "category": "clear_vi",
+      "ground_truth": "Hạt điều rang muối Bình Phước",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Clear printed Vietnamese text"
+    },
+    {
+      "id": "clear_18",
+      "filename": "clear_18.png",
+      "category": "clear_vi",
+      "ground_truth": "Ngũ cốc dinh dưỡng buổi sáng",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Clear printed Vietnamese text"
+    },
+    {
+      "id": "clear_19",
+      "filename": "clear_19.png",
+      "category": "clear_vi",
+      "ground_truth": "Tương ớt nguyên chất cay dịu",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Clear printed Vietnamese text"
+    },
+    {
+      "id": "clear_20",
+      "filename": "clear_20.png",
+      "category": "clear_vi",
+      "ground_truth": "Nước ép cam tươi nguyên chất",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Clear printed Vietnamese text"
+    },
+    {
+      "id": "clear_21",
+      "filename": "clear_21.png",
+      "category": "clear_vi",
+      "ground_truth": "Bảo quản nơi khô ráo thoáng mát",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Clear printed Vietnamese text"
+    },
+    {
+      "id": "clear_22",
+      "filename": "clear_22.png",
+      "category": "clear_vi",
+      "ground_truth": "Tránh ánh nắng trực tiếp mặt trời",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Clear printed Vietnamese text"
+    },
+    {
+      "id": "clear_23",
+      "filename": "clear_23.png",
+      "category": "clear_vi",
+      "ground_truth": "Lắc đều trước khi sử dụng",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Clear printed Vietnamese text"
+    },
+    {
+      "id": "clear_24",
+      "filename": "clear_24.png",
+      "category": "clear_vi",
+      "ground_truth": "Dùng ngay sau khi mở nắp hộp",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Clear printed Vietnamese text"
+    },
+    {
+      "id": "clear_25",
+      "filename": "clear_25.png",
+      "category": "clear_vi",
+      "ground_truth": "Thành phần: Sữa bò tươi nguyên chất",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Clear printed Vietnamese text"
+    },
+    {
+      "id": "clear_26",
+      "filename": "clear_26.png",
+      "category": "clear_vi",
+      "ground_truth": "Sản xuất tại nhà máy Việt Nam",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Clear printed Vietnamese text"
+    },
+    {
+      "id": "clear_27",
+      "filename": "clear_27.png",
+      "category": "clear_vi",
+      "ground_truth": "Hướng dẫn sử dụng in trên bao bì",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Clear printed Vietnamese text"
+    },
+    {
+      "id": "clear_28",
+      "filename": "clear_28.png",
+      "category": "clear_vi",
+      "ground_truth": "Phòng khám đa khoa khu vực tầng một",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Clear printed Vietnamese text"
+    },
+    {
+      "id": "clear_29",
+      "filename": "clear_29.png",
+      "category": "clear_vi",
+      "ground_truth": "Lối đi dành cho người đi bộ",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Clear printed Vietnamese text"
+    },
+    {
+      "id": "clear_30",
+      "filename": "clear_30.png",
+      "category": "clear_vi",
+      "ground_truth": "Quầy tiếp nhận thông tin khách hàng",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Clear printed Vietnamese text"
+    },
+    {
+      "id": "challenging_01",
+      "filename": "challenging_01.png",
+      "category": "challenging_vi",
+      "ground_truth": "Bánh gạo nướng vị rong biển",
+      "condition": "small_font",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Challenging condition: small_font"
+    },
+    {
+      "id": "challenging_02",
+      "filename": "challenging_02.png",
+      "category": "challenging_vi",
+      "ground_truth": "Nước tương lên men tự nhiên",
+      "condition": "low_contrast",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Challenging condition: low_contrast"
+    },
+    {
+      "id": "challenging_03",
+      "filename": "challenging_03.png",
+      "category": "challenging_vi",
+      "ground_truth": "Sữa đặc có đường cao cấp",
+      "condition": "shadow_gradient",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Challenging condition: shadow_gradient"
+    },
+    {
+      "id": "challenging_04",
+      "filename": "challenging_04.png",
+      "category": "challenging_vi",
+      "ground_truth": "Trà thảo mộc thanh nhiệt cơ thể",
+      "condition": "tilt_pos",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Challenging condition: tilt_pos"
+    },
+    {
+      "id": "challenging_05",
+      "filename": "challenging_05.png",
+      "category": "challenging_vi",
+      "ground_truth": "Bột ngũ cốc dinh dưỡng ít đường",
+      "condition": "tilt_neg",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Challenging condition: tilt_neg"
+    },
+    {
+      "id": "challenging_06",
+      "filename": "challenging_06.png",
+      "category": "challenging_vi",
+      "ground_truth": "Dầu ô liu nguyên chất nhập khẩu",
+      "condition": "sensor_noise",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Challenging condition: sensor_noise"
+    },
+    {
+      "id": "challenging_07",
+      "filename": "challenging_07.png",
+      "category": "challenging_vi",
+      "ground_truth": "Cà phê hòa tan đậm đà hương vị",
+      "condition": "dark_inverted",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Challenging condition: dark_inverted"
+    },
+    {
+      "id": "challenging_08",
+      "filename": "challenging_08.png",
+      "category": "challenging_vi",
+      "ground_truth": "Kẹo dẻo trái cây tổng hợp",
+      "condition": "cardboard_bg",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Challenging condition: cardboard_bg"
+    },
+    {
+      "id": "challenging_09",
+      "filename": "challenging_09.png",
+      "category": "challenging_vi",
+      "ground_truth": "Nước súc miệng diệt khuẩn bạc hà",
+      "condition": "mild_blur",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Challenging condition: mild_blur"
+    },
+    {
+      "id": "challenging_10",
+      "filename": "challenging_10.png",
+      "category": "challenging_vi",
+      "ground_truth": "Muối biển i-ốt tinh khiết",
+      "condition": "small_font",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Challenging condition: small_font"
+    },
+    {
+      "id": "challenging_11",
+      "filename": "challenging_11.png",
+      "category": "challenging_vi",
+      "ground_truth": "Bơ thực vật giàu vitamin",
+      "condition": "low_contrast",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Challenging condition: low_contrast"
+    },
+    {
+      "id": "challenging_12",
+      "filename": "challenging_12.png",
+      "category": "challenging_vi",
+      "ground_truth": "Cháo tổ yến thịt bằm dinh dưỡng",
+      "condition": "shadow_gradient",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Challenging condition: shadow_gradient"
+    },
+    {
+      "id": "challenging_13",
+      "filename": "challenging_13.png",
+      "category": "challenging_vi",
+      "ground_truth": "Nước cốt dừa đóng lon tiện lợi",
+      "condition": "tilt_pos",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Challenging condition: tilt_pos"
+    },
+    {
+      "id": "challenging_14",
+      "filename": "challenging_14.png",
+      "category": "challenging_vi",
+      "ground_truth": "Bánh phồng tôm đặc sản miền Tây",
+      "condition": "sensor_noise",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Challenging condition: sensor_noise"
+    },
+    {
+      "id": "challenging_15",
+      "filename": "challenging_15.png",
+      "category": "challenging_vi",
+      "ground_truth": "Sô cô la đen nguyên chất đắng nhẹ",
+      "condition": "dark_inverted",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Challenging condition: dark_inverted"
+    },
+    {
+      "id": "challenging_16",
+      "filename": "challenging_16.png",
+      "category": "challenging_vi",
+      "ground_truth": "Giấm gạo lên men tự nhiên",
+      "condition": "cardboard_bg",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Challenging condition: cardboard_bg"
+    },
+    {
+      "id": "challenging_17",
+      "filename": "challenging_17.png",
+      "category": "challenging_vi",
+      "ground_truth": "Đường tinh luyện trắng sạch",
+      "condition": "mild_blur",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Challenging condition: mild_blur"
+    },
+    {
+      "id": "challenging_18",
+      "filename": "challenging_18.png",
+      "category": "challenging_vi",
+      "ground_truth": "Hạt tiêu đen xay nhuyễn thơm nồng",
+      "condition": "tilt_neg",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Challenging condition: tilt_neg"
+    },
+    {
+      "id": "challenging_19",
+      "filename": "challenging_19.png",
+      "category": "challenging_vi",
+      "ground_truth": "Nước giải khát hương chanh muối",
+      "condition": "shadow_gradient",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Challenging condition: shadow_gradient"
+    },
+    {
+      "id": "challenging_20",
+      "filename": "challenging_20.png",
+      "category": "challenging_vi",
+      "ground_truth": "Bột canh gia vị nấu ăn hằng ngày",
+      "condition": "low_contrast",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Challenging condition: low_contrast"
+    },
+    {
+      "id": "notext_01",
+      "filename": "notext_01.png",
+      "category": "no_text",
+      "ground_truth": "",
+      "condition": "blank_wall",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "No-text sample (blank_wall)"
+    },
+    {
+      "id": "notext_02",
+      "filename": "notext_02.png",
+      "category": "no_text",
+      "ground_truth": "",
+      "condition": "wood_surface",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "No-text sample (wood_surface)"
+    },
+    {
+      "id": "notext_03",
+      "filename": "notext_03.png",
+      "category": "no_text",
+      "ground_truth": "",
+      "condition": "geometric_circles",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "No-text sample (geometric_circles)"
+    },
+    {
+      "id": "notext_04",
+      "filename": "notext_04.png",
+      "category": "no_text",
+      "ground_truth": "",
+      "condition": "out_of_focus_blur",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "No-text sample (out_of_focus_blur)"
+    },
+    {
+      "id": "notext_05",
+      "filename": "notext_05.png",
+      "category": "no_text",
+      "ground_truth": "",
+      "condition": "too_dark_frame",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "No-text sample (too_dark_frame)"
+    },
+    {
+      "id": "notext_06",
+      "filename": "notext_06.png",
+      "category": "no_text",
+      "ground_truth": "",
+      "condition": "overexposed_glare",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "No-text sample (overexposed_glare)"
+    },
+    {
+      "id": "notext_07",
+      "filename": "notext_07.png",
+      "category": "no_text",
+      "ground_truth": "",
+      "condition": "soft_gradient",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "No-text sample (soft_gradient)"
+    },
+    {
+      "id": "notext_08",
+      "filename": "notext_08.png",
+      "category": "no_text",
+      "ground_truth": "",
+      "condition": "blank_pastel_card",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "No-text sample (blank_pastel_card)"
+    },
+    {
+      "id": "notext_09",
+      "filename": "notext_09.png",
+      "category": "no_text",
+      "ground_truth": "",
+      "condition": "defocused_blobs",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "No-text sample (defocused_blobs)"
+    },
+    {
+      "id": "notext_10",
+      "filename": "notext_10.png",
+      "category": "no_text",
+      "ground_truth": "",
+      "condition": "gray_gradient",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "No-text sample (gray_gradient)"
+    },
+    {
+      "id": "digits_01",
+      "filename": "digits_01.png",
+      "category": "digits_dates",
+      "ground_truth": "NSX: 15/03/2026 - HSD: 15/03/2027",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Digits, dates, dosages, units preservation test"
+    },
+    {
+      "id": "digits_02",
+      "filename": "digits_02.png",
+      "category": "digits_dates",
+      "ground_truth": "Paracetamol 500mg - Hộp 10 vỉ",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Digits, dates, dosages, units preservation test"
+    },
+    {
+      "id": "digits_03",
+      "filename": "digits_03.png",
+      "category": "digits_dates",
+      "ground_truth": "Giá bán: 145000 VNĐ - Mã SP: VN893",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Digits, dates, dosages, units preservation test"
+    },
+    {
+      "id": "digits_04",
+      "filename": "digits_04.png",
+      "category": "digits_dates",
+      "ground_truth": "Dung tích thực: 180 ml - 110 kcal",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Digits, dates, dosages, units preservation test"
+    },
+    {
+      "id": "digits_05",
+      "filename": "digits_05.png",
+      "category": "digits_dates",
+      "ground_truth": "Liều dùng: 2 viên/ngày sau bữa ăn",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Digits, dates, dosages, units preservation test"
+    },
+    {
+      "id": "digits_06",
+      "filename": "digits_06.png",
+      "category": "digits_dates",
+      "ground_truth": "Số lô: B260911 - Ngày: 09/11/2026",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Digits, dates, dosages, units preservation test"
+    },
+    {
+      "id": "digits_07",
+      "filename": "digits_07.png",
+      "category": "digits_dates",
+      "ground_truth": "Điện áp: 220V 50Hz - Công suất 1500W",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Digits, dates, dosages, units preservation test"
+    },
+    {
+      "id": "digits_08",
+      "filename": "digits_08.png",
+      "category": "digits_dates",
+      "ground_truth": "Nhiệt độ bảo quản: từ 2 đến 8 độ C",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Digits, dates, dosages, units preservation test"
+    },
+    {
+      "id": "digits_09",
+      "filename": "digits_09.png",
+      "category": "digits_dates",
+      "ground_truth": "Tổng thanh toán: 1250500 đồng",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Digits, dates, dosages, units preservation test"
+    },
+    {
+      "id": "digits_10",
+      "filename": "digits_10.png",
+      "category": "digits_dates",
+      "ground_truth": "Cồn y tế Ethanol 70 độ - Chai 500ml",
+      "synthetic": true,
+      "license": "CC0-1.0 (Project Synthetic Benchmark)",
+      "notes": "Digits, dates, dosages, units preservation test"
+    }
+  ]
+}

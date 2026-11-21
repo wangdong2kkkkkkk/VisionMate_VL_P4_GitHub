@@ -1,0 +1,89 @@
+{
+  "seed": 42,
+  "input_size": 256,
+  "grid_size": 64,
+  "backbone": "mobilenet_v3_small (ImageNet DEFAULT, BSD-3-Clause)",
+  "variants": {
+    "A1_CNN_Keypoint": {
+      "mode": "A1_CNN_Keypoint",
+      "seed": 42,
+      "train_sec": 41.71,
+      "n_params": 1045989,
+      "fp32_mb": 4.002,
+      "int8_mb": 1.171,
+      "fp32_sha256": "13ba4c4cf34605253268cc71bd8c83aa45366bfa3be7901493caa6e18d3b88fe",
+      "int8_sha256": "615f4ef1d6b6df81a6564fa7f0aeaf35c281231c675e82fd85d2d2c95500a4d8",
+      "best_val_cal_v4": {
+        "roc_auc": 0.7386,
+        "pr_auc": 0.3758,
+        "mean_endpoint_err_px": 170.74,
+        "mean_both_pdj_10": 0.3125,
+        "mean_mask_iou": 0.0
+      },
+      "onnx_parity": {
+        "val_roc_fp32": 0.7386,
+        "val_roc_int8": 0.6629,
+        "max_prob_diff": 0.8947,
+        "int8_viable": false,
+        "recommended_onnx": "a1_cnn_keypoint_fp32.onnx"
+      }
+    },
+    "B1_CNN_Segmentation": {
+      "mode": "B1_CNN_Segmentation",
+      "seed": 42,
+      "train_sec": 433.29,
+      "n_params": 1045989,
+      "fp32_mb": 4.002,
+      "int8_mb": 1.171,
+      "fp32_sha256": "8cdd91c3c55f1f9abd8b6fa4e15d79b50761b8796a5de349c99551c2c028dca4",
+      "int8_sha256": "0857fb578cd99f004fd905b7fc1cdad54f09c934695298679749b3c90d8e11ab",
+      "best_val_cal_v4": {
+        "roc_auc": 0.7575,
+        "pr_auc": 0.4379,
+        "mean_endpoint_err_px": 230.06,
+        "mean_both_pdj_10": 0.125,
+        "mean_mask_iou": 0.0289
+      },
+      "onnx_parity": {
+        "val_roc_fp32": 0.7575,
+        "val_roc_int8": 0.647,
+        "max_prob_diff": 0.8333,
+        "int8_viable": false,
+        "recommended_onnx": "b1_cnn_segmentation_fp32.onnx"
+      }
+    },
+    "B2_CNN_MultiTask": {
+      "mode": "B2_CNN_MultiTask",
+      "seed": 42,
+      "train_sec": 515.06,
+      "n_params": 1045989,
+      "fp32_mb": 4.002,
+      "int8_mb": 1.171,
+      "fp32_sha256": "6a5627bc0a4d33dff4f259a2314232f5ac2f222e5e5ea5b34c37146444147270",
+      "int8_sha256": "0f187f3b8ca6de2352c4f700e5008b0bbf7e82c5136771593a44d383949706b7",
+      "best_val_cal_v4": {
+        "roc_auc": 0.7623,
+        "pr_auc": 0.3972,
+        "mean_endpoint_err_px": 194.88,
+        "mean_both_pdj_10": 0.3125,
+        "mean_mask_iou": 0.0086
+      },
+      "onnx_parity": {
+        "val_roc_fp32": 0.7623,
+        "val_roc_int8": 0.6373,
+        "max_prob_diff": 0.8743,
+        "int8_viable": false,
+        "recommended_onnx": "b2_cnn_multitask_fp32.onnx"
+      }
+    }
+  },
+  "verifier_base_mode": "B2_CNN_MultiTask",
+  "verifier_base_onnx": "b2_cnn_multitask_fp32.onnx",
+  "verifier_oof": {
+    "n": 581,
+    "n_pos": 97,
+    "oof_pos_mean": 0.9326,
+    "oof_neg_mean": 0.0297
+  },
+  "verifier_sha256": "f9be750c258d68c6daaf87e57274fed682d50c939d50002cd426a95f5e078918"
+}

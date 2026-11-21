@@ -1,0 +1,1614 @@
+{
+  "timestamp": "2026-11-09T22:20:00+07:00",
+  "phase": "1.3a.1",
+  "p1_3a1_mixed_language_and_numeric": {
+    "image_file": "test_report_extended_formats_dark.png",
+    "sha256": "871C970B526ED2CFB249A35313B4D27180EDEBAD0EB8EF569DDF94B908FC77D3",
+    "resolution": "980x380",
+    "variants": {
+      "tesseract_fast": {
+        "latency_ms": 2778.5,
+        "lines_count": 12,
+        "rejected_lines_count": 0,
+        "cer_pct": 1.17,
+        "wer_pct": 6.16,
+        "technical_token_recall_pct": 100.0,
+        "missing_tokens": [],
+        "tokens_check": {
+          "H.264": true,
+          "00:00": true,
+          "(415)": true,
+          "HTTP 416": true,
+          "CASE 6": true,
+          "CASE 10": true,
+          "12 Extended": true,
+          "CASE 1": true
+        }
+      },
+      "tesseract_best": {
+        "latency_ms": 2761.1,
+        "lines_count": 12,
+        "rejected_lines_count": 0,
+        "cer_pct": 1.17,
+        "wer_pct": 6.16,
+        "technical_token_recall_pct": 100.0,
+        "missing_tokens": [],
+        "tokens_check": {
+          "H.264": true,
+          "00:00": true,
+          "(415)": true,
+          "HTTP 416": true,
+          "CASE 6": true,
+          "CASE 10": true,
+          "12 Extended": true,
+          "CASE 1": true
+        }
+      }
+    },
+    "before_phase1_3a1_observed_errors": {
+      "H.264/AAC": "H.2ó4/AAC",
+      "00:00": "OO:00",
+      "(415)": "(418)",
+      "HTTP 416": "HTTP 41ó",
+      "CASE 6": "CASE ó",
+      "CASE 10": "CASE 19",
+      "12 Extended Formats Tests": "12Extended Formats Tests",
+      "CASE 1": "REJECTED entirely in best variant"
+    },
+    "all_7_errors_resolved": true,
+    "rss_mb": 118.6
+  },
+  "step1_ocr_spike": {
+    "tesseract_fast_vie": {
+      "sample_count": 15,
+      "median_cer_pct": 0.0,
+      "mean_cer_pct": 0.48,
+      "exact_match_count": 13,
+      "p50_latency_ms": 169.0,
+      "p95_latency_ms": 251.1,
+      "peak_rss_mb": 77.9,
+      "samples": [
+        {
+          "id": "clear_01",
+          "gt": "Sữa tươi tiệt trùng không đường",
+          "pred": "Sữa tươi tiệt trùng không đường",
+          "cer_pct": 0.0,
+          "latency_ms": 233.8
+        },
+        {
+          "id": "clear_02",
+          "gt": "Nước khoáng thiên nhiên đóng chai",
+          "pred": "Nước khoáng thiên nhiên đóng chai",
+          "cer_pct": 0.0,
+          "latency_ms": 175.4
+        },
+        {
+          "id": "clear_03",
+          "gt": "Bánh quy bơ sữa cao cấp",
+          "pred": "Bánh quy bơ sữa cao cấp",
+          "cer_pct": 0.0,
+          "latency_ms": 168.3
+        },
+        {
+          "id": "clear_04",
+          "gt": "Trà xanh túi lọc hương nhài",
+          "pred": "Trà xanh túi lọc hương nhài",
+          "cer_pct": 0.0,
+          "latency_ms": 172.1
+        },
+        {
+          "id": "clear_05",
+          "gt": "Cà phê rang xay nguyên chất",
+          "pred": "Cà phê rang xay nguyên chất",
+          "cer_pct": 0.0,
+          "latency_ms": 168.3
+        }
+      ]
+    },
+    "tesseract_best_vie": {
+      "sample_count": 15,
+      "median_cer_pct": 0.0,
+      "mean_cer_pct": 0.26,
+      "exact_match_count": 14,
+      "p50_latency_ms": 226.6,
+      "p95_latency_ms": 259.7,
+      "peak_rss_mb": 78.4,
+      "samples": [
+        {
+          "id": "clear_01",
+          "gt": "Sữa tươi tiệt trùng không đường",
+          "pred": "Sữa tươi tiệt trùng không đường",
+          "cer_pct": 0.0,
+          "latency_ms": 226.0
+        },
+        {
+          "id": "clear_02",
+          "gt": "Nước khoáng thiên nhiên đóng chai",
+          "pred": "Nước khoáng thiên nhiên đóng chai",
+          "cer_pct": 0.0,
+          "latency_ms": 234.1
+        },
+        {
+          "id": "clear_03",
+          "gt": "Bánh quy bơ sữa cao cấp",
+          "pred": "Bánh quy bơ sữa cao cấp",
+          "cer_pct": 0.0,
+          "latency_ms": 213.7
+        },
+        {
+          "id": "clear_04",
+          "gt": "Trà xanh túi lọc hương nhài",
+          "pred": "Trà xanh túi lọc hương nhài",
+          "cer_pct": 0.0,
+          "latency_ms": 215.0
+        },
+        {
+          "id": "clear_05",
+          "gt": "Cà phê rang xay nguyên chất",
+          "pred": "Cà phê rang xay nguyên chất",
+          "cer_pct": 0.0,
+          "latency_ms": 231.5
+        }
+      ]
+    },
+    "paddleocr_onnx_latin_vi": {
+      "sample_count": 15,
+      "median_cer_pct": 9.09,
+      "mean_cer_pct": 11.51,
+      "exact_match_count": 1,
+      "p50_latency_ms": 1224.5,
+      "p95_latency_ms": 3330.3,
+      "peak_rss_mb": 132.7,
+      "samples": [
+        {
+          "id": "clear_01",
+          "gt": "Sữa tươi tiệt trùng không đường",
+          "pred": "Sūa tuoi tit trùng không duòng",
+          "cer_pct": 22.58,
+          "latency_ms": 7444.6
+        },
+        {
+          "id": "clear_02",
+          "gt": "Nước khoáng thiên nhiên đóng chai",
+          "pred": "Nuóc khoáng thiên nhiên dóng chai",
+          "cer_pct": 9.09,
+          "latency_ms": 1567.0
+        },
+        {
+          "id": "clear_03",
+          "gt": "Bánh quy bơ sữa cao cấp",
+          "pred": "Bánh quy bo sūa cao câp",
+          "cer_pct": 13.04,
+          "latency_ms": 1382.2
+        },
+        {
+          "id": "clear_04",
+          "gt": "Trà xanh túi lọc hương nhài",
+          "pred": "Trà xanh túi lρc huong nhài",
+          "cer_pct": 11.11,
+          "latency_ms": 1110.5
+        },
+        {
+          "id": "clear_05",
+          "gt": "Cà phê rang xay nguyên chất",
+          "pred": "Cà phê\nèrang\nxay nguyên chât",
+          "cer_pct": 7.41,
+          "latency_ms": 1186.6
+        }
+      ]
+    }
+  },
+  "dataset_evaluation": {
+    "dataset_type": "synthetic_phase1_70",
+    "peak_rss_mb_70_images": 117.7,
+    "A03_clear_30": {
+      "count": 30,
+      "median_cer_pct": 0.0,
+      "mean_cer_pct": 0.24,
+      "max_cer_pct": 3.85,
+      "pass_le_5pct_count": 30,
+      "fail_gt_5pct_count": 0,
+      "per_image": [
+        {
+          "id": "clear_01",
+          "ground_truth": "Sữa tươi tiệt trùng không đường",
+          "predicted": "Sữa tươi tiệt trùng không đường",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "latency_ms": 189.4,
+          "passed_5pct": true
+        },
+        {
+          "id": "clear_02",
+          "ground_truth": "Nước khoáng thiên nhiên đóng chai",
+          "predicted": "Nước khoáng thiên nhiên đóng chai",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "latency_ms": 185.9,
+          "passed_5pct": true
+        },
+        {
+          "id": "clear_03",
+          "ground_truth": "Bánh quy bơ sữa cao cấp",
+          "predicted": "Bánh quy bơ sữa cao cấp",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "latency_ms": 180.4,
+          "passed_5pct": true
+        },
+        {
+          "id": "clear_04",
+          "ground_truth": "Trà xanh túi lọc hương nhài",
+          "predicted": "Trà xanh túi lọc hương nhài",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "latency_ms": 177.5,
+          "passed_5pct": true
+        },
+        {
+          "id": "clear_05",
+          "ground_truth": "Cà phê rang xay nguyên chất",
+          "predicted": "Cà phê rang xay nguyên chất",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "latency_ms": 177.7,
+          "passed_5pct": true
+        },
+        {
+          "id": "clear_06",
+          "ground_truth": "Gạo thơm đặc sản Sóc Trăng",
+          "predicted": "Gạo thơm đặc sản Sóc Trằng",
+          "status": "READABLE",
+          "cer_pct": 3.85,
+          "latency_ms": 175.6,
+          "passed_5pct": true
+        },
+        {
+          "id": "clear_07",
+          "ground_truth": "Nước mắm truyền thống Phú Quốc",
+          "predicted": "Nước mắm truyền thống Phú Quốc",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "latency_ms": 250.7,
+          "passed_5pct": true
+        },
+        {
+          "id": "clear_08",
+          "ground_truth": "Dầu ăn thực vật tinh luyện",
+          "predicted": "Dầu ăn thực vật tinh luyện",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "latency_ms": 172.5,
+          "passed_5pct": true
+        },
+        {
+          "id": "clear_09",
+          "ground_truth": "Mì khoai tây sợi dai thơm ngon",
+          "predicted": "MÌ khoai tây sợi dai thơm ngon",
+          "status": "READABLE",
+          "cer_pct": 3.33,
+          "latency_ms": 177.0,
+          "passed_5pct": true
+        },
+        {
+          "id": "clear_10",
+          "ground_truth": "Bột giặt hương hoa tự nhiên",
+          "predicted": "Bột giặt hương hoa tự nhiên",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "latency_ms": 178.1,
+          "passed_5pct": true
+        },
+        {
+          "id": "clear_11",
+          "ground_truth": "Nước rửa chén chiết xuất chanh",
+          "predicted": "Nước rửa chén chiết xuất chanh",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "latency_ms": 199.9,
+          "passed_5pct": true
+        },
+        {
+          "id": "clear_12",
+          "ground_truth": "Khăn giấy lụa mềm mại hai lớp",
+          "predicted": "Khăn giấy lụa mềm mại hai lớp",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "latency_ms": 179.6,
+          "passed_5pct": true
+        },
+        {
+          "id": "clear_13",
+          "ground_truth": "Kem đánh răng bảo vệ nướu",
+          "predicted": "Kem đánh răng bảo vệ nướu",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "latency_ms": 173.6,
+          "passed_5pct": true
+        },
+        {
+          "id": "clear_14",
+          "ground_truth": "Dầu gội thảo dược bồ kết",
+          "predicted": "Dầu gội thảo dược bồ kết",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "latency_ms": 212.1,
+          "passed_5pct": true
+        },
+        {
+          "id": "clear_15",
+          "ground_truth": "Sữa chua ăn men sống tự nhiên",
+          "predicted": "Sữa chua ăn men sống tự nhiên",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "latency_ms": 240.4,
+          "passed_5pct": true
+        },
+        {
+          "id": "clear_16",
+          "ground_truth": "Mật ong rừng nguyên chất Tây Nguyên",
+          "predicted": "Mật ong rừng nguyên chất Tây Nguyên",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "latency_ms": 193.9,
+          "passed_5pct": true
+        },
+        {
+          "id": "clear_17",
+          "ground_truth": "Hạt điều rang muối Bình Phước",
+          "predicted": "Hạt điều rang muối Bình Phước",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "latency_ms": 191.7,
+          "passed_5pct": true
+        },
+        {
+          "id": "clear_18",
+          "ground_truth": "Ngũ cốc dinh dưỡng buổi sáng",
+          "predicted": "Ngũ cốc dinh dưỡng buổi sáng",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "latency_ms": 201.9,
+          "passed_5pct": true
+        },
+        {
+          "id": "clear_19",
+          "ground_truth": "Tương ớt nguyên chất cay dịu",
+          "predicted": "Tương ớt nguyên chất cay dịu",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "latency_ms": 186.0,
+          "passed_5pct": true
+        },
+        {
+          "id": "clear_20",
+          "ground_truth": "Nước ép cam tươi nguyên chất",
+          "predicted": "Nước ép cam tươi nguyên chất",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "latency_ms": 191.3,
+          "passed_5pct": true
+        },
+        {
+          "id": "clear_21",
+          "ground_truth": "Bảo quản nơi khô ráo thoáng mát",
+          "predicted": "Bảo quản nơi khô ráo thoáng mát",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "latency_ms": 184.5,
+          "passed_5pct": true
+        },
+        {
+          "id": "clear_22",
+          "ground_truth": "Tránh ánh nắng trực tiếp mặt trời",
+          "predicted": "Tránh ánh nắng trực tiếp mặt trời",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "latency_ms": 180.2,
+          "passed_5pct": true
+        },
+        {
+          "id": "clear_23",
+          "ground_truth": "Lắc đều trước khi sử dụng",
+          "predicted": "Lắc đều trước khi sử dụng",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "latency_ms": 172.6,
+          "passed_5pct": true
+        },
+        {
+          "id": "clear_24",
+          "ground_truth": "Dùng ngay sau khi mở nắp hộp",
+          "predicted": "Dùng ngay sau khi mở nắp hộp",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "latency_ms": 177.6,
+          "passed_5pct": true
+        },
+        {
+          "id": "clear_25",
+          "ground_truth": "Thành phần: Sữa bò tươi nguyên chất",
+          "predicted": "Thành phần: Sữa bò tươi nguyên chất",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "latency_ms": 292.8,
+          "passed_5pct": true
+        },
+        {
+          "id": "clear_26",
+          "ground_truth": "Sản xuất tại nhà máy Việt Nam",
+          "predicted": "Sản xuất tại nhà máy Việt Nam",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "latency_ms": 180.6,
+          "passed_5pct": true
+        },
+        {
+          "id": "clear_27",
+          "ground_truth": "Hướng dẫn sử dụng in trên bao bì",
+          "predicted": "Hướng dẫn sử dụng in trên bao bì",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "latency_ms": 177.5,
+          "passed_5pct": true
+        },
+        {
+          "id": "clear_28",
+          "ground_truth": "Phòng khám đa khoa khu vực tầng một",
+          "predicted": "Phòng khám đa khoa khu vực tầng một",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "latency_ms": 181.8,
+          "passed_5pct": true
+        },
+        {
+          "id": "clear_29",
+          "ground_truth": "Lối đi dành cho người đi bộ",
+          "predicted": "Lối đi dành cho người đi bộ",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "latency_ms": 188.2,
+          "passed_5pct": true
+        },
+        {
+          "id": "clear_30",
+          "ground_truth": "Quầy tiếp nhận thông tin khách hàng",
+          "predicted": "Quầy tiếp nhận thông tin khách hàng",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "latency_ms": 266.7,
+          "passed_5pct": true
+        }
+      ]
+    },
+    "challenging_20": {
+      "count": 20,
+      "median_cer_pct": 0.0,
+      "mean_cer_pct": 3.79,
+      "max_cer_pct": 67.74,
+      "per_image": [
+        {
+          "id": "challenging_01",
+          "condition": "small_font",
+          "ground_truth": "Bánh gạo nướng vị rong biển",
+          "predicted": "Bánh gạo nướng vị rong biển",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "latency_ms": 200.7
+        },
+        {
+          "id": "challenging_02",
+          "condition": "low_contrast",
+          "ground_truth": "Nước tương lên men tự nhiên",
+          "predicted": "Nước tương lên men tự nhiên",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "latency_ms": 185.3
+        },
+        {
+          "id": "challenging_03",
+          "condition": "shadow_gradient",
+          "ground_truth": "Sữa đặc có đường cao cấp",
+          "predicted": "Sữa đặc có đường cao cấp",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "latency_ms": 182.1
+        },
+        {
+          "id": "challenging_04",
+          "condition": "tilt_pos",
+          "ground_truth": "Trà thảo mộc thanh nhiệt cơ thể",
+          "predicted": "Trà thảo mộc thanh nhiệt cơ thể",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "latency_ms": 186.3
+        },
+        {
+          "id": "challenging_05",
+          "condition": "tilt_neg",
+          "ground_truth": "Bột ngũ cốc dinh dưỡng ít đường",
+          "predicted": "Bột ngũ cốc dinh dưỡng ít đường",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "latency_ms": 189.6
+        },
+        {
+          "id": "challenging_06",
+          "condition": "sensor_noise",
+          "ground_truth": "Dầu ô liu nguyên chất nhập khẩu",
+          "predicted": "Dầu ô liu nguyên chất nhập khẩu",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "latency_ms": 201.3
+        },
+        {
+          "id": "challenging_07",
+          "condition": "dark_inverted",
+          "ground_truth": "Cà phê hòa tan đậm đà hương vị",
+          "predicted": "Cà phê hòa tan đậm đà hương vị",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "latency_ms": 179.9
+        },
+        {
+          "id": "challenging_08",
+          "condition": "cardboard_bg",
+          "ground_truth": "Kẹo dẻo trái cây tổng hợp",
+          "predicted": "Kẹo dẻo trái cây tổng hợp",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "latency_ms": 177.1
+        },
+        {
+          "id": "challenging_09",
+          "condition": "mild_blur",
+          "ground_truth": "Nước súc miệng diệt khuẩn bạc hà",
+          "predicted": "Nước súc miệng diệt khuẩn bạc hà",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "latency_ms": 182.8
+        },
+        {
+          "id": "challenging_10",
+          "condition": "small_font",
+          "ground_truth": "Muối biển i-ốt tinh khiết",
+          "predicted": "Muối biên i-ốt tỉnh khiết",
+          "status": "READABLE",
+          "cer_pct": 8.0,
+          "latency_ms": 194.7
+        },
+        {
+          "id": "challenging_11",
+          "condition": "low_contrast",
+          "ground_truth": "Bơ thực vật giàu vitamin",
+          "predicted": "Bơ thực vật giàu vitamin",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "latency_ms": 184.1
+        },
+        {
+          "id": "challenging_12",
+          "condition": "shadow_gradient",
+          "ground_truth": "Cháo tổ yến thịt bằm dinh dưỡng",
+          "predicted": "dinh dưỡng",
+          "status": "READABLE",
+          "cer_pct": 67.74,
+          "latency_ms": 171.6
+        },
+        {
+          "id": "challenging_13",
+          "condition": "tilt_pos",
+          "ground_truth": "Nước cốt dừa đóng lon tiện lợi",
+          "predicted": "Nước cốt dừa đóng lon tiện lợi",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "latency_ms": 182.3
+        },
+        {
+          "id": "challenging_14",
+          "condition": "sensor_noise",
+          "ground_truth": "Bánh phồng tôm đặc sản miền Tây",
+          "predicted": "Bánh phồng tôm đặc sản miền Tây",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "latency_ms": 201.3
+        },
+        {
+          "id": "challenging_15",
+          "condition": "dark_inverted",
+          "ground_truth": "Sô cô la đen nguyên chất đắng nhẹ",
+          "predicted": "Sô cô la đen nguyên chất đắng nhẹ",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "latency_ms": 183.0
+        },
+        {
+          "id": "challenging_16",
+          "condition": "cardboard_bg",
+          "ground_truth": "Giấm gạo lên men tự nhiên",
+          "predicted": "Giấm gạo lên men tự nhiên",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "latency_ms": 210.7
+        },
+        {
+          "id": "challenging_17",
+          "condition": "mild_blur",
+          "ground_truth": "Đường tinh luyện trắng sạch",
+          "predicted": "Đường tinh luyện trắng sạch",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "latency_ms": 245.1
+        },
+        {
+          "id": "challenging_18",
+          "condition": "tilt_neg",
+          "ground_truth": "Hạt tiêu đen xay nhuyễn thơm nồng",
+          "predicted": "Hạt tiêu đen xay nhuyễn thơm nồng",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "latency_ms": 245.9
+        },
+        {
+          "id": "challenging_19",
+          "condition": "shadow_gradient",
+          "ground_truth": "Nước giải khát hương chanh muối",
+          "predicted": "Nước giải khát hương chanh muối",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "latency_ms": 190.4
+        },
+        {
+          "id": "challenging_20",
+          "condition": "low_contrast",
+          "ground_truth": "Bột canh gia vị nấu ăn hằng ngày",
+          "predicted": "Bột canh gia vị nấu ăn hằng ngày",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "latency_ms": 177.6
+        }
+      ]
+    },
+    "A04_no_text_10": {
+      "count": 10,
+      "no_invented_text_count": 10,
+      "invented_text_count": 0,
+      "per_image": [
+        {
+          "id": "notext_01",
+          "condition": "blank_wall",
+          "status": "NO_TEXT",
+          "quality_issue": "OK",
+          "spoken_text": "Mình chưa nhìn thấy chữ rõ để đọc.",
+          "invented_text": false
+        },
+        {
+          "id": "notext_02",
+          "condition": "wood_surface",
+          "status": "BAD_IMAGE",
+          "quality_issue": "TOO_BLURRY",
+          "spoken_text": "Ảnh đang mờ, hãy giữ camera ổn định và đưa nội dung vào gần hơn.",
+          "invented_text": false
+        },
+        {
+          "id": "notext_03",
+          "condition": "geometric_circles",
+          "status": "NO_TEXT",
+          "quality_issue": "OK",
+          "spoken_text": "Mình chưa nhìn thấy chữ rõ để đọc.",
+          "invented_text": false
+        },
+        {
+          "id": "notext_04",
+          "condition": "out_of_focus_blur",
+          "status": "BAD_IMAGE",
+          "quality_issue": "TOO_BLURRY",
+          "spoken_text": "Ảnh đang mờ, hãy giữ camera ổn định và đưa nội dung vào gần hơn.",
+          "invented_text": false
+        },
+        {
+          "id": "notext_05",
+          "condition": "too_dark_frame",
+          "status": "BAD_IMAGE",
+          "quality_issue": "TOO_DARK",
+          "spoken_text": "Ảnh đang quá tối, hãy bật thêm đèn hoặc hướng nội dung ra nơi đủ sáng.",
+          "invented_text": false
+        },
+        {
+          "id": "notext_06",
+          "condition": "overexposed_glare",
+          "status": "BAD_IMAGE",
+          "quality_issue": "TOO_BRIGHT_OR_GLARE",
+          "spoken_text": "Ảnh bị chói sáng, hãy nghiêng nhẹ nhãn hoặc đổi góc để giảm phản xạ ánh sáng.",
+          "invented_text": false
+        },
+        {
+          "id": "notext_07",
+          "condition": "soft_gradient",
+          "status": "BAD_IMAGE",
+          "quality_issue": "TOO_BLURRY",
+          "spoken_text": "Ảnh đang mờ, hãy giữ camera ổn định và đưa nội dung vào gần hơn.",
+          "invented_text": false
+        },
+        {
+          "id": "notext_08",
+          "condition": "blank_pastel_card",
+          "status": "NO_TEXT",
+          "quality_issue": "OK",
+          "spoken_text": "Mình chưa nhìn thấy chữ rõ để đọc.",
+          "invented_text": false
+        },
+        {
+          "id": "notext_09",
+          "condition": "defocused_blobs",
+          "status": "NO_TEXT",
+          "quality_issue": "OK",
+          "spoken_text": "Mình chưa nhìn thấy chữ rõ để đọc.",
+          "invented_text": false
+        },
+        {
+          "id": "notext_10",
+          "condition": "gray_gradient",
+          "status": "BAD_IMAGE",
+          "quality_issue": "TOO_BLURRY",
+          "spoken_text": "Ảnh đang mờ, hãy giữ camera ổn định và đưa nội dung vào gần hơn.",
+          "invented_text": false
+        }
+      ]
+    },
+    "A05_digits_dates_10": {
+      "count": 10,
+      "median_cer_pct": 0.0,
+      "digits_exact_match_count": 10,
+      "digits_mismatch_log": [],
+      "sensitive_caution_count": 10,
+      "per_image": [
+        {
+          "id": "digits_01",
+          "ground_truth": "NSX: 15/03/2026 - HSD: 15/03/2027",
+          "predicted": "NSX: 15/03/2026 - HSD: 15/03/2027",
+          "gt_digits": "1503202615032027",
+          "pred_digits": "1503202615032027",
+          "digits_exact_match": true,
+          "cer_pct": 0.0,
+          "sensitive_caution_triggered": true,
+          "spoken_text": "NSX: 15/03/2026 - HSD: 15/03/2027. Lưu ý: Nội dung có chứa con số, hạn dùng hoặc thông tin nhạy cảm, vui lòng kiểm tra lại với người hỗ trợ hoặc nguồn tin cậy."
+        },
+        {
+          "id": "digits_02",
+          "ground_truth": "Paracetamol 500mg - Hộp 10 vỉ",
+          "predicted": "Paracetamol 500mg - Hộp 10 vỉ",
+          "gt_digits": "50010",
+          "pred_digits": "50010",
+          "digits_exact_match": true,
+          "cer_pct": 0.0,
+          "sensitive_caution_triggered": true,
+          "spoken_text": "Paracetamol 500mg - Hộp 10 vỉ. Lưu ý: Nội dung có chứa con số, hạn dùng hoặc thông tin nhạy cảm, vui lòng kiểm tra lại với người hỗ trợ hoặc nguồn tin cậy."
+        },
+        {
+          "id": "digits_03",
+          "ground_truth": "Giá bán: 145000 VNĐ - Mã SP: VN893",
+          "predicted": "Giá bán: 145000 VNĐ - Mã SP: VN893",
+          "gt_digits": "145000893",
+          "pred_digits": "145000893",
+          "digits_exact_match": true,
+          "cer_pct": 0.0,
+          "sensitive_caution_triggered": true,
+          "spoken_text": "Giá bán: 145000 VNĐ - Mã SP: VN893. Lưu ý: Nội dung có chứa con số, hạn dùng hoặc thông tin nhạy cảm, vui lòng kiểm tra lại với người hỗ trợ hoặc nguồn tin cậy."
+        },
+        {
+          "id": "digits_04",
+          "ground_truth": "Dung tích thực: 180 ml - 110 kcal",
+          "predicted": "Dung tích thực: 180 ml - 110 kcal",
+          "gt_digits": "180110",
+          "pred_digits": "180110",
+          "digits_exact_match": true,
+          "cer_pct": 0.0,
+          "sensitive_caution_triggered": true,
+          "spoken_text": "Dung tích thực: 180 ml - 110 kcal. Lưu ý: Nội dung có chứa con số, hạn dùng hoặc thông tin nhạy cảm, vui lòng kiểm tra lại với người hỗ trợ hoặc nguồn tin cậy."
+        },
+        {
+          "id": "digits_05",
+          "ground_truth": "Liều dùng: 2 viên/ngày sau bữa ăn",
+          "predicted": "Liều dùng: 2 viên/ngày sau bữa ăn",
+          "gt_digits": "2",
+          "pred_digits": "2",
+          "digits_exact_match": true,
+          "cer_pct": 0.0,
+          "sensitive_caution_triggered": true,
+          "spoken_text": "Liều dùng: 2 viên/ngày sau bữa ăn. Lưu ý: Nội dung có chứa con số, hạn dùng hoặc thông tin nhạy cảm, vui lòng kiểm tra lại với người hỗ trợ hoặc nguồn tin cậy."
+        },
+        {
+          "id": "digits_06",
+          "ground_truth": "Số lô: B260911 - Ngày: 09/11/2026",
+          "predicted": "Số lô: B260911 - Ngày: 09/11/2026",
+          "gt_digits": "26091109112026",
+          "pred_digits": "26091109112026",
+          "digits_exact_match": true,
+          "cer_pct": 0.0,
+          "sensitive_caution_triggered": true,
+          "spoken_text": "Số lô: B260911 - Ngày: 09/11/2026. Lưu ý: Nội dung có chứa con số, hạn dùng hoặc thông tin nhạy cảm, vui lòng kiểm tra lại với người hỗ trợ hoặc nguồn tin cậy."
+        },
+        {
+          "id": "digits_07",
+          "ground_truth": "Điện áp: 220V 50Hz - Công suất 1500W",
+          "predicted": "Điện áp: 220V 50 Hz - Công suất 1500W",
+          "gt_digits": "220501500",
+          "pred_digits": "220501500",
+          "digits_exact_match": true,
+          "cer_pct": 2.78,
+          "sensitive_caution_triggered": true,
+          "spoken_text": "Điện áp: 220V 50 Hz - Công suất 1500W. Lưu ý: Nội dung có chứa con số, hạn dùng hoặc thông tin nhạy cảm, vui lòng kiểm tra lại với người hỗ trợ hoặc nguồn tin cậy."
+        },
+        {
+          "id": "digits_08",
+          "ground_truth": "Nhiệt độ bảo quản: từ 2 đến 8 độ C",
+          "predicted": "Nhiệt độ bảo quản:\ntừ 2 đến 8 độ C",
+          "gt_digits": "28",
+          "pred_digits": "28",
+          "digits_exact_match": true,
+          "cer_pct": 0.0,
+          "sensitive_caution_triggered": true,
+          "spoken_text": "Nhiệt độ bảo quản:. từ 2 đến 8 độ C. Lưu ý: Nội dung có chứa con số, hạn dùng hoặc thông tin nhạy cảm, vui lòng kiểm tra lại với người hỗ trợ hoặc nguồn tin cậy."
+        },
+        {
+          "id": "digits_09",
+          "ground_truth": "Tổng thanh toán: 1250500 đồng",
+          "predicted": "Tổng thanh toán: 1250500 đồng",
+          "gt_digits": "1250500",
+          "pred_digits": "1250500",
+          "digits_exact_match": true,
+          "cer_pct": 0.0,
+          "sensitive_caution_triggered": true,
+          "spoken_text": "Tổng thanh toán: 1250500 đồng. Lưu ý: Nội dung có chứa con số, hạn dùng hoặc thông tin nhạy cảm, vui lòng kiểm tra lại với người hỗ trợ hoặc nguồn tin cậy."
+        },
+        {
+          "id": "digits_10",
+          "ground_truth": "Cồn y tế Ethanol 70 độ - Chai 500ml",
+          "predicted": "Cồn y tế Ethanol 70 độ - Chai 500ml",
+          "gt_digits": "70500",
+          "pred_digits": "70500",
+          "digits_exact_match": true,
+          "cer_pct": 0.0,
+          "sensitive_caution_triggered": true,
+          "spoken_text": "Cồn y tế Ethanol 70 độ - Chai 500ml. Lưu ý: Nội dung có chứa con số, hạn dùng hoặc thông tin nhạy cảm, vui lòng kiểm tra lại với người hỗ trợ hoặc nguồn tin cậy."
+        }
+      ]
+    }
+  },
+  "p1_1_regression_sample": {
+    "sample_file": "tests/fixtures/regression_p1_1/administrative_form_379x527.png",
+    "sha256": "7CADF447D955D1E74647723D2709338818B434D42A506EADBEE232FB2D44CDB7",
+    "resolution": "379x527",
+    "before_phase1": {
+      "status": "READABLE (False Confidence Failure in Phase 1)",
+      "observed_ocr_text": "Mẫu 1. - Nghị quyết (cá biệ),\n\nTÊN CƠ QUA, TÔ CHỨC: Đặc lp - Tự do- Hạnh phúc\n\n“TÊN CO, TC CHỦ QUẦN! ___ CỌNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM.\n\nSố ẢNG.2 “., g2. ng. sâm\n\nNGHỊ QUYẾT.\n\n“THÂM QUYÊN BẠN HÀNH\n\nCao :\n\nQUYẾT NGHỊ:\n\n¬ (Chữý ca người có tiến quyền\n\nNginhộn 'QUYÊN HẠN, CHỨC YỤ CỦA NGƯỜI KÝ\n\n; Âu chữ lý sổ của cơ quan tổ chức)\n\nTạ và tên\n\nhan\n\n“to an à bức bạn nh nữ gọt\n\n“hà vánoội ng nhị quất\n\nCó vi Hứa đoavi sạn táo vấntn và sổ lưng bn la (ao).",
+      "critical_defects": [
+        "Merged 2-column header across columns: 'TÊN €Q, TC CHỦ QUẢN1= — CỘNG HÒA...'",
+        "Inverted line order: 'Độc lập - Tự do - Hạnh phúc' placed above 'TÊN CƠ QUAN, TỔ CHỨC...'",
+        "Hallucinated garbage from dotted lines/rules: 'Số ẢNG.2 “., g2. ng. sâm', '¬', '; Âu'",
+        "Read out 5-6px unreadable footnotes as gibberish with confidence"
+      ]
+    },
+    "after_phase1_1": {
+      "status": "UNCERTAIN",
+      "image_quality_status": "LOW_RESOLUTION",
+      "ocr_confidence_status": "LOW",
+      "speech_policy": "SPEAK_WARNING_ONLY",
+      "low_resolution_detected": true,
+      "median_char_height_px": 7.0,
+      "p75_char_height_px": 8.0,
+      "total_candidate_lines": 23,
+      "rejected_garbled_lines": 14,
+      "verified_headings_count": 9,
+      "verified_headings_in_order": [
+        "Mẫu 1.1 - Nghị quyết (cá biệt)",
+        "TÊN CQ, TC CHỦ QUẦN",
+        "TÊN CƠ QUAN, TỎ CHỨC?",
+        "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM",
+        "Độc lập - Tự do - Hạnh phúc",
+        "NGHỊ QUYẾT",
+        "QUYẾT NGHỊ:",
+        "Nơi nhận:",
+        "QUYỀN HẠN, CHỨC VỤ CỦA NGƯỜI KÝ"
+      ],
+      "spoken_text": "Ảnh có chữ quá nhỏ hoặc không đủ rõ. Hãy đưa camera lại gần hoặc dùng ảnh độ phân giải cao hơn",
+      "display_text": "Ảnh có chữ quá nhỏ hoặc không đủ rõ. Hãy đưa camera lại gần hoặc dùng ảnh độ phân giải cao hơn\n\n[Các dòng chữ lớn có điểm OCR cao tách được từ ảnh (chưa đủ điều kiện đọc toàn trang) — Đã từ chối 14/23 dòng chữ nhỏ/không chắc chắn (cỡ chữ trung vị ~7.0px)]:\nMẫu 1.1 - Nghị quyết (cá biệt)\nTÊN CQ, TC CHỦ QUẦN\nTÊN CƠ QUAN, TỎ CHỨC?\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\nNGHỊ QUYẾT\nQUYẾT NGHỊ:\nNơi nhận:\nQUYỀN HẠN, CHỨC VỤ CỦA NGƯỜI KÝ",
+      "latency_ms": 3216.7,
+      "top_header_roi_headings": [
+        "Mẫu 1.1 - Nghị quyết (cá biệt)",
+        "Độc lập - Tự do - Hạnh phúc",
+        "NGHỊ QUYẾT"
+      ],
+      "rss_mb": 115.3
+    }
+  },
+  "p1_2_false_rejection_samples": {
+    "case_a_dark_theme_996x587": {
+      "sample_file": "tests/fixtures/regression_p1_2/dark_theme_vietnamese_996x587.png",
+      "sha256": "ECEAA55D3380F2B21A49877D09EF0B535B51B8E745373EA2A79E82AC396F2064",
+      "resolution": "996x587",
+      "before_phase1_1": {
+        "status": "UNCERTAIN",
+        "polarity_detected": "dark_on_light (WRONG — p90=132 < 170 failed dark-bg check)",
+        "median_char_height_px": 11.0,
+        "p75_char_height_px": 15.0,
+        "roi_count": 22,
+        "total_candidate_lines": 22,
+        "rejected_lines": 20,
+        "accepted_lines": 2,
+        "false_rejection_rate_pct": 90.91,
+        "cer_pct": 92.34,
+        "wer_pct": 95.88,
+        "root_causes": [
+          "is_dark_bg failed because p90_gray=132.0 < 170.0 on #121212 dark background",
+          "Un-inverted Otsu thresholding treated dark background as ink and text as holes",
+          "Single-line word gaps in [0.24W..0.58W] triggered false 2-column splitting (22 ROIs)",
+          "Naive median_char_height_px < 11.5px classified 11px x-height (15px cap-height) as low-res"
+        ]
+      },
+      "after_phase1_2": {
+        "status": "READABLE",
+        "image_quality_status": "OK",
+        "ocr_confidence_status": "HIGH",
+        "speech_policy": "ALLOW_FULL_SPEECH",
+        "polarity": "light_on_dark",
+        "low_resolution_detected": false,
+        "p25_char_height_px": 11.0,
+        "median_char_height_px": 12.0,
+        "p75_char_height_px": 15.0,
+        "roi_count": 1,
+        "total_candidate_lines": 15,
+        "rejected_lines": 0,
+        "accepted_lines": 15,
+        "false_rejection_rate_pct": 0.0,
+        "line_recall_correct_count": 15,
+        "line_recall_correct_pct": 100.0,
+        "cer_pct": 0.4,
+        "wer_pct": 1.92,
+        "mean_line_confidence": 95.59,
+        "latency_ms": 1824.0,
+        "rss_mb": 114.2,
+        "predicted_lines": [
+          "1. Quy định chung về phông chữ và cách trình bày văn bản hành chính",
+          "1.1. Văn bản hành chính là gì?",
+          "Văn bản hành chính là loại văn bản được cơ quan, tổ chức ban hành trong quá trình quản lý, điều hành và",
+          "giải quyết công việc theo chức năng, nhiệm vụ, quyền hạn của mình.",
+          "Theo Điều 7 Nghị định 30/2020/NĐ-CP, văn bản hành chính bao gồm nhiều loại như nghị quyết cá biệt, quyết",
+          "định cá biệt, chỉ thị, quy chế, quy định, thông báo, hướng dẫn, chương trình, kế hoạch, phương án, đề án, dự",
+          "án, báo cáo, biên bản, tờ trình, hợp đồng, công văn, công điện, bản ghi nhớ, bản thỏa thuận, giấy ủy quyền,",
+          "giấy mời, giấy giới thiệu, giấy nghĩ phép, phiều gửi, phiều chuyền và thư công.",
+          "Mỗi loại văn bản có mục đích sử dụng và đặc điểm riêng. Tuy nhiên, khi thuộc phạm vi điều chỉnh của Nghị",
+          "định 30/2020/NĐ-CP, việc trình bày phải tuân thủ các yêu cầu chung về thể thức và kỹ thuật.",
+          "Ví dụ, một công văn đề nghị phối hợp công tác và một quyết định hành chính có cách tổ chức nội dung khác",
+          "nhau. Công văn thường có phần kính gửi, nội dung trao đồi hoặc đề nghị; trong khi quyết định thường có căn",
+          "cứ ban hành và các điều quy định cụ thể.",
+          "Dù vậy, cả hai đều phải bảo đảm những tiêu chuẩn chung về phông chữ, khổ giấy, căn lề và các thành phần",
+          "thể thức tương ứng."
+        ],
+        "spoken_text": "1. Quy định chung về phông chữ và cách trình bày văn bản hành chính. 1.1. Văn bản hành chính là gì?. Văn bản hành chính là loại văn bản được cơ quan, tổ chức ban hành trong quá trình quản lý, điều hành và. giải quyết công việc theo chức năng, nhiệm vụ, quyền hạn của mình.. Theo Điều 7 Nghị định 30/2020/NĐ-CP, văn bản hành chính bao gồm nhiều loại như nghị quyết cá biệt, quyết. định cá biệt, chỉ thị, quy chế, quy định, thông báo, hướng dẫn, chương trình, kế hoạch, phương án, đề án, dự. án, báo cáo, biên bản, tờ trình, hợp đồng, công văn, công điện, bản ghi nhớ, bản thỏa thuận, giấy ủy quyền,. giấy mời, giấy giới thiệu, giấy nghĩ phép, phiều gửi, phiều chuyền và thư công.. Mỗi loại văn bản có mục đích sử dụng và đặc điểm riêng. Tuy nhiên, khi thuộc phạm vi điều chỉnh của Nghị. định 30/2020/NĐ-CP, việc trình bày phải tuân thủ các yêu cầu chung về thể thức và kỹ thuật.. Ví dụ, một công văn đề nghị phối hợp công tác và một quyết định hành chính có cách tổ chức nội dung khác. nhau. Công văn thường có phần kính gửi, nội dung trao đồi hoặc đề nghị; trong khi quyết định thường có căn. cứ ban hành và các điều quy định cụ thể.. Dù vậy, cả hai đều phải bảo đảm những tiêu chuẩn chung về phông chữ, khổ giấy, căn lề và các thành phần. thể thức tương ứng.. Lưu ý: Nội dung có chứa con số, hạn dùng hoặc thông tin nhạy cảm, vui lòng kiểm tra lại với người hỗ trợ hoặc nguồn tin cậy.. Lưu ý: Một số ký tự ở viền khung hình có thể bị khuyết."
+      }
+    },
+    "case_b_inverted_light_996x587": {
+      "sample_file": "tests/fixtures/regression_p1_2/diagnostic_inverted_only.png",
+      "sha256": "817BA6C63F31F79B41435BDC4A11C0D8DA3CE5C5103DE0F6FE40B1D217B4B7BC",
+      "resolution": "996x587",
+      "before_phase1_1": {
+        "status": "UNCERTAIN",
+        "polarity_detected": "dark_on_light",
+        "median_char_height_px": 11.0,
+        "p75_char_height_px": 15.0,
+        "roi_count": 15,
+        "total_candidate_lines": 15,
+        "rejected_lines": 8,
+        "accepted_lines": 7,
+        "false_rejection_rate_pct": 53.33,
+        "cer_pct": 53.19,
+        "wer_pct": 53.61,
+        "root_causes": [
+          "Naive median_char_height_px < 11.5px classified 11px x-height (15px cap-height) as low-res",
+          "Low-res mode required valid_ratio >= 0.99 (100% tokens valid per line)",
+          "Missing triphthongs ('iêu', 'yêu') in _VALID_VIET_VOWEL_NUCLEI rejected 'điều', 'nhiều', 'tiêu', 'thiệu', 'phiều'",
+          "Unstripped '?' rejected 'gì?' and ASCII-only acronym check rejected '30/2020/NĐ-CP'"
+        ]
+      },
+      "after_phase1_2": {
+        "status": "READABLE",
+        "image_quality_status": "OK",
+        "ocr_confidence_status": "HIGH",
+        "speech_policy": "ALLOW_FULL_SPEECH",
+        "polarity": "dark_on_light",
+        "low_resolution_detected": false,
+        "p25_char_height_px": 11.0,
+        "median_char_height_px": 11.0,
+        "p75_char_height_px": 15.0,
+        "roi_count": 1,
+        "total_candidate_lines": 15,
+        "rejected_lines": 0,
+        "accepted_lines": 15,
+        "false_rejection_rate_pct": 0.0,
+        "line_recall_correct_count": 15,
+        "line_recall_correct_pct": 100.0,
+        "cer_pct": 0.32,
+        "wer_pct": 1.53,
+        "mean_line_confidence": 95.18,
+        "latency_ms": 2115.1,
+        "rss_mb": 113.0,
+        "predicted_lines": [
+          "1. Quy định chung về phông chữ và cách trình bày văn bản hành chính",
+          "1.1. Văn bản hành chính là gì?",
+          "Văn bản hành chính là loại văn bản được cơ quan, tổ chức ban hành trong quá trình quản lý, điều hành và",
+          "giải quyết công việc theo chức năng, nhiệm vụ, quyền hạn của mình.",
+          "Theo Điều 7 Nghị định 30/2020/NĐ-CP, văn bản hành chính bao gồm nhiều loại như nghị quyết cá biệt, quyết",
+          "định cá biệt, chỉ thị, quy chế, quy định, thông báo, hướng dẫn, chương trình, kế hoạch, phương án, đề án, dự",
+          "án, báo cáo, biên bản, tờ trình, hợp đồng, công văn, công điện, bản ghi nhớ, bản thỏa thuận, giấy ủy quyền,",
+          "giấy mời, giấy giới thiệu, giấy nghỉ phép, phiều gửi, phiếu chuyền và thư công.",
+          "Mỗi loại văn bản có mục đích sử dụng và đặc điểm riêng. Tuy nhiên, khi thuộc phạm vi điều chỉnh của Nghị",
+          "định 30/2020/NĐ-CP, việc trình bày phải tuân thủ các yêu cầu chung về thể thức và kỹ thuật.",
+          "Ví dụ, một công văn đề nghị phối hợp công tác và một quyết định hành chính có cách tổ chức nội dung khác",
+          "nhau. Công văn thường có phần kính gửi, nội dung trao đồi hoặc đề nghị; trong khi quyết định thường có căn",
+          "cứ ban hành và các điều quy định cụ thể.",
+          "Dù vậy, cả hai đều phải bảo đảm những tiêu chuẩn chung về phông chữ, khổ giấy, căn lồ và các thành phần",
+          "thể thức tương ứng."
+        ],
+        "spoken_text": "1. Quy định chung về phông chữ và cách trình bày văn bản hành chính. 1.1. Văn bản hành chính là gì?. Văn bản hành chính là loại văn bản được cơ quan, tổ chức ban hành trong quá trình quản lý, điều hành và. giải quyết công việc theo chức năng, nhiệm vụ, quyền hạn của mình.. Theo Điều 7 Nghị định 30/2020/NĐ-CP, văn bản hành chính bao gồm nhiều loại như nghị quyết cá biệt, quyết. định cá biệt, chỉ thị, quy chế, quy định, thông báo, hướng dẫn, chương trình, kế hoạch, phương án, đề án, dự. án, báo cáo, biên bản, tờ trình, hợp đồng, công văn, công điện, bản ghi nhớ, bản thỏa thuận, giấy ủy quyền,. giấy mời, giấy giới thiệu, giấy nghỉ phép, phiều gửi, phiếu chuyền và thư công.. Mỗi loại văn bản có mục đích sử dụng và đặc điểm riêng. Tuy nhiên, khi thuộc phạm vi điều chỉnh của Nghị. định 30/2020/NĐ-CP, việc trình bày phải tuân thủ các yêu cầu chung về thể thức và kỹ thuật.. Ví dụ, một công văn đề nghị phối hợp công tác và một quyết định hành chính có cách tổ chức nội dung khác. nhau. Công văn thường có phần kính gửi, nội dung trao đồi hoặc đề nghị; trong khi quyết định thường có căn. cứ ban hành và các điều quy định cụ thể.. Dù vậy, cả hai đều phải bảo đảm những tiêu chuẩn chung về phông chữ, khổ giấy, căn lồ và các thành phần. thể thức tương ứng.. Lưu ý: Nội dung có chứa con số, hạn dùng hoặc thông tin nhạy cảm, vui lòng kiểm tra lại với người hỗ trợ hoặc nguồn tin cậy.. Lưu ý: Một số ký tự ở viền khung hình có thể bị khuyết."
+      }
+    }
+  },
+  "p1_3_preview_persistence_and_camera": {
+    "packet_sample": {
+      "image_file": "webcam_uncertain_job10_1920x1080.png",
+      "resolution": "1920x1080",
+      "active_blur_score": 7531.4,
+      "glare_ratio": 0.0007,
+      "reflective_band_detected": false,
+      "edge_clipped_text": true,
+      "guidance_hints_vi": [
+        "Đưa nội dung chữ vào giữa khung hình camera."
+      ],
+      "ocr_latency_ms": 3201.0,
+      "detected_lines_count": 14,
+      "median_char_height_px": 11.0,
+      "mean_ocr_raw_score": 89.6,
+      "safety_status": "UNCERTAIN",
+      "safety_warnings": [
+        "Ảnh có chữ quá nhỏ hoặc không đủ rõ. Hãy đưa camera lại gần hoặc dùng ảnh độ phân giải cao hơn",
+        "Cỡ chữ trung vị quá nhỏ (11.0px); từ chối đọc tự động toàn trang.",
+        "Đưa nội dung chữ vào giữa khung hình camera."
+      ],
+      "safe_uncertain_kept": true
+    },
+    "preview_persistence_verified": true,
+    "rss_mb": 150.6
+  },
+  "p1_3a_dark_quality_gate_and_code": {
+    "job17_sample": {
+      "image_file": "dark_code_syntax_job17.jpg",
+      "resolution": "1024x684",
+      "quality_gate_passed": true,
+      "quality_gate_issue": "OK",
+      "mean_brightness": 17.4,
+      "active_blur_score": 1980.2,
+      "contrast_std": 46.6,
+      "edge_clipped_text": true,
+      "quality_gate_latency_ms": 23.3,
+      "ocr_latency_ms": 1131.0,
+      "policy_latency_ms": 0.09,
+      "tts_latency_ms": 0.0,
+      "total_latency_ms": 1154.4,
+      "detected_lines_count": 6,
+      "rejected_lines_count": 0,
+      "median_char_height_px": 35.0,
+      "mean_ocr_raw_score": 83.2,
+      "safety_status": "READABLE",
+      "speech_policy": "ALLOW_FULL_SPEECH",
+      "spoken_text": "if (isNaN(guess)). resultText.textContent = \"Inval. } else if (guess < 1 || guess > 10. resultText.textContent = \"Numb. } else f. if (guess === targetNunber) ”. Lưu ý: Một số ký tự ở viền khung hình có thể bị khuyết.",
+      "warnings": [
+        "Nội dung văn bản chạm sát viền ảnh; một số ký tự ở mép có thể bị khuyết.",
+        "Đưa nội dung chữ vào giữa khung hình camera."
+      ],
+      "reading_order_verified": true
+    },
+    "handwritten_screen_sample": {
+      "image_file": "handwritten_note_screen.jpg",
+      "quality_gate_passed": true,
+      "detected_lines_count": 0,
+      "safety_status": "UNCERTAIN",
+      "speech_policy": "SPEAK_WARNING_ONLY",
+      "safe_fail_closed": true
+    },
+    "pitch_black_frame_test": {
+      "quality_gate_passed": false,
+      "quality_gate_issue": "TOO_DARK",
+      "safety_status": "BAD_IMAGE",
+      "rejected_as_too_dark": true
+    },
+    "rss_mb": 122.1
+  },
+  "p1_1_real_docs_evaluation": {
+    "dataset_type": "real_style_documents_and_packaging_40",
+    "peak_rss_mb": 123.8,
+    "readable_single_col_10": {
+      "count": 10,
+      "median_cer_pct": 2.87,
+      "mean_cer_pct": 6.23,
+      "median_wer_pct": 10.65,
+      "mean_wer_pct": 11.49,
+      "reading_order_pass_count": 10,
+      "p50_latency_ms": 1435.7,
+      "per_image": [
+        {
+          "id": "doc_single_01",
+          "status": "READABLE",
+          "cer_pct": 1.32,
+          "wer_pct": 6.0,
+          "reading_order_correct": true,
+          "latency_ms": 1313.9,
+          "false_rejected": false,
+          "predicted": "TRẠM Y TẾ PHƯỜNG BỀN NGHÉ\nTHÔNG BÁO LỊCH TIỀM CHỦNG ĐỊNH KỲ\nThời gian buổi sáng: Từ 07 giờ 30 đến 11 giờ 00 ngày 15/11/2026\nĐịa điểm: Số 18 đường Nguyễn Thị Minh Khai, Quận 1\nKhi đi phụ huynh mang theo số tiêm chủng của trẻ em."
+        },
+        {
+          "id": "doc_single_02",
+          "status": "READABLE",
+          "cer_pct": 2.63,
+          "wer_pct": 10.0,
+          "reading_order_correct": true,
+          "latency_ms": 1406.6,
+          "false_rejected": false,
+          "predicted": "BỆNH VIỆN MÁT TRUNG ƯƠNG\nGIẦY HẸN TÁI KHÁM NHẪN KHOA\nHọ và tên bệnh nhân: Nguyễn Văn Minh\nNgày hẹn khám lại: 24/11/2026 tại Phòng khám số 04\nLưu ý: Nhi ăn sáng trước khi làm xét nghiệm máu."
+        },
+        {
+          "id": "doc_single_03",
+          "status": "READABLE",
+          "cer_pct": 23.83,
+          "wer_pct": 23.4,
+          "reading_order_correct": true,
+          "latency_ms": 1587.9,
+          "false_rejected": false,
+          "predicted": "CÔNG TY CÁP NƯỚC SÀI GÒN\nTHÔNG BÁO TẠM NGỪNG CÁP NUƯ\nKhu vực áp dụng: Phường Võ Thị Sáu, Quận 3\nThời gian: Từ 22 giờ 00 ngày 18/11/2026 đến 04\nLý do: Bảo trì đường ống dẫn nước sạch định kỳ.\ngiờ 00 ngày 19/11/2026"
+        },
+        {
+          "id": "doc_single_04",
+          "status": "READABLE",
+          "cer_pct": 2.38,
+          "wer_pct": 10.2,
+          "reading_order_correct": true,
+          "latency_ms": 1267.1,
+          "false_rejected": false,
+          "predicted": "BỘ PHẬN TIẾP NHẬN VÀ TRÀ KÉT QUÁ\nHƯỚNG DẪN NÓỘP HỖ SƠ HÀNH CHÍNH\nBước 1: Lấy số thứ tự tự động tại quầy hướng dẫn\nBước 2: Xuất trình căn cước công dân bản chính\nBước 3: Nhận phiếu hẹn trả kết quả tại quầy số 02."
+        },
+        {
+          "id": "doc_single_05",
+          "status": "READABLE",
+          "cer_pct": 8.97,
+          "wer_pct": 15.62,
+          "reading_order_correct": true,
+          "latency_ms": 1464.7,
+          "false_rejected": false,
+          "predicted": "ĐIỆN LỰC THÀNH PHÓ HÀ NỘI\nTHÔNG BÁO THU TIỀN ĐIỆN THÍ\nMã khách hàng: PE010024891\nChỉ số công tơ tiêu thụ: 245 kWh\nTổng số tiền thanh toán: 612500 đồng.\nÍNG 11"
+        },
+        {
+          "id": "doc_single_06",
+          "status": "READABLE",
+          "cer_pct": 6.06,
+          "wer_pct": 11.11,
+          "reading_order_correct": true,
+          "latency_ms": 1557.5,
+          "false_rejected": false,
+          "predicted": "THƯ VIỆN KHOA HỌC TÔNG HỢP\nNỌI QUY PHÒNG ĐỌC THƯ VIÊN\n1. Giữ trật tự và tắt chuông điện thoại di động\n2. Không mang đồ ăn thức uống vào phòng đọc :\n3. Trả sách đúng quầy quy định trước 17 giờ 00.\nsách"
+        },
+        {
+          "id": "doc_single_07",
+          "status": "READABLE",
+          "cer_pct": 0.53,
+          "wer_pct": 2.22,
+          "reading_order_correct": true,
+          "latency_ms": 1292.5,
+          "false_rejected": false,
+          "predicted": "PHÒNG ĐÀO TẠO ĐẠI HỌC\nPHIẾU XÁC NHẬN ĐĂNG KÝ HỌC PHÁN\nHọc kỳ 1 Năm học 2026 - 2027\nMôn học: Nhập môn Trí tuệ Nhân tạo - Mã lớp: IT4060\nPhòng học: Giảng đường B1 - Thứ Hai tiết 1 đến tiết 3."
+        },
+        {
+          "id": "doc_single_08",
+          "status": "READABLE",
+          "cer_pct": 3.11,
+          "wer_pct": 11.36,
+          "reading_order_correct": true,
+          "latency_ms": 1632.8,
+          "false_rejected": false,
+          "predicted": "BAN ĐIỀU HÀNH KHU PHÔ 5\nTHÔNG BÁO HỌP TÔ DẪN PHÓ\nKính mời đại diện các hộ gia đình tham dự cuộc h‹\nThời gian: 19 giờ 00 tối Thứ Bảy ngày 21/11/2026\nĐịa điểm: Nhà sinh hoạt cộng đồng khu phố 5."
+        },
+        {
+          "id": "doc_single_09",
+          "status": "READABLE",
+          "cer_pct": 1.46,
+          "wer_pct": 6.38,
+          "reading_order_correct": true,
+          "latency_ms": 1292.6,
+          "false_rejected": false,
+          "predicted": "TRUNG TÂM HỖ TRỢ NGƯỜI KHIÉM THỊ\nHƯỚNG DẪN SỬ DỤNG THIẾT BỊ ĐỌC CHỮ\nĐặt tài liệu cách camera khoảng 25 đến 35 cm\nNhắn phím Cách để chụp ảnh và nghe đọc tiếng Việt\nNhấn tổ hợp Ctrl cộng L đề xóa kết quả cũ."
+        },
+        {
+          "id": "doc_single_10",
+          "status": "READABLE",
+          "cer_pct": 12.02,
+          "wer_pct": 18.6,
+          "reading_order_correct": true,
+          "latency_ms": 1619.2,
+          "false_rejected": false,
+          "predicted": "ỦY BAN NHÂN DẦN PHƯỜNG TẤN ĐỊNH\nGIẦY MỜI NHẬN TRỢ CÁP XÃ HỘI\nThời gian chỉ trả: Từ ngày 05/11/2026 đến ngày 1\nĐịa điểm: Hội trường Ủy ban nhân dân phường\nĐề nghị mang theo số lĩnh trợ cấp hàng tháng.\n0/11/2026"
+        }
+      ]
+    },
+    "readable_multicol_admin_10": {
+      "count": 10,
+      "median_cer_pct": 7.81,
+      "mean_cer_pct": 24.73,
+      "median_wer_pct": 10.15,
+      "mean_wer_pct": 29.81,
+      "reading_order_pass_count": 5,
+      "p50_latency_ms": 2640.3,
+      "per_image": [
+        {
+          "id": "doc_multicol_01",
+          "status": "READABLE",
+          "cer_pct": 6.25,
+          "wer_pct": 9.09,
+          "reading_order_correct": true,
+          "latency_ms": 2659.3,
+          "false_rejected": false,
+          "predicted": "ỦY BAN NHÂN DẦN\nQUẬN HOÀN KIẾM\nSố: 12/NQ-UBND\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\nHà Nội, ngày 09 tháng 11 năm 2026\nNGHỊ QUYẾT\nVề việc phê duyệt kế hoạch hô trợ ngƯỜI cao tuổi\nĐiều 1. Thông qua danh sách hỗ trợ khám sức khỏe định kỳ.\nNơi nhận:\nNhư Điều 1;\nLưu: VT.\nTM. ỦY BAN NHÂN DÂN\nCHỦ TỊCH"
+        },
+        {
+          "id": "doc_multicol_02",
+          "status": "READABLE",
+          "cer_pct": 2.29,
+          "wer_pct": 7.69,
+          "reading_order_correct": true,
+          "latency_ms": 2832.8,
+          "false_rejected": false,
+          "predicted": "SỚỞY TẾ HÀ NỘI\nBỆNH VIỆN ĐA KHOA\nSố: 45/QĐ-BVĐK\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\nHà Nội, ngày 10 tháng 11 năm 2026\nQUYÉT ĐỊNH\nVề việc ban hành quy trình tiếp đón bệnh nhân\nQUYẾT ĐỊNH:\nĐiều 1. Áp dụng quy trình ưu tiên cho người khuyết tật.\nNơi nhận:\nCác khoa phòng;\nLưu: VT.\nGIÁM ĐÓC BỆNH VIỆN\nPGS.TS. Trần Quốc Bảo"
+        },
+        {
+          "id": "doc_multicol_03",
+          "status": "READABLE",
+          "cer_pct": 1.7,
+          "wer_pct": 5.0,
+          "reading_order_correct": true,
+          "latency_ms": 2521.8,
+          "false_rejected": false,
+          "predicted": "SỞ GIÁO DỤC VÀ ĐÀO TẠO\nTRƯỜNG THPT CHU VĂN AN\nSố: 88/TB-CVA\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\nHà Nội, ngày 12 tháng 11 năm 2026\nTHÔNG BÁO\nVề lịch kiểm tra học kỳ 1 năm học 2026 - 2027\nNhà trường thông báo lịch kiểm tra tập trung cho các khói lớp.\nNơi nhận:\nGiáo viên chủ nhiệm;\nLưu: VP.\nHIỆU TRƯỞNG\nNguyên Thị Lan Hương"
+        },
+        {
+          "id": "doc_multicol_04",
+          "status": "READABLE",
+          "cer_pct": 63.34,
+          "wer_pct": 70.51,
+          "reading_order_correct": false,
+          "latency_ms": 2841.0,
+          "false_rejected": false,
+          "predicted": "TÔNG CÔNG TY ĐIỆN LỰC CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nCÔNG TY ĐIỆN LỰC ĐÓNG ĐA\nSố: 104/CV-PCĐĐ\nKính gửi: Quý khách hàng sử dụng\nCông ty Điện lực thông báo lịch kiề\nNơi nhận:\nĐộc lập - Tự do - Hạnh phúc\nHà Nội, ngày 14 tháng 11 năm 2026\nđiện trên địa bản\nìm tra an toàn lưới điện mùa khô.\nKT. GIÁM ĐÓC\nNhư trên; PHÓ GIÁM ĐÓC\nLưu: VT, KD."
+        },
+        {
+          "id": "doc_multicol_05",
+          "status": "READABLE",
+          "cer_pct": 50.16,
+          "wer_pct": 57.75,
+          "reading_order_correct": false,
+          "latency_ms": 2641.2,
+          "false_rejected": false,
+          "predicted": "ỦY BAN NHÂN DẦN CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nPHƯỜNG LÁNG HẠ\nSố: 29/GXN-UBND\nỦy ban nhân dân phường xác\nNơi nhận:\nĐộc lập - Tự do - Hạnh phúc\nLáng Hạ, ngày 15 tháng 11 năm 2026\nSDIÂY XÁC NHẠẬN\nnhận ông Lê Hoàng Nam hiện cư trú tại địa phương.\nTM. ỦY BAN NHÂN DÂN\nNgười đề nghị; KT. CHỦ TỊCH\nLưu: Tư pháp."
+        },
+        {
+          "id": "doc_multicol_06",
+          "status": "READABLE",
+          "cer_pct": 56.8,
+          "wer_pct": 60.61,
+          "reading_order_correct": false,
+          "latency_ms": 2639.4,
+          "false_rejected": false,
+          "predicted": "HỘI NGƯỜI MÙ VIỆT NAM CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nTHÀNH HỘI HÀ NỘI\nSố: 16/GGT-HNM\nGIẦY\nTrân trọng giới thiệu đồng chí Phạm\nNơi nhận:\nĐộc lập - Tự do - Hạnh phúc\nHà Nội, ngày 16 tháng 11 năm 2026\nGIƠI THIỆU\nMinh Tuần đến liên hệ công tác.\nTM. BAN THƯỜNG VỤ\nNhư trên; CHỦ TỊCH\nLưu: VP."
+        },
+        {
+          "id": "doc_multicol_07",
+          "status": "READABLE",
+          "cer_pct": 52.35,
+          "wer_pct": 58.82,
+          "reading_order_correct": false,
+          "latency_ms": 2546.8,
+          "false_rejected": false,
+          "predicted": "BỘ LAO ĐỘNG THƯƠNG BINH CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nCỤC BẢO TRỢ XÃ HỘI\nSố: 63/TTr-BTXH\nVề việc cấp phát thiết bị hô trợ tiếp\nNơi nhận:\nĐộc lập - Tự do - Hạnh phúc\nHà Nội, ngày 17 tháng 11 năm 2026\nIRINH\ncận thông tin cho người khiếm thị\nCỤC TRƯỞNG\nLãnh đạo Bộ; Đặng Văn Thành\nLưu: VT."
+        },
+        {
+          "id": "doc_multicol_08",
+          "status": "READABLE",
+          "cer_pct": 3.15,
+          "wer_pct": 9.59,
+          "reading_order_correct": true,
+          "latency_ms": 2350.6,
+          "false_rejected": false,
+          "predicted": "TRUNG TÂM DỊCH VỤ VIỆC L.\nPHÒNG TƯ VĂN ĐÀO TẠO\nSố: 72/BB-TTDV\nÀM CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\nHà Nội, ngày 18 tháng 11 năm 2026\nBIÊN BẢN BÀN GIAO TÀI LIỆU\nHai bên tiền hành bàn giao 50 bộ tài liệu hướng dẫn kỹ năng tin học.\nĐẠI DIỆN BỀN GIAO\nNguyên Văn Hòa\nĐẠI DIỆN BỀN NHẬN\nVũ Thị Mai"
+        },
+        {
+          "id": "doc_multicol_09",
+          "status": "READABLE",
+          "cer_pct": 1.94,
+          "wer_pct": 8.33,
+          "reading_order_correct": true,
+          "latency_ms": 2595.9,
+          "false_rejected": false,
+          "predicted": "BẢO HIẾM XÃ HỘI VIỆT NAM\nBHXH QUẬN CÀU GIẦY\nSố: 215/PTN-BHXH\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\nCầu Giấy, ngày 19 tháng 11 năm 2026\nPHIẾU TIẾP NHẬN HÒ SƠ\nĐã tiếp nhận hỗ sơ cấp lại thẻ bảo hiểm y tế của bà Hoàng Thị Cúc.\nNGƯỜI NỘP HỖ SƠ\nHoàng Thị Cúc\nCÁN BỘ TIẾP NHẬN\nLê Thanh Tùng"
+        },
+        {
+          "id": "doc_multicol_10",
+          "status": "READABLE",
+          "cer_pct": 9.37,
+          "wer_pct": 10.71,
+          "reading_order_correct": false,
+          "latency_ms": 3130.5,
+          "false_rejected": false,
+          "predicted": "TRƯỜNG ĐẠI HỌC BÁCH KHOA\nVIỆN CÔNG NGHỆ THÔNG TIN\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\nSố: 91/QĐ-CNTT Hà Nội, ngày 20 tháng 11 năm 2026\nQUYÉT ĐỊNH\nVề việc giao đê tài nghiên cứu ứng dụng đọc văn bản ngoại tuyên\nQUYẾT ĐỊNH:\nĐiều 1. Giao nhiệm vụ phát triển phần mềm đọc tài liệu tiếng Việt.\nNơi nhận:\nNhóm nghiên cứu;\nLưu: Văn thư.\nVIỆN TRƯỞNG\nGS.TS. Phạm Quang Minh"
+        }
+      ]
+    },
+    "product_packaging_receipt_10": {
+      "count": 10,
+      "median_cer_pct": 0.66,
+      "mean_cer_pct": 0.59,
+      "median_wer_pct": 3.13,
+      "mean_wer_pct": 2.69,
+      "digits_exact_match_count": 9,
+      "p50_latency_ms": 670.2,
+      "per_image": [
+        {
+          "id": "pkg_01",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "wer_pct": 0.0,
+          "digits_exact_match": true,
+          "latency_ms": 658.0,
+          "false_rejected": false,
+          "predicted": "VIÊN NÉN PARACETAMOL 500MG\nChỉ định: Giảm đau, hạ sốt nhanh\nLiều dùng: Uống 1 viên/lần, cách nhau 6 giờ\nNSX: 10/02/2026 - HSD: 10/02/2029"
+        },
+        {
+          "id": "pkg_02",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "wer_pct": 0.0,
+          "digits_exact_match": true,
+          "latency_ms": 624.4,
+          "false_rejected": false,
+          "predicted": "SỮA TƯƠI TIỆT TRÙNG ÍT ĐƯỜNG\nThể tích thực: 180 ml - Năng lượng: 112 kcal\nBảo quản nơi khô ráo, thoáng mát\nHSD: 25/12/2026 - Số lô: L2608"
+        },
+        {
+          "id": "pkg_03",
+          "status": "READABLE",
+          "cer_pct": 0.72,
+          "wer_pct": 6.25,
+          "digits_exact_match": true,
+          "latency_ms": 673.2,
+          "false_rejected": false,
+          "predicted": "NƯỚC NHỎ MẮT NATRI CLORID 0,9%\nDung tích: Lọ 10ml vô trùng\nCách dùng: Nhỏ 2 đến 3 giọt mỗi bên mắt\nKhông dùng quá 15 ngày sau khi mở nắp."
+        },
+        {
+          "id": "pkg_04",
+          "status": "UNCERTAIN",
+          "cer_pct": 0.0,
+          "wer_pct": 0.0,
+          "digits_exact_match": true,
+          "latency_ms": 1633.4,
+          "false_rejected": true,
+          "predicted": "SIÊU THỊ CO.OPMART HÀ NỘI\nHÓA ĐƠN BÁN LẺ HÀNG HÓA\n1. Gạo thơm ST25 túi 5kg: 175000 đồng\n2. Dầu ăn thực vật 1 lít: 52000 đồng\nTổng thanh toán: 227000 đồng."
+        },
+        {
+          "id": "pkg_05",
+          "status": "READABLE",
+          "cer_pct": 0.0,
+          "wer_pct": 0.0,
+          "digits_exact_match": true,
+          "latency_ms": 1292.1,
+          "false_rejected": false,
+          "predicted": "TRÀ GỪNG MẬT ONG THẢO DƯỢC\nKhối lượng tịnh: 200 g (20 gói x 10 g)\nPha 1 gói với 150 ml nước ấm 80 độ C\nNSX: 01/06/2026 - HSD: 01/06/2028"
+        },
+        {
+          "id": "pkg_06",
+          "status": "READABLE",
+          "cer_pct": 0.65,
+          "wer_pct": 3.03,
+          "digits_exact_match": true,
+          "latency_ms": 756.6,
+          "false_rejected": false,
+          "predicted": "VIÊN SỦI VITAMIN C 1000MG\nHòa tan 1 viên trong 200 ml nước đun sôi đề nguội\nLiều dùng: Người lớn uống 1 viên mỗi ngày\nGiá bán lẻ: 48000 VNĐ/tuýp 10 viên."
+        },
+        {
+          "id": "pkg_07",
+          "status": "READABLE",
+          "cer_pct": 0.67,
+          "wer_pct": 3.23,
+          "digits_exact_match": true,
+          "latency_ms": 667.1,
+          "false_rejected": false,
+          "predicted": "NHÀ THUỐC ĐẠT CHUÂN GPP\nPHIẾU HƯỚNG DẪN DÙNG THUỐC\n1. Amoxicillin 500mg: Sáng 1 viên, Tối 1 viên sau ăn\n2. Vitamin B1 50mg: Sáng 1 viên trước bữa ăn."
+        },
+        {
+          "id": "pkg_08",
+          "status": "READABLE",
+          "cer_pct": 0.69,
+          "wer_pct": 3.45,
+          "digits_exact_match": true,
+          "latency_ms": 664.8,
+          "false_rejected": false,
+          "predicted": "YÉN MẠCH NGUYÊN CHẤT CÁN DẸT\nThành phần: 100% yến mạch nhập khẩu Úc\nKhối lượng tịnh: 500 g - Giá: 89000 đồng\nHSD: 18/09/2027 - Mã vạch: 89360124"
+        },
+        {
+          "id": "pkg_09",
+          "status": "UNCERTAIN",
+          "cer_pct": 1.55,
+          "wer_pct": 7.14,
+          "digits_exact_match": false,
+          "latency_ms": 1582.3,
+          "false_rejected": true,
+          "predicted": "CÔN Y TẾ ETHANOL 70 ĐỘ\nChai 500 ml - Chỉ dùng sát khuẩn ngoài da\nCảnh báo: Không được uống, tránh xa lửa\nSố đăng ký: VD-24819-286."
+        },
+        {
+          "id": "pkg_10",
+          "status": "READABLE",
+          "cer_pct": 1.63,
+          "wer_pct": 3.85,
+          "digits_exact_match": true,
+          "latency_ms": 607.9,
+          "false_rejected": false,
+          "predicted": "BƯU ĐIỆN THÀNH PHÕÖ HỒ CHÍ MINH\nPHIẾU GỬI BƯU PHẨM ĐẢM BẢO\nMã vận đơn: VN908124578\nKhối lượng: 450 g - Cước phí: 32000 đồng."
+        }
+      ]
+    },
+    "low_quality_unreadable_10": {
+      "count": 10,
+      "true_rejection_count": 4,
+      "true_rejection_rate_pct": 40.0,
+      "per_image": [
+        {
+          "id": "doc_lowqual_01",
+          "condition": "low_res_thumbnail_doc",
+          "expected_status": "UNCERTAIN",
+          "actual_status": "READABLE",
+          "true_rejected": false,
+          "spoken_text": "TÊN CƠ QUAN CHỦ QUẦN CỌNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM. Độc lập - Tự do - Hạnh phác. BIẾU MÁU HÀNH CHÍNH SỐ 1",
+          "latency_ms": 520.7
+        },
+        {
+          "id": "doc_lowqual_02",
+          "condition": "low_res_thumbnail_doc",
+          "expected_status": "UNCERTAIN",
+          "actual_status": "READABLE",
+          "true_rejected": false,
+          "spoken_text": "TÊN CƠ QUAN CHỦ QUẦN CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM. Độc lập - Tự đo - Hạnh phác. BIẾU MẪU HÀNH CHÍNH SỐ 2",
+          "latency_ms": 528.9
+        },
+        {
+          "id": "doc_lowqual_03",
+          "condition": "low_res_thumbnail_doc",
+          "expected_status": "UNCERTAIN",
+          "actual_status": "READABLE",
+          "true_rejected": false,
+          "spoken_text": "TÊN CƠ QUAN CHỦ QUẦN CỘNG HÓA XÃ HỘI CHỦ NGHĨA VIỆT NAM. Đặc lập - Tự đo - Hạnh phác. BIẾU MẪU HÀNH CHÍNH SỐ 3",
+          "latency_ms": 528.8
+        },
+        {
+          "id": "doc_lowqual_04",
+          "condition": "low_res_thumbnail_doc",
+          "expected_status": "UNCERTAIN",
+          "actual_status": "READABLE",
+          "true_rejected": false,
+          "spoken_text": "TÊN CƠ QUAN CHỦ QUẦN CỌNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM. Độc lập - Tự do - Hạnh phác. BIẾU MÁU HÀNH CHÍNH SỐ",
+          "latency_ms": 531.0
+        },
+        {
+          "id": "doc_lowqual_05",
+          "condition": "low_res_thumbnail_doc",
+          "expected_status": "UNCERTAIN",
+          "actual_status": "READABLE",
+          "true_rejected": false,
+          "spoken_text": "TÊN CƠ QUAN CHỦ QUẦN CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM. Độc lập - Tự đo - Hạnh phác. BIẾU MẪU HÀNH CHÍNH SỐ 5",
+          "latency_ms": 542.1
+        },
+        {
+          "id": "doc_lowqual_06",
+          "condition": "severe_camera_blur_doc",
+          "expected_status": "BAD_IMAGE",
+          "actual_status": "BAD_IMAGE",
+          "true_rejected": true,
+          "spoken_text": "Ảnh đang mờ, hãy giữ camera ổn định và đưa nội dung vào gần hơn.",
+          "latency_ms": 46.2
+        },
+        {
+          "id": "doc_lowqual_07",
+          "condition": "severe_camera_blur_doc",
+          "expected_status": "BAD_IMAGE",
+          "actual_status": "BAD_IMAGE",
+          "true_rejected": true,
+          "spoken_text": "Ảnh đang mờ, hãy giữ camera ổn định và đưa nội dung vào gần hơn.",
+          "latency_ms": 45.4
+        },
+        {
+          "id": "doc_lowqual_08",
+          "condition": "underexposed_dark_doc",
+          "expected_status": "BAD_IMAGE",
+          "actual_status": "BAD_IMAGE",
+          "true_rejected": true,
+          "spoken_text": "Ảnh đang quá tối, hãy bật thêm đèn hoặc hướng nội dung ra nơi đủ sáng.",
+          "latency_ms": 47.2
+        },
+        {
+          "id": "doc_lowqual_09",
+          "condition": "overexposed_glare_doc",
+          "expected_status": "BAD_IMAGE",
+          "actual_status": "BAD_IMAGE",
+          "true_rejected": true,
+          "spoken_text": "Ảnh bị chói sáng, hãy nghiêng nhẹ nhãn hoặc đổi góc để giảm phản xạ ánh sáng.",
+          "latency_ms": 46.4
+        },
+        {
+          "id": "doc_lowqual_10",
+          "condition": "low_res_thumbnail_doc",
+          "expected_status": "UNCERTAIN",
+          "actual_status": "READABLE",
+          "true_rejected": false,
+          "spoken_text": "TÊN CƠ QUAN CHỦ QUẦN CỌNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM. Độc lập - Tự do - Hạnh phác. BIẾU MÁU HÀNH CHÍNH SỐ 10",
+          "latency_ms": 691.3
+        }
+      ]
+    },
+    "rejection_summary": {
+      "readable_total": 30,
+      "false_rejection_count": 2,
+      "false_rejection_rate_pct": 6.67,
+      "unreadable_total": 11,
+      "true_rejection_count_with_regression": 5,
+      "true_rejection_rate_pct": 45.5
+    }
+  },
+  "A06_A07_performance_30_runs": {
+    "runs": 30,
+    "tts_vi_vn_available": true,
+    "audible_runs_verified": 2,
+    "capture_to_tts_start_ms": {
+      "p50": 205.0,
+      "p95": 285.6,
+      "min": 198.0,
+      "max": 292.0,
+      "mean": 216.0
+    },
+    "ocr_ms": {
+      "p50": 171.5,
+      "p95": 250.5
+    },
+    "quality_gate_ms": {
+      "p50": 7.0,
+      "p95": 7.0
+    },
+    "peak_working_set_mb": 108.4,
+    "peak_working_set_gb": 0.106
+  },
+  "A07_overall_peak_rss_mb": 150.6,
+  "A07_overall_peak_rss_gb": 0.147,
+  "A08_webcam_preview": {
+    "camera_opened": true,
+    "frames_captured": 30,
+    "resolution": "1280x720",
+    "elapsed_s": 0.991,
+    "measured_fps": 30.26,
+    "target_fps": 10.0,
+    "passed": true
+  },
+  "A09_cancel_and_race_stress": {
+    "cancel_iterations": 20,
+    "cancels_leaked_results": 0,
+    "clear_results_iterations": 20,
+    "clear_events_fired": 20,
+    "clears_leaked_results": 0,
+    "source_switch_race_iterations": 20,
+    "stale_results_count": 0,
+    "stale_completed_speeches_count": 0,
+    "passed": true
+  }
+}

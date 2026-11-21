@@ -1,0 +1,176 @@
+{
+  "frozen_from_split": "calibration_v1b + calibration_v1b_full",
+  "holdout_touched_during_calibration": false,
+  "e2e_tau_offset_c4": 0.0,
+  "calibration_summaries": {
+    "A0_baseline_hybrid": {
+      "calibration_params": {
+        "mode": "A0_baseline_hybrid",
+        "tau_global": 0.4758
+      },
+      "calibration_roi_check": {
+        "k": 15,
+        "n": 25,
+        "ratio": "15/25",
+        "pct": 60.0,
+        "ci95_low_pct": 40.74,
+        "ci95_high_pct": 76.6,
+        "formatted": "15/25 (60.0%, 95% CI [40.74, 76.60])"
+      },
+      "calibration_roi_far": {
+        "k": 6,
+        "n": 25,
+        "ratio": "6/25",
+        "pct": 24.0,
+        "ci95_low_pct": 11.5,
+        "ci95_high_pct": 43.43,
+        "formatted": "6/25 (24.0%, 95% CI [11.50, 43.43])"
+      },
+      "db_sizes": {
+        "pos_db_bytes": 94802,
+        "neg_db_bytes": 179174,
+        "verifier_bytes": 0,
+        "total_db_bytes": 273976
+      }
+    },
+    "A1_neg_prototypes": {
+      "calibration_params": {
+        "mode": "A1_neg_prototypes",
+        "lambda_neg": 0.5,
+        "tau_global": 0.5437,
+        "delta_pos": 0.01
+      },
+      "calibration_roi_check": {
+        "k": 9,
+        "n": 25,
+        "ratio": "9/25",
+        "pct": 36.0,
+        "ci95_low_pct": 20.25,
+        "ci95_high_pct": 55.48,
+        "formatted": "9/25 (36.0%, 95% CI [20.25, 55.48])"
+      },
+      "calibration_roi_far": {
+        "k": 1,
+        "n": 25,
+        "ratio": "1/25",
+        "pct": 4.0,
+        "ci95_low_pct": 0.71,
+        "ci95_high_pct": 19.54,
+        "formatted": "1/25 (4.0%, 95% CI [0.71, 19.54])"
+      },
+      "db_sizes": {
+        "pos_db_bytes": 94802,
+        "neg_db_bytes": 179174,
+        "verifier_bytes": 0,
+        "total_db_bytes": 273976
+      }
+    },
+    "A2_adaptive_thresholds": {
+      "calibration_params": {
+        "mode": "A2_adaptive_thresholds",
+        "lambda_neg": 0.5,
+        "tau_global": 0.5437,
+        "delta_pos": 0.01,
+        "tau_per_class": {
+          "object_01": 0.3969,
+          "object_02": 0.16,
+          "object_03": 0.1826,
+          "object_04": 0.3049,
+          "object_05": 0.0757
+        },
+        "delta_neg_min": {
+          "object_01": 0.0,
+          "object_02": 0.0,
+          "object_03": 0.0,
+          "object_04": 0.03,
+          "object_05": 0.0
+        },
+        "verifier_min_score": {
+          "object_01": -0.05,
+          "object_02": -0.05,
+          "object_03": -0.05,
+          "object_04": -0.05,
+          "object_05": -0.05
+        }
+      },
+      "calibration_roi_check": {
+        "k": 19,
+        "n": 25,
+        "ratio": "19/25",
+        "pct": 76.0,
+        "ci95_low_pct": 56.57,
+        "ci95_high_pct": 88.5,
+        "formatted": "19/25 (76.0%, 95% CI [56.57, 88.50])"
+      },
+      "calibration_roi_far": {
+        "k": 5,
+        "n": 25,
+        "ratio": "5/25",
+        "pct": 20.0,
+        "ci95_low_pct": 8.86,
+        "ci95_high_pct": 39.13,
+        "formatted": "5/25 (20.0%, 95% CI [8.86, 39.13])"
+      },
+      "db_sizes": {
+        "pos_db_bytes": 94802,
+        "neg_db_bytes": 179174,
+        "verifier_bytes": 0,
+        "total_db_bytes": 273976
+      }
+    },
+    "A3_full_verifier": {
+      "calibration_params": {
+        "mode": "A3_full_verifier",
+        "lambda_neg": 0.5,
+        "tau_global": 0.5437,
+        "delta_pos": 0.01,
+        "tau_per_class": {
+          "object_01": 0.1704,
+          "object_02": 0.16,
+          "object_03": 0.1826,
+          "object_04": 0.3049,
+          "object_05": 0.0757
+        },
+        "delta_neg_min": {
+          "object_01": 0.0,
+          "object_02": 0.0,
+          "object_03": 0.0,
+          "object_04": 0.0,
+          "object_05": 0.0
+        },
+        "verifier_min_score": {
+          "object_01": -0.1,
+          "object_02": -0.25,
+          "object_03": 0.1,
+          "object_04": -0.1,
+          "object_05": -0.25
+        }
+      },
+      "calibration_roi_check": {
+        "k": 19,
+        "n": 25,
+        "ratio": "19/25",
+        "pct": 76.0,
+        "ci95_low_pct": 56.57,
+        "ci95_high_pct": 88.5,
+        "formatted": "19/25 (76.0%, 95% CI [56.57, 88.50])"
+      },
+      "calibration_roi_far": {
+        "k": 2,
+        "n": 25,
+        "ratio": "2/25",
+        "pct": 8.0,
+        "ci95_low_pct": 2.22,
+        "ci95_high_pct": 24.97,
+        "formatted": "2/25 (8.0%, 95% CI [2.22, 24.97])"
+      },
+      "db_sizes": {
+        "pos_db_bytes": 94802,
+        "neg_db_bytes": 179174,
+        "verifier_bytes": 85860,
+        "total_db_bytes": 359836
+      }
+    }
+  },
+  "frozen_a3_state_sha256": "eb6921f638eda4d1fe12a03176b6f6951e87a128ceeefd26ddc77ea0db499560"
+}

@@ -1,0 +1,20 @@
+# VisionMate Glasses Phase 1 — Pinned Dependencies (Windows x64, Python 3.10+)
+# Generated and verified on 2026-11-09
+opencv-python==4.13.0.90
+numpy==2.2.6
+Pillow==12.1.0
+PySide6==6.12.0
+PySide6_Essentials==6.12.0
+PySide6_Addons==6.12.0
+shiboken6==6.12.0
+pytesseract==0.3.13
+pywin32==304
+PyAudio==0.2.12
+onnxruntime==1.23.2
+rapidocr-onnxruntime==1.4.4
+pyclipper==1.4.0
+Shapely==2.1.2
+psutil==7.2.2
+pytest==9.2.0
+iniconfig==2.3.1
+pluggy==1.7.0

@@ -1,0 +1,289 @@
+{
+  "schema_version": "vl_p1c_frozen_config_v1",
+  "frozen_at_utc": "2026-11-15T06:05:33.457416+00:00",
+  "frozen_from_split": "calibration_v1c_roi + calibration_v1c_full (N=200)",
+  "final_holdout_touched_during_calibration": false,
+  "dinov2_onnx_sha256": "3afdc8bc63b50558d6e5770f5b799bb82455c2311183a2de43803f343a29d917",
+  "yolox_onnx_sha256": "c789161ed43c8269fcd4e67c67eeeb4e80c622da2eb296a20bc6007bd18a0b7d",
+  "dataset_manifest_sha256": "b6f4c06fa506afaea622a7a87db3bf5ca65b653834f3137d5cf9799e75c3df52",
+  "frozen_a3_oof_state_sha256": "bf3b7191737d27a7462cb52ce40a3430da2c84c80d9a0e22decc6c8c4583387f",
+  "selected_delta_floor": 0.08,
+  "frozen_e2e_k": 4,
+  "roi_configs": {
+    "R0_vl_p1_baseline": {
+      "mode": "R0_vl_p1_baseline",
+      "tau_global": 0.4758,
+      "delta_floor": 0.08,
+      "tau_floor_abs": 0.4,
+      "tau_per_class": {
+        "object_01": 0.4758,
+        "object_02": 0.4758,
+        "object_03": 0.4758,
+        "object_04": 0.4758,
+        "object_05": 0.4758
+      },
+      "delta_neg_min": {
+        "object_01": 0.02,
+        "object_02": 0.02,
+        "object_03": 0.02,
+        "object_04": 0.02,
+        "object_05": 0.02
+      },
+      "verifier_min_score": {
+        "object_01": 0.0,
+        "object_02": 0.0,
+        "object_03": 0.0,
+        "object_04": 0.0,
+        "object_05": 0.0
+      },
+      "delta_pos_ambig": 0.0,
+      "tau_ambig_band": 0.045,
+      "neg_ambig_band": 0.025,
+      "ver_ambig_band": 0.14,
+      "ridge_alpha": 24.0,
+      "neg_blend_top2_weight": 0.55,
+      "num_threads": 4
+    },
+    "R1_global_conservative": {
+      "mode": "R1_global_conservative",
+      "tau_global": 0.53,
+      "delta_floor": 0.08,
+      "tau_floor_abs": 0.4,
+      "tau_per_class": {
+        "object_01": 0.53,
+        "object_02": 0.53,
+        "object_03": 0.53,
+        "object_04": 0.53,
+        "object_05": 0.53
+      },
+      "delta_neg_min": {
+        "object_01": 0.03,
+        "object_02": 0.03,
+        "object_03": 0.03,
+        "object_04": 0.03,
+        "object_05": 0.03
+      },
+      "verifier_min_score": {
+        "object_01": 0.0,
+        "object_02": 0.0,
+        "object_03": 0.0,
+        "object_04": 0.0,
+        "object_05": 0.0
+      },
+      "delta_pos_ambig": 0.01,
+      "tau_ambig_band": 0.045,
+      "neg_ambig_band": 0.025,
+      "ver_ambig_band": 0.14,
+      "ridge_alpha": 24.0,
+      "neg_blend_top2_weight": 0.55,
+      "num_threads": 4
+    },
+    "R2_per_class_floored": {
+      "mode": "R2_per_class_floored",
+      "tau_global": 0.53,
+      "delta_floor": 0.08,
+      "tau_floor_abs": 0.4,
+      "tau_per_class": {
+        "object_01": 0.5193,
+        "object_02": 0.4774,
+        "object_03": 0.4652,
+        "object_04": 0.4639,
+        "object_05": 0.4878
+      },
+      "delta_neg_min": {
+        "object_01": 0.0,
+        "object_02": 0.0,
+        "object_03": 0.0,
+        "object_04": 0.03,
+        "object_05": 0.0
+      },
+      "verifier_min_score": {
+        "object_01": 0.0,
+        "object_02": 0.0,
+        "object_03": 0.0,
+        "object_04": 0.0,
+        "object_05": 0.0
+      },
+      "delta_pos_ambig": 0.01,
+      "tau_ambig_band": 0.045,
+      "neg_ambig_band": 0.025,
+      "ver_ambig_band": 0.14,
+      "ridge_alpha": 24.0,
+      "neg_blend_top2_weight": 0.55,
+      "num_threads": 4
+    },
+    "R3_distributional_quantile": {
+      "mode": "R3_distributional_quantile",
+      "tau_global": 0.53,
+      "delta_floor": 0.08,
+      "tau_floor_abs": 0.4,
+      "tau_per_class": {
+        "object_01": 0.45,
+        "object_02": 0.45,
+        "object_03": 0.45,
+        "object_04": 0.45,
+        "object_05": 0.45
+      },
+      "delta_neg_min": {
+        "object_01": 0.03,
+        "object_02": 0.03,
+        "object_03": 0.03,
+        "object_04": 0.03,
+        "object_05": 0.03
+      },
+      "verifier_min_score": {
+        "object_01": 0.0,
+        "object_02": 0.0,
+        "object_03": 0.0,
+        "object_04": 0.0,
+        "object_05": 0.0
+      },
+      "delta_pos_ambig": 0.01,
+      "tau_ambig_band": 0.045,
+      "neg_ambig_band": 0.025,
+      "ver_ambig_band": 0.14,
+      "ridge_alpha": 24.0,
+      "neg_blend_top2_weight": 0.55,
+      "num_threads": 4
+    },
+    "R4_out_of_fold_verifier": {
+      "mode": "R4_out_of_fold_verifier",
+      "tau_global": 0.53,
+      "delta_floor": 0.08,
+      "tau_floor_abs": 0.4,
+      "tau_per_class": {
+        "object_01": 0.5006,
+        "object_02": 0.4774,
+        "object_03": 0.4652,
+        "object_04": 0.4639,
+        "object_05": 0.4878
+      },
+      "delta_neg_min": {
+        "object_01": 0.0,
+        "object_02": 0.0,
+        "object_03": 0.0,
+        "object_04": 0.03,
+        "object_05": 0.0
+      },
+      "verifier_min_score": {
+        "object_01": 0.15,
+        "object_02": -0.15,
+        "object_03": -0.15,
+        "object_04": -0.15,
+        "object_05": -0.15
+      },
+      "delta_pos_ambig": 0.01,
+      "tau_ambig_band": 0.045,
+      "neg_ambig_band": 0.025,
+      "ver_ambig_band": 0.14,
+      "ridge_alpha": 24.0,
+      "neg_blend_top2_weight": 0.55,
+      "num_threads": 4
+    },
+    "R5_selective_3state_v1c": {
+      "mode": "R5_selective_3state_v1c",
+      "tau_global": 0.53,
+      "delta_floor": 0.08,
+      "tau_floor_abs": 0.4,
+      "tau_per_class": {
+        "object_01": 0.5006,
+        "object_02": 0.4774,
+        "object_03": 0.4652,
+        "object_04": 0.4639,
+        "object_05": 0.4878
+      },
+      "delta_neg_min": {
+        "object_01": 0.0,
+        "object_02": 0.0,
+        "object_03": 0.0,
+        "object_04": 0.03,
+        "object_05": 0.0
+      },
+      "verifier_min_score": {
+        "object_01": 0.15,
+        "object_02": -0.15,
+        "object_03": -0.15,
+        "object_04": -0.15,
+        "object_05": -0.15
+      },
+      "delta_pos_ambig": 0.01,
+      "tau_ambig_band": 0.045,
+      "neg_ambig_band": 0.025,
+      "ver_ambig_band": 0.14,
+      "ridge_alpha": 24.0,
+      "neg_blend_top2_weight": 0.55,
+      "num_threads": 4
+    }
+  },
+  "e2e_configs_by_k": {
+    "4": {
+      "enable_control": true,
+      "alpha_k": 0.02,
+      "singleton_penalty_heuristic": 0.03,
+      "singleton_penalty_primary": 0.008,
+      "min_thin_cane_evidence": 0.42,
+      "support_min_pos_score": 0.41,
+      "e2e_tau_offset": 0.03,
+      "use_thin_corridor_mask": true,
+      "source_offsets": {
+        "yolox_non_person": 0.0,
+        "fg_contour": 0.015,
+        "ms_sal": 0.025,
+        "context": 0.01,
+        "yolox_person": 0.045,
+        "small_detail": 0.025,
+        "thin_cane": 0.02,
+        "thin_legacy": 0.045
+      },
+      "legacy_non_person_bonus": 0.0
+    },
+    "6": {
+      "enable_control": true,
+      "alpha_k": 0.035,
+      "singleton_penalty_heuristic": 0.03,
+      "singleton_penalty_primary": 0.008,
+      "min_thin_cane_evidence": 0.42,
+      "support_min_pos_score": 0.41,
+      "e2e_tau_offset": 0.045,
+      "use_thin_corridor_mask": true,
+      "source_offsets": {
+        "yolox_non_person": 0.0,
+        "fg_contour": 0.015,
+        "ms_sal": 0.025,
+        "context": 0.01,
+        "yolox_person": 0.045,
+        "small_detail": 0.025,
+        "thin_cane": 0.02,
+        "thin_legacy": 0.045
+      },
+      "legacy_non_person_bonus": 0.0
+    },
+    "8": {
+      "enable_control": true,
+      "alpha_k": 0.035,
+      "singleton_penalty_heuristic": 0.03,
+      "singleton_penalty_primary": 0.008,
+      "min_thin_cane_evidence": 0.42,
+      "support_min_pos_score": 0.41,
+      "e2e_tau_offset": 0.045,
+      "use_thin_corridor_mask": true,
+      "source_offsets": {
+        "yolox_non_person": 0.0,
+        "fg_contour": 0.015,
+        "ms_sal": 0.025,
+        "context": 0.01,
+        "yolox_person": 0.045,
+        "small_detail": 0.025,
+        "thin_cane": 0.02,
+        "thin_legacy": 0.045
+      },
+      "legacy_non_person_bonus": 0.0
+    }
+  },
+  "db_sizes": {
+    "pos_db_bytes": 94802,
+    "neg_db_bytes": 179174,
+    "verifier_bytes": 85558,
+    "total_db_bytes": 359534
+  }
+}
